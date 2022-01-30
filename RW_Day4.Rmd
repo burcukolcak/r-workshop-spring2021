@@ -1,0 +1,648 @@
+---
+title: 'Introduction to R, Day 4 Handout'
+output: pdf_document 
+urlcolor: red 
+---
+\setcounter{table}{0}
+\renewcommand{\thetable}{A\arabic{table}}
+\renewcommand{\thefigure}{A\arabic{figure}}
+
+```{r setup, include=FALSE}
+library(knitr)
+library(formatR)
+knitr::opts_chunk$set(echo = TRUE, tidy=TRUE, tidy.opts=list(width.cutoff=55))
+```
+
+In this handout, we cover the following topics and R commands: 
+
+## Topics 
+
+- Repeating Operations: Loops & tapply 
+- Introduction to Geospatial Analysis 
+- Discussion of Text Analysis and Network Analysis 
+- Using `dplyr` for data manipulation 
+- Introduction to R Markdown 
+
+## R Commands 
+
+ This is used by knitr during rendering to produce the correct file format. Text and code blocks are also included, and these will be explained in more detail below.
+
+- Using loops `for(i in X){}` to repeat operations
+- Generating “container” vectors using `rep(NA , n.obs)` or `NULL`
+- Applying functions by indexes using `tapply()`
+- Using `cbind()` function to combine vector, matrix or data frame by columns.
+- Using `st_geometry()` to obtain information about geometry types of a spatial data frame 
+- Using `st_crs()` to obtain information about the projection of a spatial data frame
+- Using `dplyr` words to subset data frames
+
+\clearpage
+
+# Loops 
+
+- Sometimes, our analysis would require us to repeat the same operation over and over again where only small changes occur to the operations each time. The main goal of using a loop is to avoid writing many similar code chunks. 
+
+- For example, suppose that we have a dataset on protests across countries (N= 93) over time (N= 93*number of years for each country). And, suppose that we would like to find the number of protests for the earliest year the countries are in the dataset. If we only have 7 countries, we can consider writing nearly identical code chunks by only changing the name of the country 7 times. But, we would not want to the same thing 93 times!  
+
+- Loops allow us to perform the same operation over and over, through various subsets of the data. Loops are not the only function in R that would allow us to achieve this task. We will shortly see that `tapply()` will also help us to do a task that requires repetition.  
+
+ `container variable <- rep(NA, n.observations)`
+
+ `for (i.counter in X) {`
+
+ `command1...`
+
+ `command2...`
+
+ `...`
+
+ `}`
+ 
+- By loop, we refer to several distinct pieces of a code chunk that are wrapped up in curly brackets with the expression `for`:
+
+---------------------------------------------------------------------
+- The expression `for`. establishes the loop
+
+- A `counter` controls the ﬂow of the loop
+
+- A `container` variable. collects and stores output from the loop
+----------------------------------------------------------------------
+
+## A Simple Loop 
+
+- Let's explore the structure of a loop with a simple example:
+
+```{r}
+for (i.count in 1:10) { 
+  print(ifelse(i.count >= 3 & i.count <= 7, "true","false")) 
+}
+```
+
+- The expression `for` in this command establishes the loop. The counter is `i.count`. Under the hood, R thinks about the loop as follows: 
+
+  1. Set `i.count` to 1.
+  2. Do whatever is in the brackets, i.e. test the logical statement stated, when it is TRUE assign    "true", otherwise assign "false".
+  3. Set `i.count` to the next value. 
+  4. If `i.count` is less than or equal to 10, go back to step 2.
+  5. When `i.count` is greater than 10, complete the loop 
+  
+$\odot$ Note: In loops, we generally reserve the letter `i` for the counter in a 
+loop. To make it more intuitive, for example, if you are using a loop to do something for countries, you can name your counter as `i.country`. 
+
+## Freedom Scores of Countries  
+
+**dataset: freedomhouse.csv**
+
+- For our next example, we will use a subset of the Freedom House dataset, which includes freedom house democracy scores of countries over time. We will use a loop to explore the max freedom score of each country. 
+
+- Freedom House conducts research on democracy, political freedom, and human rights. Every year, it releases a report that includes `freedom scores` of countries. We will use a subset of the Freedom House dataset for this example.  
+
+- Table below displays the variables in the data set: 
+
+Table 1: Freedom House Scores of Countries
+
+--------------------------------------------------------------------
+- `country.` Country name
+- `region.` Region the country belongs to 
+- `year.` year the report is released
+- `status.` country's freedom status: Free, Partly Free, or 
+Not Free
+- `total.` country's freedom score ranges from 0 to 100
+--------------------------------------------------------------------
+
+- Let's load the data 
+```{r}
+fhdat <- read.csv("day4data/freedomhouse.csv")
+```
+
+- Then, let's ensure that we loaded it properly. 
+```{r}
+head(fhdat)
+dim(fhdat)
+summary(fhdat)
+```
+
+- Our aim is to create a loop to compute the max freedom score of each country. We will go over the distinct pieces of the loop step by step. 
+
+- But, first, let's do this for a specific country without using a loop. 
+
+```{r}
+argentina <- fhdat[fhdat$country == "Argentina",]
+argentinafh <- argentina$total
+names(argentinafh) <- argentina$year
+max(argentinafh)
+```
+
+- The max score of Argentina is 85. Now, our aim is to do this computation for all countries. 
+
+### Declaring a New Variable inside a Loop 
+
+```{r}
+for(i.country in unique(fhdat$country)) {
+  fhdat$maxfh[fhdat$country == i.country] <-
+    max(fhdat$total[fhdat$country == i.country])
+}
+fhdat$maxfh[1:10] 
+```
+
+- Let's check whether our loop is working properly.
+```{r}
+fhtable <- fhdat$maxfh
+names(fhtable) <- unique(fhdat$country)
+fhtable[1:10]
+```
+
+- It seems like working. Using a loop, we created a new variable called `maxfh`. And for each country, we calculated the max freedom house score that country achieved during the time period 2003 - 2020. 
+
+### Declaring a New Variable using a Container Variable
+
+- It will not be always possible for us to create a new variable inside a loop. Instead of creating a new variable to store the values, we can save the output from the loop in a container. To do so, we must create a `container variable`. We need to declare the container *outside* the loop that is generating the output.
+
+$\odot$ Note: Variables created inside the loop will not be accessible once the loop is done running.
+
+- The first way to create a container variable is by setting its value to `NULL`. 
+
+```{r}
+maxfh <- NULL
+for(i.country in unique(fhdat$country)) {
+    maxfh[fhdat$country == i.country] <-
+    max(fhdat$total[fhdat$country == i.country])
+}
+maxfh[1:10]
+```
+
+- The second way to create a container variable is by setting its value `rep(NA, n.observations)`
+
+```{r}
+maxfh2 <- rep(NA, length(unique(fhdat$country)))
+for(i.country in unique(fhdat$country)) {
+    maxfh2[fhdat$country == i.country] <-
+    max(fhdat$total[fhdat$country == i.country])
+}
+maxfh2[1:10]
+```
+
+- We didn't have to worry about adding the information created by the loop to our data frame when we created a new variable. What about the container? How can we add the information stored by the container to our data frame? 
+
+- We will use `cbind()` to achieve this task, which will allow us to combine the information stored by the container (vector) and our data frame by columns.
+```{r}
+fhdatnew <- cbind(fhdat, maxfh2)
+fhdatnew[1:5,]
+```
+
+- How to debug the code that involves loops? Since a loop simply executes the same commands
+many times, one should first check whether the commands that go inside of the loop can be
+executed without any error. 
+
+- If there is something wrong with few observations in the dataset, the loop will stop working (I know this is frustrating...). We need to debug the problem by looking at the specific count that produces the error.  
+
+\begin{figure} [h]
+\begin{center}
+\begin{tabular}{c}
+\includegraphics[width=.7\linewidth]{forloops.jpg}\\
+\end{tabular}
+\end{center}
+\caption{Source: Allison Horst}
+\end{figure}
+
+$\odot$ Note: I will be honest with you. When I first tried to do a loop for a problem set, I strugglet a lot. And, it took some time for me to digest what's going on. Please don't worry. It will make sense when you become comfortable with the structure. 
+
+\clearpage
+
+# Applying Functions by Indexes 
+
+- The function `tapply()` (`table apply`) is another way we can can consider when we would like to do a task that repeats itself with small changes. 
+
+`tapply(X, INDEX, FUN)`
+
+- Specifically, `tapply` function: 
+
+1. takes a vector X defined by a vector INDEX
+2. applies the function FUN to X for each of the
+groups defined by a vector INDEX.
+
+- You can replace the FUN with mean, median, sd, etc. to generate desired quantity. You can also write your own function! 
+
+- Let's do the same thing we did with the loop, but this time with tapply: 
+
+```{r}
+maxfhscores <- tapply(fhdat$total, fhdat$country, max)
+maxfhscores[1:10]
+```
+
+# $\mho$ Short Practice Exercises 
+
+1. Calculate the mean of total Freedom House scores by country using `tapply()`
+
+```{r, echo = F, results="hide"}
+meanscores <- tapply(fhdat$total, fhdat$country, mean)
+meanscores[1:10]
+```
+
+2. Calculate the mean of total Freedom House scores using a loop. Store the result by declaring an empty container variable outside the loop. 
+
+```{r, echo = F, results="hide"}
+meanfh <- NULL
+for(i.country in unique(fhdat$country)) {
+    meanfh[fhdat$country == i.country] <-
+    mean(fhdat$total[fhdat$country == i.country])
+}
+meanfh[1:10]
+```
+
+\clearpage
+
+# Geospatial Analysis 
+
+Many important aspects of politics are \textit{inherently} spatial. \footnote{When I say spatial I refer to \textit{geographic space}, and not \textit{mathematical/vector space}} In other words, when you talk about geo-spatial analysis, you’re talking about somebody or something’s position on the earth’s serviceGoverning jurisdictions within some countries (e.g. states, counties, school districts etc.) are defined by clear geographical boundries. Governors, mayors, state representatives, and city council members represent geographically and spatially defined areas. These domestic boundries have political implications, which in turn lead researchers to explore and explain a wide range of topics using spatial data: voting patterns and behaviour, the spatial distribution of political donations, the coordination of strategies in political campaigns, the unevenness of democratization, diffusion of protests, the spatial distribution of insurgent attacks. Moving beyond domestic politics, countries are defined by clear international borders. Despite the globalization of politics and economics, borders and territorial conflicts continue to be a salient aspect of contemporary politics and pollicy. \footnote{Simmons, B.A. and Kenwick, M., 2019. Border Orientation in a Globalizing World: Concept and Measurement. Very good news! If you are interested in border politics, Prof. Kenwick is in our department!} 
+
+- So far, we focused on learning R using traditional datasets and models. R can also be used to analyze and explore many kinds of new data including spatial datasets. 
+
+- A very effective way to analyze spatial data is by visualization through maps. \footnote{Our introduction is limited to using spatial analysis for \textit{exploration}. Researchers also use spatial analysis for statistical analysis (spatial statistics) and making causal inferences.}
+
+Spatial data contain information about patterns over space and can be visualized through maps. There are various types of spatial data and different data sets can store information about different types. 
+
+--------------------------------------------------------------------------------------
+- `spatial point data`. represent the locations of events as points on a map 
+- `spatial polygon data`. represent geographical areas as polygons by connecting 
+points on a map
+`spatial temporal data`. represent a sequence of connected points on a 
+map corresponding to the boundaries of certain areas such as counties, districts,
+and provinces.
+--------------------------------------------------------------------------------------
+
+- Similar to yesterday, we will go beyond `base R` and use some powerful R packages that will allow us to do spatial analysis. 
+
+- Before we start, let's install and load the following packages. 
+
+--------------------------------------------------------------------------------
+- To install a package: 
+> install.packages("packagename")
+- To load the package 
+> library("packagename")
+--------------------------------------------------------------------------------
+
+- Install and load the following packages
+
+```{r, echo =F,results="hide"}
+library(maps)
+library(sf)
+library(sp)
+library(tmap)
+library(ggplot2)
+```
+
+- Let's check whether we were succesful in loading our packages
+```{r}
+search()
+```
+
+## Getting Familiar with Maps: U.S. cities 
+
+**data set: map database U.S. map**
+
+- We will use a built-in dataset from the `maps package` named `us.cities`. 
+
+- Let's load the data: 
+```{r}
+data(us.cities)
+```
+
+- As always, let's check whether dataset is loaded properly. Specifically, check the first few rows, obtain a summary of the variables, and check the dimension of the dataset. 
+```{r}
+head(us.cities)
+summary(us.cities)
+dim(us.cities)
+```
+
+- We will only U.S. capitals. Let's subset U.S. capitals using the `subset()` function.
+```{r}
+capitals <- subset(us.cities, capital == 2) # subset state capitals
+dim(capitals)
+```
+
+- Now, we have information about the capital cities and their coordinates.
+
+- We need a map to visualize the capital cities! We will use the `map()` function to access a spatial database and visualize the data using this map. 
+```{r}
+map(database = "usa")
+title("Empty US Map")
+```
+
+- We will visualize state capitals proportional to their population on the map of the US. To do so, we will tell R that we would like to add spatial points to the map using the `points()` function. We will feed the lattitude and longitude information of cities into the function as our input. 
+
+```{r}
+## add points proportional to population using latitude and longitude
+map(database = "usa")
+points(x = capitals$long, y = capitals$lat,
+       cex = capitals$pop / 500000, pch = 19, col = "purple") 
+title("Mapping US state capitals") # add a title
+```
+
+- Let's put these two maps side by side the `par(mfrow())` function we learned yesterday. 
+```{r}
+par(mfrow = c(1, 2))
+map(database = "usa") 
+title("Empty US Map")
+map(database = "usa")
+points(x = capitals$long, y = capitals$lat,
+       cex = capitals$pop / 500000, pch = 19, col = "purple") 
+title("Mapping US state capitals") # add a title
+```
+
+\clearpage
+
+## Geospatial Distribution of Republican/Democratic Vote-shares
+
+**dataset: pres08.csv**
+
+- To explore how R can handle spatial data, our first running example will be an analysis of the geospatial distribution of Republican/Democratic vote-shares in 2018.\footnote{Example adapted from Kosuke Imai, QSS, Chapter 5.} 
+
+- Our analysis is an example of `spatial polygon data`, where each state represents a polygon whose boundaries can be constructed by connecting a series of points.
+
+- Let's load the data and check the first few rows. 
+```{r}
+pres08 <- read.csv("day4data/pres08.csv")
+head(pres08)
+```
+
+- Let's compute the two-party vote share for Democrats and Republicans and store this information about vote-shares by creating two new variables
+```{r}
+## two-party vote share
+pres08$Dem <- pres08$Obama / (pres08$Obama + pres08$McCain)
+pres08$Rep <- pres08$McCain / (pres08$Obama + pres08$McCain)
+head(pres08)
+```
+
+- Let's decide on which colors we will use to color our map. For the time being, we will focus on only two states.
+
+## Coloring States: California and Utah 
+
+- We will color California as blue. 
+```{r , echo=T, fig.height=3, fig.width=4}
+## California as a blue state
+map(database = "state", regions = "California", col = "blue", 
+    fill = TRUE)
+title("California Map") 
+```
+
+- We will color Utah as red. 
+```{r , echo=T, fig.height=3, fig.width=4}
+## Utah as a red state
+mapcol <- map(database = "state", regions = "Utah", col = "red", 
+    fill = TRUE)
+title("Utah Map") 
+```
+
+- Let's put these two maps side by side using the `par(mfrow)` function. 
+```{r}
+par(mfrow = c(1, 2))
+## California as a blue state
+map(database = "state", regions = "California", col = "blue", 
+    fill = TRUE)
+title("California Map") 
+## Utah as a red state
+mapcol <- map(database = "state", regions = "Utah", col = "red", 
+    fill = TRUE)
+title("Utah Map") 
+```
+
+## Generalizing Colors for All States using a Loop
+
+- Now let's generalize what we did for California and Utah for all states. 
+- We will use a loop to repeat this task over and over again...for all US states. Otherwise, we need to write a similar code code for each states. That would be a pain. The map does not include Hawaii, Alaska, and Washington DC, so we will skip those states. If we don't add this to the loop, we will hit an error. 
+
+1. We ﬁrst use a `dichotomized color scheme` (blue vs. red) where the states Obama won appear blue and those won by McCain are shown as red.
+```{r}
+## Create a map
+map(database = "state") 
+## Run a loop to categorize each state by color 
+for (i in 1:nrow(pres08)) {
+    if ((pres08$state[i] != "HI") & (pres08$state[i] != "AK") &
+        (pres08$state[i] != "DC")) {
+        maps::map(database = "state", regions = pres08$state.name[i],
+            col = ifelse(pres08$Rep[i] > pres08$Dem[i], "red", "blue"),
+            fill = TRUE, add = TRUE)
+    }
+}
+title("2008 US Presidential Election Outcomes")
+```
+
+2. Next, we will use the `RGB color scheme` based on the two-party vote share for each state. The loop will almost the same. The only difference is the way in which color is chosen for each state.
+
+$\odot$ In R, the `rgb()` function helps create hexadecimal color codes from numerical values. The three arguments, red, green, and blue, take the intensity of each color, ranging from 0 to 1, which gets translated into an integer value from 0 to 255 and then represented as a hexadecimal numeral.
+
+```{r}
+map(database = "state") # create a map
+for (i in 1:nrow(pres08)) {
+    if ((pres08$state[i] != "HI") & (pres08$state[i] != "AK") &
+        (pres08$state[i] != "DC")) {
+        map(database = "state", regions = pres08$state.name[i], 
+            col = rgb(red = pres08$Rep[i], blue = pres08$Dem[i],
+                green = 0), fill = TRUE, add = TRUE)
+    }
+}
+title("2008 US Presidential Election Vote-Shares")
+```
+
+- Let's put these two maps side by side the `par(mfrow())` function.
+
+```{r}
+par(mfrow = c(1, 2))
+map(database = "state") # create a map 
+## Run a loop to categorize each state by color 
+for (i in 1:nrow(pres08)) {
+    if ((pres08$state[i] != "HI") & (pres08$state[i] != "AK") &
+        (pres08$state[i] != "DC")) {
+        maps::map(database = "state", regions = pres08$state.name[i],
+            col = ifelse(pres08$Rep[i] > pres08$Dem[i], "red", "blue"),
+            fill = TRUE, add = TRUE)
+    }
+}
+title("2008 US Presidential Election Outcomes", cex.main = 0.8)
+map(database = "state") # create a map
+for (i in 1:nrow(pres08)) {
+    if ((pres08$state[i] != "HI") & (pres08$state[i] != "AK") &
+        (pres08$state[i] != "DC")) {
+        maps:: map(database = "state", regions = pres08$state.name[i], 
+            col = rgb(red = pres08$Rep[i], blue = pres08$Dem[i],
+                green = 0), fill = TRUE, add = TRUE)
+    }
+}
+title("2008 US Presidential Election Vote-Shares", cex.main = 0.8)
+```
+
+- The left-hand map shows that Obama won many states on the West and East Coasts whereas McCain was particularly strong in the Midwest. However, the right-hand map illustrates that no state is completely dominated by either Democrats or Republicans. Each state has both types of voters, and it is the winner-take-all electoral system that is responsible for characterizing each state as either a blue or a red state.
+
+## Settlement Patterns of Ethnic Groups in States
+
+**data set: GeoEPR (folder)**
+
+- For the previous example, we accessed a map using R's `maps package` which includes spatial datasets. But, most of the time we won't be able to find what we are looking for in this package. 
+
+- To explore how datasets with spatial attributes looks like, we will use a dataset called `GeoEPR 2019`. GeoEPR dataset codes the settlement patterns of politically relevant ethnic groups in independent states from 1946-2017. 
+
+- In our dataset folder for Day 4, we need to put a folder that includes 5 different data files with extensions: `.dbf`, `.fix`, `.prj`, `.shp` and `.shx`. We don't need to worry about the details of these datafiles. We only need to know that we need to have all of these data files together when we are working with spatial datasets. The data file we will load to R will be the one with the extension `.shp`. This is a data file in a `shapefile` format. This format allows us to store the geometric location and attribute information of geographic features. 
+
+- Let's load our spatial dataset. To read a shape file, we will use the `st_read()` function. 
+
+```{r}
+epr <- st_read("day4data/GEOEPR-2019/GeoEPR.shp")
+head(epr)
+```
+
+## Class of datasets with geometry features
+
+- Recall our discussion about the types of objects in R. Previously, we covered various objects including `data.frame`, `numeric`, `character`, `logical`. 
+
+- To be able to conduct spatial analysis, R will treat datasets with geospatial analysis differently by classifying them under a different type of object. The class of a geospatial dataset will not be a `data frame`. 
+
+```{r}
+class(epr)
+```
+
+- `sf` is the abbreviation of `simple features`. The class of this dataset tells us that this is a dataset with geometry features. Many people refer to such datasets as `data frames with a geometry column`. 
+
+## Spatial data frames and geometry types 
+
+- Previously, we learned that spatial data can be represented with various geometry types. We can check the type of our geometry by using `st_geometry()`
+
+```{r}
+st_geometry(epr)
+```
+
+- When we look at the first 5 geometries, we can tell that countries in this dataset are stored as `spatial polygon data` representing geographical areas as polygons by connecting points on a map. A polygon is just a collection of points that is enclosed and makes a shape
+
+## Spatial data frames and projection 
+
+- Map projections provide methods for representing the three-dimensional surface of the earth as two-dimensional plots. 
+
+- Projection is an issue that researchers who use spatial data constantly think about. Projections are particularly important for calculating distances and all projections require some distortion. 
+
+\begin{figure} [h]
+\begin{center}
+\begin{tabular}{c}
+\includegraphics[width=.7\linewidth]{projections.jpg}\\
+\end{tabular}
+\end{center}
+\caption{Source: Allison Horst}
+\end{figure}
+
+- The function `st_crs()` allows us to deal with the coordinate system, which includes both projection and extent of the map
+
+```{r}
+st_crs(epr)
+```
+
+## Mapping Ethnic Settlement Patterns 
+
+- Let's play around with the geoepr dataset. Our aim will be to map settlement patterns of ethnic groups for a specific country for a specific time period.  
+
+- First, let's check how many unique states are included in this dataset. 
+
+```{r}
+states <- unique(epr$statename)
+length(states)
+```
+
+- We will map African Americans' settlement patterns in the United States over different time periods. To do so, we need to subset the data. 
+
+```{r}
+epr_us <- epr[epr$statename == 'United States',]
+epr_us
+```
+
+- First let's map the settlement of African Americans in 1946-1958. 
+
+```{r}
+epr_us1 <- epr_us[epr_us$from >= 1946 & epr_us$to <= 1958 &
+                    epr_us$group == "American Indians",]
+plot(epr_us$geometry, main = "U.S., American Indians, 1946")
+plot(epr_us1$geometry, col = "magenta", add = T)
+```
+
+- Second, let's map the settlement of African Americans in 1959. 
+
+```{r}
+epr_us2 <- epr_us[epr_us$from >= 1959 & epr_us$to <= 1959 & epr_us$group == "American Indians",]
+plot(epr_us$geometry, main = "U.S., American Indians, 1959")
+plot(epr_us2$geometry, col = "magenta", add = T)
+```
+
+- Lastly, let's map the settlement of African Americans in 1960-2017. 
+
+```{r}
+epr_us3 <- epr_us[epr_us$from >= 1960 & epr_us$group == "American Indians",]
+plot(epr_us$geometry, main = "U.S., American Indians, 1960-2017")
+plot(epr_us3$geometry, col = "magenta", add = T)
+```
+
+- Let's put the first and last figures into one figure using `par(mfrow())`.
+
+```{r}
+par(mfrow = c(1, 2))
+plot(epr_us$geometry, main = "U.S., American Americans, 1946", cex.main = 0.7)
+plot(epr_us1$geometry, col = "magenta", add = T)
+plot(epr_us$geometry, main = "U.S., African Indians, 1960-2017", cex.main = 0.7)
+plot(epr_us3$geometry, col = "magenta", add = T)
+```
+
+- Good news! ``ggplot()` is also compatible with data frames with spatial attributes. If you liked it more, you can use that as well. 
+
+$\odot$ Yesterday, we went over the main steps of `ggplot2` for creating visualizations. The structure of the ggplot will differ when we use it to create maps. For example, unlike histograms or  scatterplots, we won't feed into variables into the main part. 
+
+```{r}
+ggplot(epr_us) + geom_sf() + geom_sf(data = epr_us1, fill = "magenta") +
+  labs(title = "US American Indians, 1946") + theme_bw()
+```
+
+# $\mho$ Short Practice Exercises 
+
+1. Let's pick another state and map the ethnic settlement of a specific ethnic group over time. Alternatively, you can map the settlement of ethnic groups for all ethnic groups at one point. You can either use `plot()` or `ggplot()`.
+
+\clearpage 
+
+# R Markdown 
+
+\begin{figure} [h]
+\begin{center}
+\begin{tabular}{c}
+\includegraphics[width=.7\linewidth]{rmarkdown_rockstar.jpg}\\
+\end{tabular}
+\end{center}
+\caption{Source: Allison Horst}
+\end{figure}
+
+- You have already seen how R Markdown works in action. I have written all the handouts in R markdown. 
+
+\begin{figure} [h]
+\begin{center}
+\begin{tabular}{c}
+\includegraphics[width=.7\linewidth]{rm1.jpg}\\
+\end{tabular}
+\end{center}
+\end{figure}
+
+\begin{figure} [h]
+\begin{center}
+\begin{tabular}{c}
+\includegraphics[width=.7\linewidth]{rm2.jpg}\\
+\end{tabular}
+\end{center}
+\end{figure}
+
+- R Markdown is a formatting syntax that allows us to combine text and R code to analyze data/produce graph. 
+
+- We can  export HTML, PDF, and MS Word documents using R Markdown. 
+
+- When you click the `Knit` button, a document will be generated that includes both content and output of any embedded R code chunks within the document.
+
+## Preparing and Working in an R Markdown file 
+
+- To open an R Markdown using R Studio, we follow the same procudere we learned for opening script files: 
+
+**File $\rightarrow$ New File $\rightarrow$ R Markdown **
+
+- The importance of setting our working directory will be relevant for R Markdown as well. Our R Markdown should be in our working directory like our R script. 
+
+- Let's use the R Markdown Template to explore how we can work with an R Markdown. You can find the template on Slack. 
+
