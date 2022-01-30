@@ -1,0 +1,760 @@
+---
+title: 'Introduction to R, Day 2 Handout'
+output: pdf_document 
+#bibliography: references.bib
+urlcolor: red 
+---
+\setcounter{table}{0}
+\renewcommand{\thetable}{A\arabic{table}}
+\renewcommand{\thefigure}{A\arabic{figure}}
+
+```{r setup, include=FALSE}
+library(foreign)
+library(knitr)
+library(formatR)
+knitr::opts_chunk$set(echo = TRUE, tidy=TRUE, tidy.opts=list(width.cutoff=55))
+```
+
+In this handout, we cover the following topics and R commands: 
+
+## Topics 
+
+- Working with Logical Operators 
+- Review: Subsetting Vectors and Data Frames
+- Subsetting Vectors and Data Frames with `Logical Operators`
+- Descriptive Statistics
+- Visualizing Univariate Data
+
+## R Commands 
+- Using logical operators: `<`, `<=`, `>`, `>=`, `==`, `!=`
+- Using `&`, and `|` to combine logical operators 
+- Subsetting data with `[]` and `subset()` using logical expressions 
+- Using `ifelse()` for conditional statements
+- Adding features to graphs with `lines()` and `abline()` (lines)
+- Using `density()` together with `plot()` to create density plots
+- Using `hist()` to generate histograms.
+- Using `legend()` to add a legend to a plot
+
+\clearpage
+
+# Working With Logical Operators 
+
+- When doing analysis, we will want to check and compare specific subsets of the data. Foe example, we might want to analyze how the relationship between two variables changes as we move from one subset of the data to the other (democratic regimes vs. authoritarian regimes, republicans vs. democrats, females vs. males, white candidates vs. black candidates etc.), and we will use this information to make inference. 
+
+- Logical operators (`<`, `<=`, `>`, `>=`, `==`, `!=`)  allows us to extract subsets of our data by specifcying specific observations and variables. 
+
+## Logical Operators (Relational Operators) 
+
+- `Logical operators` allows us to compare objects and subset data by determining whether a specified condition is `TRUE` or `FALSE`. 
+
+- The logic of operators correspond to what we know about them in our everyday life. For example, `>=` will help us evaluate whether a number is greater than or equal to another number. Or, for example, the symbol `!=` will evaluate whether two things we compare are not equal to each other. 
+
+- Here are some useful logical operators that we will often use:
+- `>` greater than, `>=` greater than or equal to
+- `<` less than, `<=` less than or equal to
+- `==` equal to
+- `!=` not equal to
+
+- When we use these operators to compare two objects in R, we end us with a logical object. You can also compare a vector to a particular number.
+
+- Test if 13 is smaller than 2 
+```{r}
+13 < 2
+```
+
+- Test if 17 is bigger than 5
+```{r}
+17 >= 5
+```
+
+- Create an object called y which stores information about the logical statement 
+```{r}
+y <- 4 > 3
+y
+```
+
+- Previously, we discussed various types of objects such as `numeric`,  `character`, and `data frame`. The distinctive feature of logical statements in R is that their class will be logical! 
+
+```{r}
+class(y)
+```
+
+- Test if `Hungary` is equal to `hungary` (Recall that R is case sensitive!)
+```{r}
+"Hungary" == "hungary"
+```
+
+- Test wheter `Hungary` is `not` equal to `hungary` 
+```{r}
+"Hungary" != "hungary"
+```
+
+- Logical operators can be applied to individual data entries, entire vectors, or even a dataframe. When applied to a vector, logical operators evaluate each element of the vector. 
+
+```{r}
+x <- c(-2, 4, 0, 1, 2)
+x >= 1
+x != 1
+```
+
+- To use multiple logical operators together, we combine logical statements and operations with `&` (AND) and `|` (OR).
+
+- The use of these two operators correspond to the way we think about them in everyday logic. 
+
+- For AND statements, both expressions have to be true for the whole expression to be true. 
+
+```{r}
+x
+(x >= 1) & (x <= 2)
+```
+
+- For OR statements, either statement being true makes the whole expression true:
+
+```{r}
+x
+(x >= 1) | (x <= 2)
+```
+
+- Under the hood, R treats the logical values, TRUE and FALSE as integers where 1 and 0 representing TRUE and FALSE, respectively. This allows us to compute the number and proportion of TRUE elements in a vector. For example, we can add up the number of true statements in a vector using the function `sum()`. 
+
+```{r}
+x
+x.int <- (x > 1) | (x <= 13) # logical vector 
+x.int
+sum(x.int)
+```
+
+# Review: Subsetting Vectors and Data Frames 
+
+- Yesterday, we learned how to subset vectors and data frames by using brackets:
+
+## Subsetting Vectors using `[ ]`
+
+- When we subset a vector, we are looking only at a portion of the vector that satisﬁes certain conditions.
+
+- At first, vectors were a little bit abstract, but when we did some examples, we actually saw we can think about our vectors as representing variables in a data frame. 
+
+\textbf{Syntax: variable[condition]} 
+
+\textit{where variable is the name of some variable, and condition is an expression saying what observations you want to look at} \footnote{Explanation of the syntax is from Will Lowe's teaching notes}
+
+## Subsetting Data Frames using `[rows, columns]`
+
+\textbf{Syntax: data[rows, columns]} 
+                           
+\textit{where the ﬁrst argument in the brackets tells you what rows to consider and the second tells what columns} 
+
+## Acessing Individual Variables of a Data Frame Using `$`
+
+- We also learned that we can use the `$` operator to access an individual variable of a data frame. It returns a vector containing the speciﬁed variable.
+
+- Used in conjuction with the `<-` assignment operator, `$` sign also allows us to create new variables! 
+
+# Subsetting Vectors and Data Frames with Logical Operators 
+
+- Today, we will continue from where we left. But, this time we will explore `how to subset vectors and data frames using logical operators`.  
+
+- To make things more concrete, we will go through an example using a dataset from a  study on racial discriminatin in labor markets. We will use this dataset first to revise what we did yesterday and then learn subsetting vectors and data frames using logical operators. 
+
+\textit{Does racial discrimination exist in the labor market? Or, should racial disparities in the unemployment rate be attributed to other factors such as racial gaps in educational attainment?`
+To answer this question, Marianne Bertrand and Sendhil Mullainathan conducted a field experiment. Bertrand and Mullainathan sent out ﬁctitious job candidates to potential employers as a response to newspaper ads. The setup of their experiment is as follows: they had every information in the resumes about candidates, but varied the names of job applicants. For some candidates, stereotypically African-American-sounding names such as Lakisha Washington or Jamal Jones were used, whereas other résumés contained stereotypically white-sounding names, such as Emily Walsh or Greg Baker. The researchers then compared the callback rates between these two groups and examined whether applicants with stereotypically black names received fewer callbacks than those with stereotypically white names. The positions to which the applications were sent were either in sales, administrative support, clerical, or customer services} (Imai, 33) \footnote{The example is adapted from Kosuke Imai's QSS, Chapter 2}
+
+Table 1: Resume Experiment Data 
+
+-----------------------------------------------------------------------------
+ Variable                 Description
+ -----------------------  ---------------------------------------------------
+  `firstname`               ﬁrst name of the ﬁctitious job applicant
+ 
+   `sex`                    sex of applicant (female or male)
+ 
+   `race`                   race of applicant (black or white)
+
+   `call`                   whether a callback was made (1 = yes, 0 = no)
+-----------------------------------------------------------------------------
+
+- First, let's read this dataset into R and jog our memory on summarizing data. 
+
+- Load the dataset into R as a data frame object called resume using the function read.csv()
+```{r}
+resume <- read.csv("day2data/resume.csv")
+```
+
+- Check the first siz rows of the data frame 
+```{r}
+head(resume)
+```
+
+- Create a summary of the data frame
+```{r}
+summary(resume)
+```
+
+- Look at the number of observations and variables. Each observation represents a ﬁctitious job applicant.
+```{r}
+## dimensions of the data
+dim(resume)
+## nrow() and ncol() also returns the number of rows and columns seperately 
+nrow(resume) # 4870 observations 
+ncol(resume) # 4 variables 
+```
+
+### New function alert: creating a table with table()
+
+- Let's create a table to summarize the categories of the sex variable 
+
+```{r}
+## create a table for the variable sex 
+table(resume$sex)
+```
+
+- Turning back to the main question of the researchers: Do résumés with African-American- sounding names are less likely to receive callbacks? 
+
+- Let's create a contingency table (cross tabulation) that takes the categories of the race variable as rows and categories of the call variable as columns to answer this question. 
+
+```{r}
+## create a cross-tab for race and call 
+race.call.tab <- table(race = resume$race, call = resume$call) 
+race.call.tab
+## add margins 
+addmargins(race.call.tab)
+```
+
+- The table shows that among 2435 (= 2278 + 157) résumés with stereotypically black names, only 157 received a callback. This seems like supporting the argument for racial discriminatin. 
+
+- Using this table, let's compute the callback rate, or the proportion of those who received a callback, for the entire sample. 
+
+```{r}
+## overall callback rate: total callbacks divided by the sample size
+sum(race.call.tab[, 2]) / nrow(resume)
+```
+
+- Now, let's compute the callback rate for black and white applicants seperately 
+and then separately for black and white applicants.
+
+```{r}
+## callback rates for each race
+black.call <- race.call.tab[1, 2] / sum(race.call.tab[1, ]) # black
+white.call <- race.call.tab[2, 2] / sum(race.call.tab[2, ]) # white
+diff <- black.call - white.call
+diff
+```
+
+- The callback rate for the résumés with African- American-sounding names is 0.032 (3.2 percentage points), lower than those with white-sounding names, which suggests the existence of a racial discrimination in the labor market. 
+
+## Subsetting Using Logical Operators using the Resume Experimental Data 
+
+- Compute the callback rate among the résumés with black-sounding names. 
+
+$\odot$ Note: This command syntax subsets the call variable in the resume data frame for the observations whose values for the race variable are equal to black. This is where the logical operators become relevant. You can think `resume$race == "black"` as a logical statement.
+
+```{r}
+## callback rate for black-sounding names
+mean(resume$call[resume$race == "black"]) 
+```
+
+- Another way to do the same thing: 
+
+```{r}
+## Subset black applicants
+resumeB <- resume[resume$race == "black", ] 
+dim(resumeB) # this data.frame has fewer rows than the original data.frame
+mean(resumeB$call) # callback rate for blacks
+```
+
+### New function alert: subset()
+
+- Subset applicants with black sounding names 
+
+```{r}
+resumeB2 <- subset(resume, subset = (race == "black"))
+dim(resumeB2)
+resumeB2[1:10,]
+```
+
+- Subset applicants who are female and have black sounding names 
+
+```{r}
+resumeBF <- subset(resume, subset = (race == "black" & sex == "female"))
+resumeBF <- subset(resume, (race == "black" & sex == "female")) # don't need to write subset
+```
+
+- Subset applicants with black sounding names 
+
+```{r}
+resumeB2 <- subset(resume, subset = (race == "black"))
+dim(resumeB2)
+resumeB2[1:10,]
+```
+
+- Subset applicants whose first name is Lakisha 
+
+```{r}
+resumeL <- subset(resume, subset = (firstname == "Lakisha"))
+dim(resumeL)
+resumeL[1:10,]
+```
+
+- Do the same using brackets instead 
+
+```{r}
+resumeL2 <- resume[resume$firstname == "Lakisha",]
+dim(resumeL2)
+resumeL2[1:10,]
+```
+
+# Conditional Statements 
+
+- We us the function `ifelse()` to create conditional statements.
+
+- The function takes three main arguments: 
+1. test. A logical expression (one that is either true or false) e.g. x < 2 or x == "Hungary"
+2. yes. What to return if the test is TRUE 
+3. no. What to return if the test is FALSE
+
+- Here, we are creating a new variable called Black Female. And, we want this variable to take the value of `1` when the applicant is black and female, and 0 when the applicant is not black and female. 
+
+```{r}
+resume$BlackFemale <- ifelse(resume$race == "black" & 
+                                 resume$sex == "female", 1, 0)
+```
+
+- We can look at this new variable with a table
+
+```{r}
+table(resume$BlackFemale)
+```
+
+# Descriptive Statistics 
+
+- Previously, we learned to following functions to summarize data: `length()`, `min()`, `max()`, `range()`, `mean()`, `median()`, `sum()`, `abs()`, `unique()`
+
+- Today, we will add new functions to this that might be useful for summarizing data: `var()` (variance), `sd()` (standard deviation), and `IQR()` (Inter-quartile Range)
+
+- Our running example will be a policy-focused data from LaLonde’s (1986) analysis of the National Supported Work Demonstration. This is a program in 1970s that helped long-term unemployed individuals ﬁnd private sector jobs and covered the labor costs of their employment for a year \footnote{Adapted from Monogan's Political Analysis Using R} 
+
+The table below shows the variables and their descriptions: 
+
+Table 2: The National Supported Work Demonstration Program Data
+
+-------------------------------------------------------------------------------------
+ Variable                 Description
+-----------------------  -----------------------------------------------------------
+ `treated`                 Indicator variable for whether the participant 
+                           received the treatment. 
+                           
+ `age`                     Measured in years.
+ 
+ `education`               Years of education.
+ 
+ `black`                   Indicator variable for whether the participant
+                           is African-American.
+                           
+ `married`                 Indicator variable for whether the participant 
+                           is married.
+                           
+ `nodegree`                Indicator variable for not possessing a high school 
+                           diploma.
+                           
+ `re74`                    Real earnings in 1974.
+ 
+ `re75`                    Real earnings in 1975.
+ 
+ `re78`                    Real earnings in 1978.
+ 
+ `hispanic`                Indicator variable for whether the participant is 
+                           Hispanic. 
+                           
+ `u74`                     Indicator variable for unemployed in 1974.
+ 
+ `u75`                     Indicator variable for unemployed in 1975.
+-------------------------------------------------------------------------------------------
+
+- Let's first load the dataset
+
+```{r}
+workdata <- read.csv("day2data/LL.csv") 
+```
+
+- Check first few rows 
+```{r}
+head(workdata)
+```
+
+- Number of observations and variables 
+```{r}
+dim(workdata)
+```
+
+- Name of the variables in the data frame 
+```{r}
+names(workdata)
+```
+
+## Measures of Central Tendency 
+
+- Compute the mean of real earnings in 1974
+```{r}
+mean(workdata$re74)
+```
+
+- Most of the time, we would also like to round our quantities of interest to a specific number of decimal places. In R, we use the `round()` function to achieve this. The syntax of the function is as follows: `round(x, digits = X)`. Let's apply this to the mean we calculated above. 
+```{r}
+rmean74 <- round(mean(workdata$re74), digits = 2) 
+rmean74
+```
+
+- We can also compute the median of the real earnings in 1974, which might be useful since median is a central tendency measure that is more robust to extreme values than the mean
+```{r}
+median(workdata$re74)
+```
+
+- We can observe that the median value is much lower than the mean value. It seems if we were to draw the density plot of the mean, we will see a positive skew, with some extreme values pulling the mean up somewhat. We will visually verify this by drawing a density plot very soon. 
+
+- Another useful measure of central tendency reports a range of central values. The inter-quartile range is the middle 50 % of the data.
+
+- Compute IQR of the real earnings in 1974
+```{r}
+IQR(workdata$re74)
+```
+
+- Previously, we learned the function `summary()` to get the summary of each variable in a data frame. We can also get a summary of a specific variable. 
+
+```{r}
+summary(workdata$re74) 
+```
+
+- The two quantities reported are called the ﬁrst and third quartiles. The ﬁrst quartile is a value for which 25 % of the data are less than or equal to the value. Similarly, 75 % of the data are less than or equal to the third quartile. This command reports the spread between the bottom and top of the interquartile range
+
+- The measures we just discussed are informative when we have continuous variables. For categorical and ordinal variables, we can instead use the `table()` function that we already learned to show the frequency of each values.
+
+```{r}
+table(workdata$black) 
+```
+
+## Measures of Dispersion 
+
+- Compute the variance of the real earnings in 1974
+```{r}
+var(workdata$re74)
+```
+
+- Compute the standard deviation of the real earnings in 1974
+
+```{r}
+## first way of calculating standard deviation 
+sd(workdata$re74)
+## second way of calculating the standard deviation, taking the square root of variance
+sqrt(var(workdata$re74))
+```
+
+\clearpage
+
+# Visualizing Univariate Data 
+
+- Thus far, we have been summarizing the distribution of variables by reporting their measures of central tendencies such as mean, median, and quantiles. However, visualizing our data is often very helpful to understand and summarize our data. When it comes to data visualization, R has great graphical capabilities that allows us to create  beautiful and informative graphs. 
+
+## Some common graphs for visualizing univariate data: 
+
+## 1. Density Plot
+- The function `density()` will calculate the smooth density of a `numeric` object as an output. We will then put this as an input to the `plot()` function to draw a density plot. 
+
+## 2. Bar Chart
+- The `barplot()` function will be useful to visualize the distribution of a `factor` variable. 
+
+## 3. Histogram
+- The function `hist()` is a common method for visualizing the distribution of a `numeric` variable rather than a `factor` variable
+
+
+## Summary of Options Used in Plots 
+
+- Below are some common graphing parameters we can you can use with plot, lines, points:
+
+------------------------------------------------------------------------------------------
+- `main`. Set the main figure title.
+- `xlab`. Set the x-axis label.
+- `ylab`. Set the y-axis label.
+- `col`.  Set the line or point color, e.g. "red", or "blue"
+- `xlim.  Specify the x-axis limits, e.g. c(0, 4) for the interval [0, 4]
+- `ylim.  Specify the y-axis limits
+- `lty`.  Change the line type. 1 is solid, 2 is dashed, and 3--5 are different
+          of dashed lines.
+- `pch`. Set the plotting character of points. 1 is an unfilled circle.
+------------------------------------------------------------------------------------------
+
+- Legend adds a legend to your plot. It has the following arguments:
+
+-----------------------------------------------------------------------------------------
+- The ﬁrst argument is the legend’s location. We can choose one of ‘topleft’, ‘bottomleft’,   
+  ‘topright’, or ‘bottom right’.
+
+- `legend`. is a vector of character strings, indicating what the legend should contain.
+
+- `col`. A vector of colors, corresponding to the elements of legend.
+
+- `lty`. A vector of line types, corresponding with the elements of legend.
+
+- `bg = "grey"`. Turns the background of the legend from the default background color, 
+   usually white, to grey.
+-----------------------------------------------------------------------------------------
+
+\clearpage
+
+# Density Plot
+
+**Variable: Real Earnings from The National Supported Work Demonstration Program Data **
+
+## 1. Producing a single density plot 
+
+### Step 1: Produce a simple figure 
+
+- The basic syntax for producing a density plot in R is as follows: 
+
+```{r fig1, echo=T, fig.height=6, fig.width=8}
+plot(density(workdata$re74))
+```
+
+\clearpage
+
+### Step 2: Iteratively make your graph better by adding some common graphing paramaters 
+
+### Fixing the Title
+
+- The parameter `main` will allow you to set the title 
+
+```{r fig2, echo=T, fig.height=3, fig.width=5}
+plot(density(workdata$re74),
+             main = "Distribution of real earnings in 1974")
+
+```
+
+### Fixing the X-axis label
+
+- The parameter `xlab` will allow you change the x-axis label. Similarly, the parameter `ylab` will allow you change the y-axis label.
+
+```{r fig3, echo=T, fig.height=3, fig.width=5}
+plot(density(workdata$re74),
+             main = "Distribution of real earnings in 1974", xlab = "Real Earnings")
+```
+
+\clearpage
+
+### Truncating the Density Plot at 0 
+
+- The density plot goes below 0.  Let's fix this as well. We will use the parameter `cut` to do this. 
+```{r fig4, echo=T, fig.height=3, fig.width=5}
+plot(density(workdata$re74, cut = 0),
+             main = "Distribution of real earnings in 1974", xlab = "Real Earnings")
+```
+
+### Adding a vertical line for the mean 
+
+- Let's also add the mean of real earnings in 1974 on the graph as a vertical line. We will use `abline` to do this. 
+
+```{r fig5, echo=T, fig.height=3, fig.width=5}
+plot(density(workdata$re74, cut = 0),
+             main = "Distribution of real earnings in 1974", xlab = "Real Earnings")
+abline(v=mean(workdata$re74),col="red")
+```
+
+\clearpage
+
+## 2. Adding Density Plots to an Existing Figure
+
+- Now let's put the density plots of different years 74, 75, and 78 in a single plot. This can be helpful when we want to explain how our quantities of interest varies over time. 
+
+```{r , echo=T, fig.height=3, fig.width=5}
+plot(density(workdata$re74, cut = 0),
+             main = "Distribution of real earnings in 1974, 1975, 1978", xlab = "Real Earnings")
+lines(density(workdata$re75, cut = 0)) 
+lines(density(workdata$re78, cut = 0)) 
+```
+
+### Adding Color to Differentiate Lines
+
+```{r , echo=T, fig.height=3, fig.width=5}
+plot(density(workdata$re74, cut = 0),
+             main = "Distribution of real earnings in 1974, 1975, 1978", xlab = "Real Earnings")
+lines(density(workdata$re75, cut = 0), col = "blue") 
+lines(density(workdata$re78, cut = 0), col = "brown") 
+```
+
+### Adding Vertical Lines for the Mean of Each Year 
+
+```{r , echo=T, fig.height=3, fig.width=5}
+plot(density(workdata$re74, cut = 0),
+             main = "Distribution of real earnings in 1974, 1975 1978", xlab = "Real Earnings")
+lines(density(workdata$re75, cut = 0), col = "blue") 
+lines(density(workdata$re78, cut = 0), col = "brown") 
+legend("topright", legend = c("Year 74", "Year 75", "Year 78"), col = c("red", "blue", "brown"), lty = c(1,1,1))
+abline(v=mean(workdata$re74),col="red")
+abline(v=mean(workdata$re75),col="blue")
+abline(v=mean(workdata$re78),col="brown")
+```
+
+### Adding a Legend
+
+```{r , echo=T, fig.height=3, fig.width=5}
+plot(density(workdata$re74, cut = 0),
+             main = "Distribution of real earnings in 1974, 1975 1978", xlab = "Real Earnings")
+lines(density(workdata$re75, cut = 0), col = "blue") 
+lines(density(workdata$re78, cut = 0), col = "brown") 
+legend("topright", legend = c("Year 74", "Year 75", "Year 78"), col = c("red", "blue", "brown"), lty = c(1,1,1))
+```
+
+\clearpage
+
+# Histogram 
+
+**Variable: Age from The National Supported Work Demonstration Program Data **
+
+### Step 1: Produce a simple figure 
+
+- The basic syntax for producing a histogram in R is as follows: 
+
+```{r , echo=T, fig.height=6, fig.width=8}
+hist(workdata$age)
+```
+
+- Set the freq (frequency) paramater to `FALSE`. 
+
+$\odot$ Note: The default for this parameter is TRUE, which plots the frequency, i.e., counts, instead of using density as the height of each bin. Using density rather than frequency is useful for comparing two distributions, because the density scale is comparable across distributions even when the number of observations is different (Imai, QSS, 82)
+
+### Step 2: Iteratively make your graph better by adding some common graphing paramaters 
+
+### Fixing the Title
+
+```{r , echo=T, fig.height=3, fig.width=5}
+hist(workdata$age, main = "Distribution of Age")
+```
+
+### Fixing the X-axis label
+
+```{r , echo=T, fig.height=3, fig.width=5}
+hist(workdata$age, main = "Distribution of Age", xlab = "Age")
+```
+
+\clearpage
+
+### Adding a vertical line for the mean 
+
+```{r , echo=T, fig.height=3, fig.width=5}
+hist(workdata$age, main = "Distribution of Age", xlab = "Age")
+abline(v=mean(workdata$age),col="red")
+```
+
+\noindent \textit{Note: Some of the material and practice exercises in this handout are adapted from and inspired by Kosuke Imai, Matthew Blackwell, and James Monogan's textbooks and online teaching materials.} 
+
+\clearpage
+
+## Practice Exercises 
+
+**Data Set: drugCoverage.csv**
+
+Peake and Eshbaugh-Soha’s (2008) analysis of drug policy coverage includes the following variables: a character-based time index showing month and year (Year), news coverage of drugs (drugsmedia), an indicator for a speech on drugs that Ronald Reagan gave in September 1986 (rwr86), an indicator for a speech George H.W. Bush gave in September 1989 (ghwb89), the president’s approval rating (approval), and the unemployment rate (unemploy) \footnote{Adapted from Monogan's Political Analysis Using R} 
+
+```{r}
+## Load the data 
+drugdat <- read.csv("day2data/drugCoverage.csv") 
+
+## Check the first six rows 
+head(drugdat)
+
+## Dimensions of the data
+dim(drugdat)
+ncol(drugdat)
+nrow(drugdat)
+```
+
+1. What can you learn simply by applying the summary command to the full data set? What jumps out most clearly from this output? Are there any missing values in these data?
+
+```{r}
+## the descriptive statistics summary also list the number of
+## missing observations we have on a given variable (under NA’s), 
+## if any are missing.
+summary(drugdat) # seems like there are no NAs 
+
+##############################################################
+
+## A quick note of checking missing values/NAs in a data frame 
+
+## another way to check NAs in a data frame is by using the `is.na()` function.
+## If you use is.na() alone it will display information about all the observations, 
+## which won't help us to understand the number of NAs 
+## We can instead create a table for missing values. 
+## TRUE represents the number of missing values
+## Here we don't have any missing values, therefore we don't see TRUE 
+table(is.na(drugdat)) # No NAs 
+
+## Or you can find the sum of NAs
+sum(is.na(drugdat))
+```
+
+2. Using the mean function, compute the following:
+
+- What is the mean of the indicator for George H.W. Bush’s 1989 speech?
+```{r}
+## mean of Bush's 1989 speech 
+mean(drugdat$ghwb89)
+
+## as the question says, this is an indicator variable can only take 0 or 1 
+range(drugdat$ghwb89) 
+table(drugdat$ghwb89)
+```
+
+
+- What is the mean level of presidential approval?
+```{r}
+## mean of approval 
+mean(drugdat$approval)
+```
+
+3. What is the median level of media coverage of drug-related issues?
+```{r}
+## median level of media coverage of drug related issues
+median(drugdat$drugsmedia)
+```
+
+4. What is the interquartile range of media coverage of drug-related issues?
+```{r}
+## IQR of media coverage of drug related issues
+IQR(drugdat$drugsmedia)
+```
+
+5. Report two frequency tables:
+
+- In the ﬁrst, report the frequency of values for the indicator for Ronald Reagan’s 1986 speech.
+```{r}
+## freq for Reagan 
+table(drugdat$rwr86)
+
+## we can also add an informative label to this 
+table(Reagan = drugdat$rwr86)
+```
+
+- In the second, report the frequency of values for the unemployment rate in a given month.
+```{r}
+## freq for unemployment
+table(drugdat$unemploy)
+## modal value of unemploymenet 
+which.max(table(drugdat$unemploy))
+```
+
+6. What are the variance, standard deviation, and median absolute deviation for news coverage of drugs?
+```{r}
+## variance of drugs media coverage
+var(drugdat$drugsmedia)
+
+## standard deviation of drugs media coverage
+sqrt(var(drugdat$drugsmedia))
+## or alternatively 
+sd(drugdat$drugsmedia)
+
+## median abs deviation of drugs media coverage
+mad(drugdat$drugsmedia)
+```
+
+7. What are the 10th and 90th percentiles of presidential approval in this 1977–1992 time frame?
+```{r}
+quantile(drugdat$drugsmedia, c(.10, .90)) 
+```

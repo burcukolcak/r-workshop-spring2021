@@ -1,0 +1,3130 @@
+"","country","region","year","status","total"
+"1","Abkhazia","Eurasia",2020,"PF",40
+"2","Afghanistan","Asia",2020,"NF",27
+"3","Albania","Europe",2020,"PF",67
+"4","Algeria","MENA",2020,"NF",34
+"5","Andorra","Europe",2020,"F",94
+"6","Angola","SSA",2020,"NF",32
+"7","Antigua and Barbuda","Americas",2020,"F",85
+"8","Argentina","Americas",2020,"F",85
+"9","Armenia","Eurasia",2020,"PF",53
+"10","Australia","Asia",2020,"F",97
+"11","Austria","Europe",2020,"F",93
+"12","Azerbaijan","Eurasia",2020,"NF",10
+"13","Bahamas","Americas",2020,"F",91
+"14","Bahrain","MENA",2020,"NF",11
+"15","Bangladesh","Asia",2020,"PF",39
+"16","Barbados","Americas",2020,"F",95
+"17","Belarus","Eurasia",2020,"NF",19
+"18","Belgium","Europe",2020,"F",96
+"19","Belize","Americas",2020,"F",86
+"20","Benin","SSA",2020,"PF",66
+"21","Bhutan","Asia",2020,"PF",59
+"22","Bolivia","Americas",2020,"PF",63
+"23","Bosnia and Herzegovina","Europe",2020,"PF",53
+"24","Botswana","SSA",2020,"F",72
+"25","Brazil","Americas",2020,"F",75
+"26","Brunei","Asia",2020,"NF",28
+"27","Bulgaria","Europe",2020,"F",80
+"28","Burkina Faso","SSA",2020,"PF",56
+"29","Burundi","SSA",2020,"NF",13
+"30","Cabo Verde","SSA",2020,"F",92
+"31","Cambodia","Asia",2020,"NF",25
+"32","Cameroon","SSA",2020,"NF",18
+"33","Canada","Americas",2020,"F",98
+"34","Central African Republic","SSA",2020,"NF",10
+"35","Chad","SSA",2020,"NF",17
+"36","Chile","Americas",2020,"F",90
+"37","China","Asia",2020,"NF",10
+"38","Colombia","Americas",2020,"PF",66
+"39","Comoros","SSA",2020,"PF",44
+"40","Congo (Brazzaville)","SSA",2020,"NF",20
+"41","Congo (Kinshasa)","SSA",2020,"NF",18
+"42","Costa Rica","Americas",2020,"F",91
+"43","Cote d'Ivoire","SSA",2020,"PF",51
+"44","Crimea","Eurasia",2020,"NF",8
+"45","Croatia","Europe",2020,"F",85
+"46","Cuba","Americas",2020,"NF",14
+"47","Cyprus","Europe",2020,"F",94
+"48","Czech Republic","Europe",2020,"F",91
+"49","Denmark","Europe",2020,"F",97
+"50","Djibouti","SSA",2020,"NF",24
+"51","Dominica","Americas",2020,"F",93
+"52","Dominican Republic","Americas",2020,"PF",67
+"53","Eastern Donbas","Eurasia",2020,"NF",5
+"54","Ecuador","Americas",2020,"PF",65
+"55","Egypt","MENA",2020,"NF",21
+"56","El Salvador","Americas",2020,"PF",66
+"57","Equatorial Guinea","SSA",2020,"NF",6
+"58","Eritrea","SSA",2020,"NF",2
+"59","Estonia","Europe",2020,"F",94
+"60","Eswatini","SSA",2020,"NF",19
+"61","Ethiopia","SSA",2020,"NF",24
+"62","Fiji","Asia",2020,"PF",60
+"63","Finland","Europe",2020,"F",100
+"64","France","Europe",2020,"F",90
+"65","Gabon","SSA",2020,"NF",22
+"66","Gaza Strip","MENA",2020,"NF",11
+"67","Georgia","Eurasia",2020,"PF",61
+"68","Germany","Europe",2020,"F",94
+"69","Ghana","SSA",2020,"F",82
+"70","Greece","Europe",2020,"F",88
+"71","Grenada","Americas",2020,"F",89
+"72","Guatemala","Americas",2020,"PF",52
+"73","Guinea","SSA",2020,"PF",40
+"74","Guinea-Bissau","SSA",2020,"PF",46
+"75","Guyana","Americas",2020,"F",74
+"76","Haiti","Americas",2020,"PF",38
+"77","Honduras","Americas",2020,"PF",45
+"78","Hong Kong","Asia",2020,"PF",55
+"79","Hungary","Europe",2020,"PF",70
+"80","Iceland","Europe",2020,"F",94
+"81","India","Asia",2020,"F",71
+"82","Indian Kashmir","Asia",2020,"NF",28
+"83","Indonesia","Asia",2020,"PF",61
+"84","Iran","MENA",2020,"NF",17
+"85","Iraq","MENA",2020,"NF",31
+"86","Ireland","Europe",2020,"F",97
+"87","Israel","MENA",2020,"F",76
+"88","Italy","Europe",2020,"F",89
+"89","Jamaica","Americas",2020,"F",78
+"90","Japan","Asia",2020,"F",96
+"91","Jordan","MENA",2020,"PF",37
+"92","Kazakhstan","Eurasia",2020,"NF",23
+"93","Kenya","SSA",2020,"PF",48
+"94","Kiribati","Asia",2020,"F",93
+"95","Kosovo","Europe",2020,"PF",56
+"96","Kuwait","MENA",2020,"PF",36
+"97","Kyrgyzstan","Eurasia",2020,"PF",39
+"98","Laos","Asia",2020,"NF",14
+"99","Latvia","Europe",2020,"F",89
+"100","Lebanon","MENA",2020,"PF",44
+"101","Lesotho","SSA",2020,"PF",63
+"102","Liberia","SSA",2020,"PF",60
+"103","Libya","MENA",2020,"NF",9
+"104","Liechtenstein","Europe",2020,"F",90
+"105","Lithuania","Europe",2020,"F",91
+"106","Luxembourg","Europe",2020,"F",98
+"107","Madagascar","SSA",2020,"PF",61
+"108","Malawi","SSA",2020,"PF",62
+"109","Malaysia","Asia",2020,"PF",52
+"110","Maldives","Asia",2020,"PF",40
+"111","Mali","SSA",2020,"PF",41
+"112","Malta","Europe",2020,"F",90
+"113","Marshall Islands","Asia",2020,"F",93
+"114","Mauritania","SSA",2020,"PF",34
+"115","Mauritius","SSA",2020,"F",89
+"116","Mexico","Americas",2020,"PF",62
+"117","Micronesia","Asia",2020,"F",92
+"118","Moldova","Eurasia",2020,"PF",60
+"119","Monaco","Europe",2020,"F",83
+"120","Mongolia","Asia",2020,"F",84
+"121","Montenegro","Europe",2020,"PF",62
+"122","Morocco","MENA",2020,"PF",37
+"123","Mozambique","SSA",2020,"PF",45
+"124","Myanmar","Asia",2020,"NF",30
+"125","Nagorno-Karabakh","Eurasia",2020,"PF",34
+"126","Namibia","SSA",2020,"F",77
+"127","Nauru","Asia",2020,"F",77
+"128","Nepal","Asia",2020,"PF",56
+"129","Netherlands","Europe",2020,"F",99
+"130","New Zealand","Asia",2020,"F",97
+"131","Nicaragua","Americas",2020,"NF",31
+"132","Niger","SSA",2020,"PF",48
+"133","Nigeria","SSA",2020,"PF",47
+"134","North Korea","Asia",2020,"NF",3
+"135","North Macedonia","Europe",2020,"PF",63
+"136","Northern Cyprus","Europe",2020,"F",81
+"137","Norway","Europe",2020,"F",100
+"138","Oman","MENA",2020,"NF",23
+"139","Pakistan","Asia",2020,"PF",38
+"140","Pakistani Kashmir","Asia",2020,"NF",28
+"141","Palau","Asia",2020,"F",92
+"142","Panama","Americas",2020,"F",84
+"143","Papua New Guinea","Asia",2020,"PF",62
+"144","Paraguay","Americas",2020,"PF",65
+"145","Peru","Americas",2020,"F",72
+"146","Philippines","Asia",2020,"PF",59
+"147","Poland","Europe",2020,"F",84
+"148","Portugal","Europe",2020,"F",96
+"149","Qatar","MENA",2020,"NF",25
+"150","Romania","Europe",2020,"F",83
+"151","Russia","Eurasia",2020,"NF",20
+"152","Rwanda","SSA",2020,"NF",22
+"153","Samoa","Asia",2020,"F",81
+"154","San Marino","Europe",2020,"F",95
+"155","Sao Tome and Principe","SSA",2020,"F",84
+"156","Saudi Arabia","MENA",2020,"NF",7
+"157","Senegal","SSA",2020,"PF",71
+"158","Serbia","Europe",2020,"PF",66
+"159","Seychelles","SSA",2020,"PF",72
+"160","Sierra Leone","SSA",2020,"PF",65
+"161","Singapore","Asia",2020,"PF",50
+"162","Slovakia","Europe",2020,"F",88
+"163","Slovenia","Europe",2020,"F",94
+"164","Solomon Islands","Asia",2020,"F",79
+"165","Somalia","SSA",2020,"NF",7
+"166","Somaliland","SSA",2020,"PF",41
+"167","South Africa","SSA",2020,"F",79
+"168","South Korea","Asia",2020,"F",83
+"169","South Ossetia","Eurasia",2020,"NF",10
+"170","South Sudan","SSA",2020,"NF",2
+"171","Spain","Europe",2020,"F",92
+"172","Sri Lanka","Asia",2020,"PF",56
+"173","St. Kitts and Nevis","Americas",2020,"F",89
+"174","St. Lucia","Americas",2020,"F",92
+"175","St. Vincent and the Grenadines","Americas",2020,"F",91
+"176","Sudan","SSA",2020,"NF",12
+"177","Suriname","Americas",2020,"F",75
+"178","Sweden","Europe",2020,"F",100
+"179","Switzerland","Europe",2020,"F",96
+"180","Syria","MENA",2020,"NF",0
+"181","Taiwan","Asia",2020,"F",93
+"182","Tajikistan","Eurasia",2020,"NF",9
+"183","Tanzania","SSA",2020,"PF",40
+"184","Thailand","Asia",2020,"PF",32
+"185","The Gambia","SSA",2020,"PF",46
+"186","Tibet","Asia",2020,"NF",1
+"187","Timor-Leste","Asia",2020,"F",71
+"188","Togo","SSA",2020,"PF",44
+"189","Tonga","Asia",2020,"F",79
+"190","Transnistria","Eurasia",2020,"NF",22
+"191","Trinidad and Tobago","Americas",2020,"F",82
+"192","Tunisia","MENA",2020,"F",70
+"193","Turkey","Europe",2020,"NF",32
+"194","Turkmenistan","Eurasia",2020,"NF",2
+"195","Tuvalu","Asia",2020,"F",93
+"196","Uganda","SSA",2020,"NF",34
+"197","Ukraine","Eurasia",2020,"PF",62
+"198","United Arab Emirates","MENA",2020,"NF",17
+"199","United Kingdom","Europe",2020,"F",94
+"200","United States","Americas",2020,"F",86
+"201","Uruguay","Americas",2020,"F",98
+"202","Uzbekistan","Eurasia",2020,"NF",10
+"203","Vanuatu","Asia",2020,"F",82
+"204","Venezuela","Americas",2020,"NF",16
+"205","Vietnam","Asia",2020,"NF",20
+"206","West Bank","MENA",2020,"NF",25
+"207","Western Sahara","MENA",2020,"NF",4
+"208","Yemen","MENA",2020,"NF",11
+"209","Zambia","SSA",2020,"PF",54
+"210","Zimbabwe","SSA",2020,"PF",29
+"211","Abkhazia","Eurasia",2019,"PF",41
+"212","Afghanistan","Asia",2019,"NF",27
+"213","Albania","Europe",2019,"PF",68
+"214","Algeria","MENA",2019,"NF",34
+"215","Andorra","Europe",2019,"F",94
+"216","Angola","SSA",2019,"NF",31
+"217","Antigua and Barbuda","Americas",2019,"F",84
+"218","Argentina","Americas",2019,"F",84
+"219","Armenia","Eurasia",2019,"PF",51
+"220","Australia","Asia",2019,"F",98
+"221","Austria","Europe",2019,"F",93
+"222","Azerbaijan","Eurasia",2019,"NF",11
+"223","Bahamas","Americas",2019,"F",91
+"224","Bahrain","MENA",2019,"NF",12
+"225","Bangladesh","Asia",2019,"PF",41
+"226","Barbados","Americas",2019,"F",96
+"227","Belarus","Eurasia",2019,"NF",19
+"228","Belgium","Europe",2019,"F",96
+"229","Belize","Americas",2019,"F",86
+"230","Benin","SSA",2019,"F",79
+"231","Bhutan","Asia",2019,"PF",59
+"232","Bolivia","Americas",2019,"PF",67
+"233","Bosnia and Herzegovina","Europe",2019,"PF",53
+"234","Botswana","SSA",2019,"F",72
+"235","Brazil","Americas",2019,"F",75
+"236","Brunei","Asia",2019,"NF",29
+"237","Bulgaria","Europe",2019,"F",80
+"238","Burkina Faso","SSA",2019,"PF",60
+"239","Burundi","SSA",2019,"NF",14
+"240","Cambodia","Asia",2019,"NF",26
+"241","Cameroon","SSA",2019,"NF",19
+"242","Canada","Americas",2019,"F",99
+"243","Cape Verde","SSA",2019,"F",90
+"244","Central African Republic","SSA",2019,"NF",9
+"245","Chad","SSA",2019,"NF",17
+"246","Chile","Americas",2019,"F",94
+"247","China","Asia",2019,"NF",11
+"248","Colombia","Americas",2019,"PF",66
+"249","Comoros","SSA",2019,"PF",50
+"250","Congo (Brazzaville)","SSA",2019,"NF",21
+"251","Congo (Kinshasa)","SSA",2019,"NF",15
+"252","Costa Rica","Americas",2019,"F",91
+"253","Cote d'Ivoire","SSA",2019,"PF",51
+"254","Crimea","Eurasia",2019,"NF",8
+"255","Croatia","Europe",2019,"F",85
+"256","Cuba","Americas",2019,"NF",14
+"257","Cyprus","Europe",2019,"F",94
+"258","Czech Republic","Europe",2019,"F",91
+"259","Denmark","Europe",2019,"F",97
+"260","Djibouti","SSA",2019,"NF",26
+"261","Dominica","Americas",2019,"F",93
+"262","Dominican Republic","Americas",2019,"PF",67
+"263","Ecuador","Americas",2019,"PF",63
+"264","Egypt","MENA",2019,"NF",22
+"265","El Salvador","Americas",2019,"F",67
+"266","Equatorial Guinea","SSA",2019,"NF",6
+"267","Eritrea","SSA",2019,"NF",2
+"268","Estonia","Europe",2019,"F",94
+"269","Ethiopia","SSA",2019,"NF",19
+"270","Fiji","Asia",2019,"PF",61
+"271","Finland","Europe",2019,"F",100
+"272","France","Europe",2019,"F",90
+"273","Gabon","SSA",2019,"NF",23
+"274","Gaza Strip","MENA",2019,"NF",11
+"275","Georgia","Eurasia",2019,"PF",63
+"276","Germany","Europe",2019,"F",94
+"277","Ghana","SSA",2019,"F",83
+"278","Greece","Europe",2019,"F",87
+"279","Grenada","Americas",2019,"F",89
+"280","Guatemala","Americas",2019,"PF",53
+"281","Guinea","SSA",2019,"PF",43
+"282","Guinea-Bissau","SSA",2019,"PF",42
+"283","Guyana","Americas",2019,"F",75
+"284","Haiti","Americas",2019,"PF",41
+"285","Honduras","Americas",2019,"PF",46
+"286","Hong Kong","Asia",2019,"PF",59
+"287","Hungary","Europe",2019,"PF",70
+"288","Iceland","Europe",2019,"F",94
+"289","India","Asia",2019,"F",75
+"290","Indian Kashmir","Asia",2019,"PF",49
+"291","Indonesia","Asia",2019,"PF",62
+"292","Iran","MENA",2019,"NF",18
+"293","Iraq","MENA",2019,"NF",32
+"294","Ireland","Europe",2019,"F",97
+"295","Israel","MENA",2019,"F",78
+"296","Italy","Europe",2019,"F",89
+"297","Jamaica","Americas",2019,"F",78
+"298","Japan","Asia",2019,"F",96
+"299","Jordan","MENA",2019,"PF",37
+"300","Kazakhstan","Eurasia",2019,"NF",22
+"301","Kenya","SSA",2019,"PF",48
+"302","Kiribati","Asia",2019,"F",93
+"303","Kosovo","Europe",2019,"PF",54
+"304","Kuwait","MENA",2019,"PF",36
+"305","Kyrgyzstan","Eurasia",2019,"PF",38
+"306","Laos","Asia",2019,"NF",14
+"307","Latvia","Europe",2019,"F",87
+"308","Lebanon","MENA",2019,"PF",45
+"309","Lesotho","SSA",2019,"PF",63
+"310","Liberia","SSA",2019,"PF",62
+"311","Libya","MENA",2019,"NF",9
+"312","Liechtenstein","Europe",2019,"F",90
+"313","Lithuania","Europe",2019,"F",91
+"314","Luxembourg","Europe",2019,"F",98
+"315","Macedonia","Europe",2019,"PF",59
+"316","Madagascar","SSA",2019,"PF",56
+"317","Malawi","SSA",2019,"PF",64
+"318","Malaysia","Asia",2019,"PF",52
+"319","Maldives","Asia",2019,"PF",35
+"320","Mali","SSA",2019,"PF",44
+"321","Malta","Europe",2019,"F",91
+"322","Marshall Islands","Asia",2019,"F",93
+"323","Mauritania","SSA",2019,"NF",32
+"324","Mauritius","SSA",2019,"F",89
+"325","Mexico","Americas",2019,"PF",63
+"326","Micronesia","Asia",2019,"F",92
+"327","Moldova","Eurasia",2019,"PF",58
+"328","Monaco","Europe",2019,"F",82
+"329","Mongolia","Asia",2019,"F",85
+"330","Montenegro","Europe",2019,"PF",65
+"331","Morocco","MENA",2019,"PF",39
+"332","Mozambique","SSA",2019,"PF",51
+"333","Myanmar","Asia",2019,"PF",30
+"334","Nagorno-Karabakh","Eurasia",2019,"PF",31
+"335","Namibia","SSA",2019,"F",75
+"336","Nauru","Asia",2019,"F",78
+"337","Nepal","Asia",2019,"PF",54
+"338","Netherlands","Europe",2019,"F",99
+"339","New Zealand","Asia",2019,"F",98
+"340","Nicaragua","Americas",2019,"NF",32
+"341","Niger","SSA",2019,"PF",49
+"342","Nigeria","SSA",2019,"PF",50
+"343","North Korea","Asia",2019,"NF",3
+"344","Northern Cyprus","Europe",2019,"F",81
+"345","Norway","Europe",2019,"F",100
+"346","Oman","MENA",2019,"NF",23
+"347","Pakistan","Asia",2019,"PF",39
+"348","Pakistani Kashmir","Asia",2019,"NF",28
+"349","Palau","Asia",2019,"F",92
+"350","Panama","Americas",2019,"F",84
+"351","Papua New Guinea","Asia",2019,"PF",64
+"352","Paraguay","Americas",2019,"PF",65
+"353","Peru","Americas",2019,"F",73
+"354","Philippines","Asia",2019,"PF",61
+"355","Poland","Europe",2019,"F",84
+"356","Portugal","Europe",2019,"F",96
+"357","Qatar","MENA",2019,"NF",25
+"358","Romania","Europe",2019,"F",81
+"359","Russia","Eurasia",2019,"NF",20
+"360","Rwanda","SSA",2019,"NF",23
+"361","Samoa","Asia",2019,"F",81
+"362","San Marino","Europe",2019,"F",95
+"363","Sao Tome and Principe","SSA",2019,"F",83
+"364","Saudi Arabia","MENA",2019,"NF",7
+"365","Senegal","SSA",2019,"F",72
+"366","Serbia","Europe",2019,"PF",67
+"367","Seychelles","SSA",2019,"PF",71
+"368","Sierra Leone","SSA",2019,"PF",65
+"369","Singapore","Asia",2019,"PF",51
+"370","Slovakia","Europe",2019,"F",88
+"371","Slovenia","Europe",2019,"F",94
+"372","Solomon Islands","Asia",2019,"F",79
+"373","Somalia","SSA",2019,"NF",7
+"374","Somaliland","SSA",2019,"PF",43
+"375","South Africa","SSA",2019,"F",79
+"376","South Korea","Asia",2019,"F",83
+"377","South Ossetia","Eurasia",2019,"NF",10
+"378","South Sudan","SSA",2019,"NF",2
+"379","Spain","Europe",2019,"F",94
+"380","Sri Lanka","Asia",2019,"PF",56
+"381","St. Kitts and Nevis","Americas",2019,"F",89
+"382","St. Lucia","Americas",2019,"F",92
+"383","St. Vincent and the Grenadines","Americas",2019,"F",91
+"384","Sudan","SSA",2019,"NF",7
+"385","Suriname","Americas",2019,"F",77
+"386","Swaziland","SSA",2019,"NF",16
+"387","Sweden","Europe",2019,"F",100
+"388","Switzerland","Europe",2019,"F",96
+"389","Syria","MENA",2019,"NF",0
+"390","Taiwan","Asia",2019,"F",93
+"391","Tajikistan","Eurasia",2019,"NF",9
+"392","Tanzania","SSA",2019,"PF",45
+"393","Thailand","Asia",2019,"NF",30
+"394","The Gambia","SSA",2019,"PF",45
+"395","Tibet","Asia",2019,"NF",1
+"396","Timor-Leste","Asia",2019,"F",70
+"397","Togo","SSA",2019,"PF",43
+"398","Tonga","Asia",2019,"F",79
+"399","Transnistria","Eurasia",2019,"NF",24
+"400","Trinidad and Tobago","Americas",2019,"F",82
+"401","Tunisia","MENA",2019,"F",69
+"402","Turkey","Europe",2019,"NF",31
+"403","Turkmenistan","Eurasia",2019,"NF",2
+"404","Tuvalu","Asia",2019,"F",93
+"405","Uganda","SSA",2019,"NF",36
+"406","Ukraine","Eurasia",2019,"PF",60
+"407","United Arab Emirates","MENA",2019,"NF",17
+"408","United Kingdom","Europe",2019,"F",93
+"409","United States","Americas",2019,"F",86
+"410","Uruguay","Americas",2019,"F",98
+"411","Uzbekistan","Eurasia",2019,"NF",9
+"412","Vanuatu","Asia",2019,"F",82
+"413","Venezuela","Americas",2019,"NF",19
+"414","Vietnam","Asia",2019,"NF",20
+"415","West Bank","MENA",2019,"NF",25
+"416","Western Sahara","MENA",2019,"NF",4
+"417","Yemen","MENA",2019,"NF",11
+"418","Zambia","SSA",2019,"PF",54
+"419","Zimbabwe","SSA",2019,"PF",31
+"420","Abkhazia","Eurasia",2018,"PF",41
+"421","Afghanistan","Asia",2018,"NF",26
+"422","Albania","Europe",2018,"PF",68
+"423","Algeria","MENA",2018,"NF",35
+"424","Andorra","Europe",2018,"F",96
+"425","Angola","SSA",2018,"NF",26
+"426","Antigua and Barbuda","Americas",2018,"F",83
+"427","Argentina","Americas",2018,"F",83
+"428","Armenia","Eurasia",2018,"PF",45
+"429","Australia","Asia",2018,"F",98
+"430","Austria","Europe",2018,"F",94
+"431","Azerbaijan","Eurasia",2018,"NF",12
+"432","Bahamas","Americas",2018,"F",91
+"433","Bahrain","MENA",2018,"NF",12
+"434","Bangladesh","Asia",2018,"PF",45
+"435","Barbados","Americas",2018,"F",96
+"436","Belarus","Eurasia",2018,"NF",21
+"437","Belgium","Europe",2018,"F",95
+"438","Belize","Americas",2018,"F",86
+"439","Benin","SSA",2018,"F",82
+"440","Bhutan","Asia",2018,"PF",55
+"441","Bolivia","Americas",2018,"PF",67
+"442","Bosnia and Herzegovina","Europe",2018,"PF",55
+"443","Botswana","SSA",2018,"F",72
+"444","Brazil","Americas",2018,"F",78
+"445","Brunei","Asia",2018,"NF",28
+"446","Bulgaria","Europe",2018,"F",80
+"447","Burkina Faso","SSA",2018,"PF",60
+"448","Burundi","SSA",2018,"NF",18
+"449","Cambodia","Asia",2018,"NF",30
+"450","Cameroon","SSA",2018,"NF",22
+"451","Canada","Americas",2018,"F",99
+"452","Cape Verde","SSA",2018,"F",90
+"453","Central African Republic","SSA",2018,"NF",9
+"454","Chad","SSA",2018,"NF",18
+"455","Chile","Americas",2018,"F",94
+"456","China","Asia",2018,"NF",14
+"457","Colombia","Americas",2018,"PF",65
+"458","Comoros","SSA",2018,"PF",55
+"459","Congo (Brazzaville)","SSA",2018,"NF",21
+"460","Congo (Kinshasa)","SSA",2018,"NF",17
+"461","Costa Rica","Americas",2018,"F",91
+"462","Cote d'Ivoire","SSA",2018,"PF",51
+"463","Crimea","Eurasia",2018,"NF",9
+"464","Croatia","Europe",2018,"F",86
+"465","Cuba","Americas",2018,"NF",14
+"466","Cyprus","Europe",2018,"F",94
+"467","Czech Republic","Europe",2018,"F",93
+"468","Denmark","Europe",2018,"F",97
+"469","Djibouti","SSA",2018,"NF",26
+"470","Dominica","Americas",2018,"F",93
+"471","Dominican Republic","Americas",2018,"PF",67
+"472","Ecuador","Americas",2018,"PF",60
+"473","Egypt","MENA",2018,"NF",26
+"474","El Salvador","Americas",2018,"F",70
+"475","Equatorial Guinea","SSA",2018,"NF",7
+"476","Eritrea","SSA",2018,"NF",3
+"477","Estonia","Europe",2018,"F",94
+"478","Ethiopia","SSA",2018,"NF",12
+"479","Fiji","Asia",2018,"PF",59
+"480","Finland","Europe",2018,"F",100
+"481","France","Europe",2018,"F",90
+"482","Gabon","SSA",2018,"NF",23
+"483","Gaza Strip","MENA",2018,"NF",12
+"484","Georgia","Eurasia",2018,"PF",64
+"485","Germany","Europe",2018,"F",94
+"486","Ghana","SSA",2018,"F",83
+"487","Greece","Europe",2018,"F",85
+"488","Grenada","Americas",2018,"F",88
+"489","Guatemala","Americas",2018,"PF",56
+"490","Guinea","SSA",2018,"PF",41
+"491","Guinea-Bissau","SSA",2018,"PF",41
+"492","Guyana","Americas",2018,"F",74
+"493","Haiti","Americas",2018,"PF",41
+"494","Honduras","Americas",2018,"PF",46
+"495","Hong Kong","Asia",2018,"PF",59
+"496","Hungary","Europe",2018,"F",72
+"497","Iceland","Europe",2018,"F",95
+"498","India","Asia",2018,"F",77
+"499","Indian Kashmir","Asia",2018,"PF",49
+"500","Indonesia","Asia",2018,"PF",64
+"501","Iran","MENA",2018,"NF",18
+"502","Iraq","MENA",2018,"NF",31
+"503","Ireland","Europe",2018,"F",96
+"504","Israel","MENA",2018,"F",79
+"505","Italy","Europe",2018,"F",89
+"506","Jamaica","Americas",2018,"F",77
+"507","Japan","Asia",2018,"F",96
+"508","Jordan","MENA",2018,"PF",37
+"509","Kazakhstan","Eurasia",2018,"NF",22
+"510","Kenya","SSA",2018,"PF",48
+"511","Kiribati","Asia",2018,"F",93
+"512","Kosovo","Europe",2018,"PF",52
+"513","Kuwait","MENA",2018,"PF",36
+"514","Kyrgyzstan","Eurasia",2018,"PF",37
+"515","Laos","Asia",2018,"NF",12
+"516","Latvia","Europe",2018,"F",87
+"517","Lebanon","MENA",2018,"PF",43
+"518","Lesotho","SSA",2018,"PF",64
+"519","Liberia","SSA",2018,"PF",62
+"520","Libya","MENA",2018,"NF",9
+"521","Liechtenstein","Europe",2018,"F",90
+"522","Lithuania","Europe",2018,"F",91
+"523","Luxembourg","Europe",2018,"F",98
+"524","Macedonia","Europe",2018,"PF",58
+"525","Madagascar","SSA",2018,"PF",56
+"526","Malawi","SSA",2018,"PF",63
+"527","Malaysia","Asia",2018,"PF",45
+"528","Maldives","Asia",2018,"PF",35
+"529","Mali","SSA",2018,"PF",44
+"530","Malta","Europe",2018,"F",92
+"531","Marshall Islands","Asia",2018,"F",92
+"532","Mauritania","SSA",2018,"NF",30
+"533","Mauritius","SSA",2018,"F",89
+"534","Mexico","Americas",2018,"PF",62
+"535","Micronesia","Asia",2018,"F",93
+"536","Moldova","Eurasia",2018,"PF",61
+"537","Monaco","Europe",2018,"F",82
+"538","Mongolia","Asia",2018,"F",85
+"539","Montenegro","Europe",2018,"PF",67
+"540","Morocco","MENA",2018,"PF",39
+"541","Mozambique","SSA",2018,"PF",52
+"542","Myanmar","Asia",2018,"PF",31
+"543","Nagorno-Karabakh","Eurasia",2018,"PF",30
+"544","Namibia","SSA",2018,"F",77
+"545","Nauru","Asia",2018,"F",81
+"546","Nepal","Asia",2018,"PF",55
+"547","Netherlands","Europe",2018,"F",99
+"548","New Zealand","Asia",2018,"F",98
+"549","Nicaragua","Americas",2018,"PF",44
+"550","Niger","SSA",2018,"PF",49
+"551","Nigeria","SSA",2018,"PF",50
+"552","North Korea","Asia",2018,"NF",3
+"553","Northern Cyprus","Europe",2018,"F",81
+"554","Norway","Europe",2018,"F",100
+"555","Oman","MENA",2018,"NF",23
+"556","Pakistan","Asia",2018,"PF",43
+"557","Pakistani Kashmir","Asia",2018,"NF",28
+"558","Palau","Asia",2018,"F",92
+"559","Panama","Americas",2018,"F",83
+"560","Papua New Guinea","Asia",2018,"PF",63
+"561","Paraguay","Americas",2018,"PF",64
+"562","Peru","Americas",2018,"F",73
+"563","Philippines","Asia",2018,"PF",62
+"564","Poland","Europe",2018,"F",85
+"565","Portugal","Europe",2018,"F",97
+"566","Qatar","MENA",2018,"NF",24
+"567","Romania","Europe",2018,"F",84
+"568","Russia","Eurasia",2018,"NF",20
+"569","Rwanda","SSA",2018,"NF",23
+"570","Samoa","Asia",2018,"F",80
+"571","San Marino","Europe",2018,"F",97
+"572","Sao Tome and Principe","SSA",2018,"F",82
+"573","Saudi Arabia","MENA",2018,"NF",7
+"574","Senegal","SSA",2018,"F",75
+"575","Serbia","Europe",2018,"F",73
+"576","Seychelles","SSA",2018,"PF",71
+"577","Sierra Leone","SSA",2018,"PF",66
+"578","Singapore","Asia",2018,"PF",52
+"579","Slovakia","Europe",2018,"F",89
+"580","Slovenia","Europe",2018,"F",93
+"581","Solomon Islands","Asia",2018,"F",72
+"582","Somalia","SSA",2018,"NF",7
+"583","Somaliland","SSA",2018,"PF",44
+"584","South Africa","SSA",2018,"F",78
+"585","South Korea","Asia",2018,"F",84
+"586","South Ossetia","Eurasia",2018,"NF",10
+"587","South Sudan","SSA",2018,"NF",2
+"588","Spain","Europe",2018,"F",94
+"589","Sri Lanka","Asia",2018,"PF",55
+"590","St. Kitts and Nevis","Americas",2018,"F",89
+"591","St. Lucia","Americas",2018,"F",91
+"592","St. Vincent and the Grenadines","Americas",2018,"F",90
+"593","Sudan","SSA",2018,"NF",8
+"594","Suriname","Americas",2018,"F",78
+"595","Swaziland","SSA",2018,"NF",16
+"596","Sweden","Europe",2018,"F",100
+"597","Switzerland","Europe",2018,"F",96
+"598","Syria","MENA",2018,"NF",-1
+"599","Taiwan","Asia",2018,"F",93
+"600","Tajikistan","Eurasia",2018,"NF",11
+"601","Tanzania","SSA",2018,"PF",52
+"602","Thailand","Asia",2018,"NF",31
+"603","The Gambia","SSA",2018,"PF",41
+"604","Tibet","Asia",2018,"NF",1
+"605","Timor-Leste","Asia",2018,"F",69
+"606","Togo","SSA",2018,"PF",47
+"607","Tonga","Asia",2018,"F",75
+"608","Transnistria","Eurasia",2018,"NF",24
+"609","Trinidad and Tobago","Americas",2018,"F",81
+"610","Tunisia","MENA",2018,"F",70
+"611","Turkey","Europe",2018,"NF",32
+"612","Turkmenistan","Eurasia",2018,"NF",4
+"613","Tuvalu","Asia",2018,"F",94
+"614","Uganda","SSA",2018,"PF",37
+"615","Ukraine","Eurasia",2018,"PF",62
+"616","United Arab Emirates","MENA",2018,"NF",17
+"617","United Kingdom","Europe",2018,"F",94
+"618","United States","Americas",2018,"F",86
+"619","Uruguay","Americas",2018,"F",98
+"620","Uzbekistan","Eurasia",2018,"NF",7
+"621","Vanuatu","Asia",2018,"F",81
+"622","Venezuela","Americas",2018,"NF",26
+"623","Vietnam","Asia",2018,"NF",20
+"624","West Bank","MENA",2018,"NF",28
+"625","Western Sahara","MENA",2018,"NF",4
+"626","Yemen","MENA",2018,"NF",13
+"627","Zambia","SSA",2018,"PF",55
+"628","Zimbabwe","SSA",2018,"NF",30
+"629","Abkhazia","Eurasia",2017,"PF",41
+"630","Afghanistan","Asia",2017,"NF",24
+"631","Albania","Europe",2017,"PF",68
+"632","Algeria","MENA",2017,"NF",35
+"633","Andorra","Europe",2017,"F",95
+"634","Angola","SSA",2017,"NF",24
+"635","Antigua and Barbuda","Americas",2017,"F",83
+"636","Argentina","Americas",2017,"F",82
+"637","Armenia","Eurasia",2017,"PF",45
+"638","Australia","Asia",2017,"F",98
+"639","Austria","Europe",2017,"F",95
+"640","Azerbaijan","Eurasia",2017,"NF",14
+"641","Bahamas","Americas",2017,"F",91
+"642","Bahrain","MENA",2017,"NF",12
+"643","Bangladesh","Asia",2017,"PF",47
+"644","Barbados","Americas",2017,"F",98
+"645","Belarus","Eurasia",2017,"NF",20
+"646","Belgium","Europe",2017,"F",95
+"647","Belize","Americas",2017,"F",87
+"648","Benin","SSA",2017,"F",82
+"649","Bhutan","Asia",2017,"PF",55
+"650","Bolivia","Americas",2017,"PF",68
+"651","Bosnia and Herzegovina","Europe",2017,"PF",55
+"652","Botswana","SSA",2017,"F",72
+"653","Brazil","Americas",2017,"F",79
+"654","Brunei","Asia",2017,"NF",29
+"655","Bulgaria","Europe",2017,"F",80
+"656","Burkina Faso","SSA",2017,"PF",63
+"657","Burundi","SSA",2017,"NF",19
+"658","Cambodia","Asia",2017,"NF",31
+"659","Cameroon","SSA",2017,"NF",24
+"660","Canada","Americas",2017,"F",99
+"661","Cape Verde","SSA",2017,"F",90
+"662","Central African Republic","SSA",2017,"NF",10
+"663","Chad","SSA",2017,"NF",18
+"664","Chile","Americas",2017,"F",94
+"665","China","Asia",2017,"NF",15
+"666","Colombia","Americas",2017,"PF",64
+"667","Comoros","SSA",2017,"PF",55
+"668","Congo (Brazzaville)","SSA",2017,"NF",27
+"669","Congo (Kinshasa)","SSA",2017,"NF",19
+"670","Costa Rica","Americas",2017,"F",91
+"671","Cote d'Ivoire","SSA",2017,"PF",52
+"672","Crimea","Eurasia",2017,"NF",9
+"673","Croatia","Europe",2017,"F",87
+"674","Cuba","Americas",2017,"NF",15
+"675","Cyprus","Europe",2017,"F",94
+"676","Czech Republic","Europe",2017,"F",94
+"677","Denmark","Europe",2017,"F",97
+"678","Djibouti","SSA",2017,"NF",26
+"679","Dominica","Americas",2017,"F",95
+"680","Dominican Republic","Americas",2017,"PF",68
+"681","Ecuador","Americas",2017,"PF",57
+"682","Egypt","MENA",2017,"NF",26
+"683","El Salvador","Americas",2017,"F",70
+"684","Equatorial Guinea","SSA",2017,"NF",8
+"685","Eritrea","SSA",2017,"NF",3
+"686","Estonia","Europe",2017,"F",94
+"687","Ethiopia","SSA",2017,"NF",12
+"688","Fiji","Asia",2017,"PF",59
+"689","Finland","Europe",2017,"F",100
+"690","France","Europe",2017,"F",90
+"691","Gabon","SSA",2017,"NF",32
+"692","Gaza Strip","MENA",2017,"NF",12
+"693","Georgia","Eurasia",2017,"PF",64
+"694","Germany","Europe",2017,"F",95
+"695","Ghana","SSA",2017,"F",83
+"696","Greece","Europe",2017,"F",84
+"697","Grenada","Americas",2017,"F",89
+"698","Guatemala","Americas",2017,"PF",54
+"699","Guinea","SSA",2017,"PF",41
+"700","Guinea-Bissau","SSA",2017,"PF",40
+"701","Guyana","Americas",2017,"F",74
+"702","Haiti","Americas",2017,"PF",39
+"703","Honduras","Americas",2017,"PF",46
+"704","Hong Kong","Asia",2017,"PF",61
+"705","Hungary","Europe",2017,"F",76
+"706","Iceland","Europe",2017,"F",97
+"707","India","Asia",2017,"F",77
+"708","Indian Kashmir","Asia",2017,"PF",50
+"709","Indonesia","Asia",2017,"PF",65
+"710","Iran","MENA",2017,"NF",17
+"711","Iraq","MENA",2017,"NF",27
+"712","Ireland","Europe",2017,"F",96
+"713","Israel","MENA",2017,"F",80
+"714","Italy","Europe",2017,"F",89
+"715","Jamaica","Americas",2017,"F",75
+"716","Japan","Asia",2017,"F",96
+"717","Jordan","MENA",2017,"PF",37
+"718","Kazakhstan","Eurasia",2017,"NF",22
+"719","Kenya","SSA",2017,"PF",51
+"720","Kiribati","Asia",2017,"F",92
+"721","Kosovo","Europe",2017,"PF",52
+"722","Kuwait","MENA",2017,"PF",36
+"723","Kyrgyzstan","Eurasia",2017,"PF",37
+"724","Laos","Asia",2017,"NF",12
+"725","Latvia","Europe",2017,"F",87
+"726","Lebanon","MENA",2017,"PF",44
+"727","Lesotho","SSA",2017,"PF",64
+"728","Liberia","SSA",2017,"PF",62
+"729","Libya","MENA",2017,"NF",13
+"730","Liechtenstein","Europe",2017,"F",91
+"731","Lithuania","Europe",2017,"F",91
+"732","Luxembourg","Europe",2017,"F",98
+"733","Macedonia","Europe",2017,"PF",57
+"734","Madagascar","SSA",2017,"PF",56
+"735","Malawi","SSA",2017,"PF",63
+"736","Malaysia","Asia",2017,"PF",44
+"737","Maldives","Asia",2017,"PF",40
+"738","Mali","SSA",2017,"PF",45
+"739","Malta","Europe",2017,"F",96
+"740","Marshall Islands","Asia",2017,"F",92
+"741","Mauritania","SSA",2017,"NF",30
+"742","Mauritius","SSA",2017,"F",89
+"743","Mexico","Americas",2017,"PF",65
+"744","Micronesia","Asia",2017,"F",93
+"745","Moldova","Eurasia",2017,"PF",62
+"746","Monaco","Europe",2017,"F",84
+"747","Mongolia","Asia",2017,"F",85
+"748","Montenegro","Europe",2017,"PF",69
+"749","Morocco","MENA",2017,"PF",41
+"750","Mozambique","SSA",2017,"PF",53
+"751","Myanmar","Asia",2017,"PF",32
+"752","Nagorno-Karabakh","Eurasia",2017,"PF",33
+"753","Namibia","SSA",2017,"F",77
+"754","Nauru","Asia",2017,"F",81
+"755","Nepal","Asia",2017,"PF",52
+"756","Netherlands","Europe",2017,"F",99
+"757","New Zealand","Asia",2017,"F",98
+"758","Nicaragua","Americas",2017,"PF",47
+"759","Niger","SSA",2017,"PF",49
+"760","Nigeria","SSA",2017,"PF",50
+"761","North Korea","Asia",2017,"NF",3
+"762","Northern Cyprus","Europe",2017,"F",80
+"763","Norway","Europe",2017,"F",100
+"764","Oman","MENA",2017,"NF",25
+"765","Pakistan","Asia",2017,"PF",43
+"766","Pakistani Kashmir","Asia",2017,"NF",28
+"767","Palau","Asia",2017,"F",92
+"768","Panama","Americas",2017,"F",83
+"769","Papua New Guinea","Asia",2017,"PF",64
+"770","Paraguay","Americas",2017,"PF",64
+"771","Peru","Americas",2017,"F",72
+"772","Philippines","Asia",2017,"PF",63
+"773","Poland","Europe",2017,"F",89
+"774","Portugal","Europe",2017,"F",97
+"775","Qatar","MENA",2017,"NF",26
+"776","Romania","Europe",2017,"F",84
+"777","Russia","Eurasia",2017,"NF",20
+"778","Rwanda","SSA",2017,"NF",24
+"779","Samoa","Asia",2017,"F",80
+"780","San Marino","Europe",2017,"F",97
+"781","Sao Tome and Principe","SSA",2017,"F",81
+"782","Saudi Arabia","MENA",2017,"NF",10
+"783","Senegal","SSA",2017,"F",78
+"784","Serbia","Europe",2017,"F",76
+"785","Seychelles","SSA",2017,"PF",71
+"786","Sierra Leone","SSA",2017,"PF",66
+"787","Singapore","Asia",2017,"PF",51
+"788","Slovakia","Europe",2017,"F",89
+"789","Slovenia","Europe",2017,"F",92
+"790","Solomon Islands","Asia",2017,"F",71
+"791","Somalia","SSA",2017,"NF",5
+"792","Somaliland","SSA",2017,"PF",40
+"793","South Africa","SSA",2017,"F",78
+"794","South Korea","Asia",2017,"F",82
+"795","South Ossetia","Eurasia",2017,"NF",11
+"796","South Sudan","SSA",2017,"NF",4
+"797","Spain","Europe",2017,"F",94
+"798","Sri Lanka","Asia",2017,"PF",56
+"799","St. Kitts and Nevis","Americas",2017,"F",89
+"800","St. Lucia","Americas",2017,"F",92
+"801","St. Vincent and the Grenadines","Americas",2017,"F",91
+"802","Sudan","SSA",2017,"NF",6
+"803","Suriname","Americas",2017,"F",77
+"804","Swaziland","SSA",2017,"NF",18
+"805","Sweden","Europe",2017,"F",100
+"806","Switzerland","Europe",2017,"F",96
+"807","Syria","MENA",2017,"NF",-1
+"808","Taiwan","Asia",2017,"F",91
+"809","Tajikistan","Eurasia",2017,"NF",11
+"810","Tanzania","SSA",2017,"PF",58
+"811","Thailand","Asia",2017,"NF",32
+"812","The Gambia","SSA",2017,"NF",20
+"813","Tibet","Asia",2017,"NF",1
+"814","Timor-Leste","Asia",2017,"PF",65
+"815","Togo","SSA",2017,"PF",48
+"816","Tonga","Asia",2017,"F",74
+"817","Transnistria","Eurasia",2017,"NF",24
+"818","Trinidad and Tobago","Americas",2017,"F",81
+"819","Tunisia","MENA",2017,"F",78
+"820","Turkey","Europe",2017,"PF",38
+"821","Turkmenistan","Eurasia",2017,"NF",4
+"822","Tuvalu","Asia",2017,"F",94
+"823","Uganda","SSA",2017,"NF",35
+"824","Ukraine","Eurasia",2017,"PF",61
+"825","United Arab Emirates","MENA",2017,"NF",20
+"826","United Kingdom","Europe",2017,"F",95
+"827","United States","Americas",2017,"F",89
+"828","Uruguay","Americas",2017,"F",98
+"829","Uzbekistan","Eurasia",2017,"NF",3
+"830","Vanuatu","Asia",2017,"F",80
+"831","Venezuela","Americas",2017,"NF",30
+"832","Vietnam","Asia",2017,"NF",20
+"833","West Bank","MENA",2017,"NF",28
+"834","Western Sahara","MENA",2017,"NF",4
+"835","Yemen","MENA",2017,"NF",14
+"836","Zambia","SSA",2017,"PF",56
+"837","Zimbabwe","SSA",2017,"PF",32
+"838","Abkhazia","Eurasia",2016,"PF",42
+"839","Afghanistan","Asia",2016,"NF",24
+"840","Albania","Europe",2016,"PF",67
+"841","Algeria","MENA",2016,"NF",35
+"842","Andorra","Europe",2016,"F",96
+"843","Angola","SSA",2016,"NF",24
+"844","Antigua and Barbuda","Americas",2016,"F",82
+"845","Argentina","Americas",2016,"F",79
+"846","Armenia","Eurasia",2016,"PF",46
+"847","Australia","Asia",2016,"F",98
+"848","Austria","Europe",2016,"F",95
+"849","Azerbaijan","Eurasia",2016,"NF",16
+"850","Bahamas","Americas",2016,"F",92
+"851","Bahrain","MENA",2016,"NF",14
+"852","Bangladesh","Asia",2016,"PF",49
+"853","Barbados","Americas",2016,"F",98
+"854","Belarus","Eurasia",2016,"NF",17
+"855","Belgium","Europe",2016,"F",96
+"856","Belize","Americas",2016,"F",87
+"857","Benin","SSA",2016,"F",82
+"858","Bhutan","Asia",2016,"PF",56
+"859","Bolivia","Americas",2016,"PF",68
+"860","Bosnia and Herzegovina","Europe",2016,"PF",57
+"861","Botswana","SSA",2016,"F",73
+"862","Brazil","Americas",2016,"F",81
+"863","Brunei","Asia",2016,"NF",29
+"864","Bulgaria","Europe",2016,"F",80
+"865","Burkina Faso","SSA",2016,"PF",59
+"866","Burundi","SSA",2016,"NF",19
+"867","Cambodia","Asia",2016,"NF",32
+"868","Cameroon","SSA",2016,"NF",24
+"869","Canada","Americas",2016,"F",99
+"870","Cape Verde","SSA",2016,"F",90
+"871","Central African Republic","SSA",2016,"NF",7
+"872","Chad","SSA",2016,"NF",20
+"873","Chile","Americas",2016,"F",95
+"874","China","Asia",2016,"NF",16
+"875","Colombia","Americas",2016,"PF",63
+"876","Comoros","SSA",2016,"PF",55
+"877","Congo (Brazzaville)","SSA",2016,"NF",28
+"878","Congo (Kinshasa)","SSA",2016,"NF",25
+"879","Costa Rica","Americas",2016,"F",90
+"880","Cote d'Ivoire","SSA",2016,"PF",51
+"881","Crimea","Eurasia",2016,"NF",9
+"882","Croatia","Europe",2016,"F",87
+"883","Cuba","Americas",2016,"NF",15
+"884","Cyprus","Europe",2016,"F",94
+"885","Czech Republic","Europe",2016,"F",95
+"886","Denmark","Europe",2016,"F",98
+"887","Djibouti","SSA",2016,"NF",28
+"888","Dominica","Americas",2016,"F",95
+"889","Dominican Republic","Americas",2016,"PF",70
+"890","Ecuador","Americas",2016,"PF",59
+"891","Egypt","MENA",2016,"NF",27
+"892","El Salvador","Americas",2016,"F",69
+"893","Equatorial Guinea","SSA",2016,"NF",8
+"894","Eritrea","SSA",2016,"NF",3
+"895","Estonia","Europe",2016,"F",94
+"896","Ethiopia","SSA",2016,"NF",15
+"897","Fiji","Asia",2016,"PF",62
+"898","Finland","Europe",2016,"F",100
+"899","France","Europe",2016,"F",91
+"900","Gabon","SSA",2016,"NF",34
+"901","Gaza Strip","MENA",2016,"NF",12
+"902","Georgia","Eurasia",2016,"PF",64
+"903","Germany","Europe",2016,"F",95
+"904","Ghana","SSA",2016,"F",83
+"905","Greece","Europe",2016,"F",83
+"906","Grenada","Americas",2016,"F",89
+"907","Guatemala","Americas",2016,"PF",54
+"908","Guinea","SSA",2016,"PF",40
+"909","Guinea-Bissau","SSA",2016,"PF",39
+"910","Guyana","Americas",2016,"F",74
+"911","Haiti","Americas",2016,"PF",41
+"912","Honduras","Americas",2016,"PF",45
+"913","Hong Kong","Asia",2016,"PF",63
+"914","Hungary","Europe",2016,"F",79
+"915","Iceland","Europe",2016,"F",100
+"916","India","Asia",2016,"F",77
+"917","Indian Kashmir","Asia",2016,"PF",51
+"918","Indonesia","Asia",2016,"PF",65
+"919","Iran","MENA",2016,"NF",17
+"920","Iraq","MENA",2016,"NF",27
+"921","Ireland","Europe",2016,"F",96
+"922","Israel","MENA",2016,"F",80
+"923","Italy","Europe",2016,"F",89
+"924","Jamaica","Americas",2016,"F",75
+"925","Japan","Asia",2016,"F",96
+"926","Jordan","MENA",2016,"NF",36
+"927","Kazakhstan","Eurasia",2016,"NF",24
+"928","Kenya","SSA",2016,"PF",51
+"929","Kiribati","Asia",2016,"F",91
+"930","Kosovo","Europe",2016,"PF",52
+"931","Kuwait","MENA",2016,"PF",36
+"932","Kyrgyzstan","Eurasia",2016,"PF",38
+"933","Laos","Asia",2016,"NF",12
+"934","Latvia","Europe",2016,"F",86
+"935","Lebanon","MENA",2016,"PF",43
+"936","Lesotho","SSA",2016,"PF",67
+"937","Liberia","SSA",2016,"PF",61
+"938","Libya","MENA",2016,"NF",20
+"939","Liechtenstein","Europe",2016,"F",98
+"940","Lithuania","Europe",2016,"F",91
+"941","Luxembourg","Europe",2016,"F",98
+"942","Macedonia","Europe",2016,"PF",57
+"943","Madagascar","SSA",2016,"PF",56
+"944","Malawi","SSA",2016,"PF",64
+"945","Malaysia","Asia",2016,"PF",45
+"946","Maldives","Asia",2016,"PF",43
+"947","Mali","SSA",2016,"PF",45
+"948","Malta","Europe",2016,"F",96
+"949","Marshall Islands","Asia",2016,"F",92
+"950","Mauritania","SSA",2016,"NF",30
+"951","Mauritius","SSA",2016,"F",90
+"952","Mexico","Americas",2016,"PF",65
+"953","Micronesia","Asia",2016,"F",93
+"954","Moldova","Eurasia",2016,"PF",60
+"955","Monaco","Europe",2016,"F",88
+"956","Mongolia","Asia",2016,"F",86
+"957","Montenegro","Europe",2016,"PF",70
+"958","Morocco","MENA",2016,"PF",41
+"959","Mozambique","SSA",2016,"PF",56
+"960","Myanmar","Asia",2016,"NF",28
+"961","Nagorno-Karabakh","Eurasia",2016,"PF",33
+"962","Namibia","SSA",2016,"F",77
+"963","Nauru","Asia",2016,"F",84
+"964","Nepal","Asia",2016,"PF",51
+"965","Netherlands","Europe",2016,"F",99
+"966","New Zealand","Asia",2016,"F",98
+"967","Nicaragua","Americas",2016,"PF",54
+"968","Niger","SSA",2016,"PF",52
+"969","Nigeria","SSA",2016,"PF",48
+"970","North Korea","Asia",2016,"NF",3
+"971","Northern Cyprus","Europe",2016,"F",79
+"972","Norway","Europe",2016,"F",100
+"973","Oman","MENA",2016,"NF",25
+"974","Pakistan","Asia",2016,"PF",41
+"975","Pakistani Kashmir","Asia",2016,"NF",28
+"976","Palau","Asia",2016,"F",92
+"977","Panama","Americas",2016,"F",83
+"978","Papua New Guinea","Asia",2016,"PF",59
+"979","Paraguay","Americas",2016,"PF",64
+"980","Peru","Americas",2016,"F",71
+"981","Philippines","Asia",2016,"PF",65
+"982","Poland","Europe",2016,"F",93
+"983","Portugal","Europe",2016,"F",97
+"984","Puerto Rico","Americas",2016,"F",90
+"985","Qatar","MENA",2016,"NF",27
+"986","Romania","Europe",2016,"F",83
+"987","Russia","Eurasia",2016,"NF",22
+"988","Rwanda","SSA",2016,"NF",24
+"989","Samoa","Asia",2016,"F",80
+"990","San Marino","Europe",2016,"F",100
+"991","Sao Tome and Principe","SSA",2016,"F",81
+"992","Saudi Arabia","MENA",2016,"NF",10
+"993","Senegal","SSA",2016,"F",78
+"994","Serbia","Europe",2016,"F",78
+"995","Seychelles","SSA",2016,"PF",68
+"996","Sierra Leone","SSA",2016,"PF",65
+"997","Singapore","Asia",2016,"PF",51
+"998","Slovakia","Europe",2016,"F",89
+"999","Slovenia","Europe",2016,"F",92
+"1000","Solomon Islands","Asia",2016,"PF",68
+"1001","Somalia","SSA",2016,"NF",2
+"1002","Somaliland","SSA",2016,"PF",40
+"1003","South Africa","SSA",2016,"F",79
+"1004","South Korea","Asia",2016,"F",83
+"1005","South Ossetia","Eurasia",2016,"NF",11
+"1006","South Sudan","SSA",2016,"NF",14
+"1007","Spain","Europe",2016,"F",95
+"1008","Sri Lanka","Asia",2016,"PF",55
+"1009","St. Kitts and Nevis","Americas",2016,"F",88
+"1010","St. Lucia","Americas",2016,"F",92
+"1011","St. Vincent and the Grenadines","Americas",2016,"F",91
+"1012","Sudan","SSA",2016,"NF",6
+"1013","Suriname","Americas",2016,"F",77
+"1014","Swaziland","SSA",2016,"NF",18
+"1015","Sweden","Europe",2016,"F",100
+"1016","Switzerland","Europe",2016,"F",96
+"1017","Syria","MENA",2016,"NF",-1
+"1018","Taiwan","Asia",2016,"F",89
+"1019","Tajikistan","Eurasia",2016,"NF",16
+"1020","Tanzania","SSA",2016,"PF",60
+"1021","Thailand","Asia",2016,"NF",32
+"1022","The Gambia","SSA",2016,"NF",18
+"1023","Tibet","Asia",2016,"NF",1
+"1024","Timor-Leste","Asia",2016,"PF",65
+"1025","Togo","SSA",2016,"PF",48
+"1026","Tonga","Asia",2016,"F",75
+"1027","Transnistria","Eurasia",2016,"NF",24
+"1028","Trinidad and Tobago","Americas",2016,"F",81
+"1029","Tunisia","MENA",2016,"F",79
+"1030","Turkey","Europe",2016,"PF",53
+"1031","Turkmenistan","Eurasia",2016,"NF",4
+"1032","Tuvalu","Asia",2016,"F",94
+"1033","Uganda","SSA",2016,"NF",36
+"1034","Ukraine","Eurasia",2016,"PF",61
+"1035","United Arab Emirates","MENA",2016,"NF",20
+"1036","United Kingdom","Europe",2016,"F",95
+"1037","United States","Americas",2016,"F",90
+"1038","Uruguay","Americas",2016,"F",98
+"1039","Uzbekistan","Eurasia",2016,"NF",3
+"1040","Vanuatu","Asia",2016,"F",78
+"1041","Venezuela","Americas",2016,"PF",35
+"1042","Vietnam","Asia",2016,"NF",20
+"1043","West Bank","MENA",2016,"NF",30
+"1044","Western Sahara","MENA",2016,"NF",4
+"1045","Yemen","MENA",2016,"NF",17
+"1046","Zambia","SSA",2016,"PF",60
+"1047","Zimbabwe","SSA",2016,"PF",32
+"1048","Abkhazia","Eurasia",2015,"PF",41
+"1049","Afghanistan","Asia",2015,"NF",24
+"1050","Albania","Europe",2015,"PF",67
+"1051","Algeria","MENA",2015,"NF",34
+"1052","Andorra","Europe",2015,"F",96
+"1053","Angola","SSA",2015,"NF",28
+"1054","Antigua and Barbuda","Americas",2015,"F",80
+"1055","Argentina","Americas",2015,"F",80
+"1056","Armenia","Eurasia",2015,"PF",46
+"1057","Australia","Asia",2015,"F",97
+"1058","Austria","Europe",2015,"F",96
+"1059","Azerbaijan","Eurasia",2015,"NF",20
+"1060","Bahamas","Americas",2015,"F",96
+"1061","Bahrain","MENA",2015,"NF",15
+"1062","Bangladesh","Asia",2015,"PF",50
+"1063","Barbados","Americas",2015,"F",99
+"1064","Belarus","Eurasia",2015,"NF",14
+"1065","Belgium","Europe",2015,"F",97
+"1066","Belize","Americas",2015,"F",87
+"1067","Benin","SSA",2015,"F",81
+"1068","Bhutan","Asia",2015,"PF",56
+"1069","Bolivia","Americas",2015,"PF",68
+"1070","Bosnia and Herzegovina","Europe",2015,"PF",60
+"1071","Botswana","SSA",2015,"F",73
+"1072","Brazil","Americas",2015,"F",81
+"1073","Brunei","Asia",2015,"NF",30
+"1074","Bulgaria","Europe",2015,"F",79
+"1075","Burkina Faso","SSA",2015,"PF",45
+"1076","Burundi","SSA",2015,"NF",32
+"1077","Cambodia","Asia",2015,"NF",31
+"1078","Cameroon","SSA",2015,"NF",25
+"1079","Canada","Americas",2015,"F",98
+"1080","Cape Verde","SSA",2015,"F",90
+"1081","Central African Republic","SSA",2015,"NF",6
+"1082","Chad","SSA",2015,"NF",21
+"1083","Chile","Americas",2015,"F",95
+"1084","China","Asia",2015,"NF",17
+"1085","Colombia","Americas",2015,"PF",63
+"1086","Comoros","SSA",2015,"PF",55
+"1087","Congo (Brazzaville)","SSA",2015,"NF",30
+"1088","Congo (Kinshasa)","SSA",2015,"NF",25
+"1089","Costa Rica","Americas",2015,"F",90
+"1090","Cote d'Ivoire","SSA",2015,"PF",46
+"1091","Crimea","Eurasia",2015,"NF",10
+"1092","Croatia","Europe",2015,"F",86
+"1093","Cuba","Americas",2015,"NF",14
+"1094","Cyprus","Europe",2015,"F",93
+"1095","Czech Republic","Europe",2015,"F",95
+"1096","Denmark","Europe",2015,"F",98
+"1097","Djibouti","SSA",2015,"NF",28
+"1098","Dominica","Americas",2015,"F",95
+"1099","Dominican Republic","Americas",2015,"F",73
+"1100","Ecuador","Americas",2015,"PF",59
+"1101","Egypt","MENA",2015,"NF",26
+"1102","El Salvador","Americas",2015,"F",75
+"1103","Equatorial Guinea","SSA",2015,"NF",8
+"1104","Eritrea","SSA",2015,"NF",3
+"1105","Estonia","Europe",2015,"F",95
+"1106","Ethiopia","SSA",2015,"NF",18
+"1107","Fiji","Asia",2015,"PF",60
+"1108","Finland","Europe",2015,"F",100
+"1109","France","Europe",2015,"F",95
+"1110","Gabon","SSA",2015,"NF",34
+"1111","Gaza Strip","MENA",2015,"NF",15
+"1112","Georgia","Eurasia",2015,"PF",64
+"1113","Germany","Europe",2015,"F",96
+"1114","Ghana","SSA",2015,"F",84
+"1115","Greece","Europe",2015,"F",83
+"1116","Grenada","Americas",2015,"F",89
+"1117","Guatemala","Americas",2015,"PF",55
+"1118","Guinea","SSA",2015,"PF",41
+"1119","Guinea-Bissau","SSA",2015,"PF",40
+"1120","Guyana","Americas",2015,"F",71
+"1121","Haiti","Americas",2015,"PF",41
+"1122","Honduras","Americas",2015,"PF",49
+"1123","Hong Kong","Asia",2015,"PF",65
+"1124","Hungary","Europe",2015,"F",82
+"1125","Iceland","Europe",2015,"F",99
+"1126","India","Asia",2015,"F",78
+"1127","Indian Kashmir","Asia",2015,"PF",51
+"1128","Indonesia","Asia",2015,"PF",64
+"1129","Iran","MENA",2015,"NF",17
+"1130","Iraq","MENA",2015,"NF",24
+"1131","Ireland","Europe",2015,"F",97
+"1132","Israel","MENA",2015,"F",80
+"1133","Italy","Europe",2015,"F",89
+"1134","Jamaica","Americas",2015,"F",74
+"1135","Japan","Asia",2015,"F",94
+"1136","Jordan","MENA",2015,"NF",36
+"1137","Kazakhstan","Eurasia",2015,"NF",24
+"1138","Kenya","SSA",2015,"PF",51
+"1139","Kiribati","Asia",2015,"F",91
+"1140","Kosovo","Europe",2015,"PF",52
+"1141","Kuwait","MENA",2015,"PF",37
+"1142","Kyrgyzstan","Eurasia",2015,"PF",38
+"1143","Laos","Asia",2015,"NF",12
+"1144","Latvia","Europe",2015,"F",85
+"1145","Lebanon","MENA",2015,"PF",44
+"1146","Lesotho","SSA",2015,"F",71
+"1147","Liberia","SSA",2015,"PF",56
+"1148","Libya","MENA",2015,"NF",23
+"1149","Liechtenstein","Europe",2015,"F",98
+"1150","Lithuania","Europe",2015,"F",91
+"1151","Luxembourg","Europe",2015,"F",98
+"1152","Macedonia","Europe",2015,"PF",60
+"1153","Madagascar","SSA",2015,"PF",52
+"1154","Malawi","SSA",2015,"PF",61
+"1155","Malaysia","Asia",2015,"PF",46
+"1156","Maldives","Asia",2015,"PF",48
+"1157","Mali","SSA",2015,"PF",44
+"1158","Malta","Europe",2015,"F",97
+"1159","Marshall Islands","Asia",2015,"F",91
+"1160","Mauritania","SSA",2015,"NF",31
+"1161","Mauritius","SSA",2015,"F",90
+"1162","Mexico","Americas",2015,"PF",64
+"1163","Micronesia","Asia",2015,"F",93
+"1164","Moldova","Eurasia",2015,"PF",63
+"1165","Monaco","Europe",2015,"F",88
+"1166","Mongolia","Asia",2015,"F",86
+"1167","Montenegro","Europe",2015,"F",71
+"1168","Morocco","MENA",2015,"PF",42
+"1169","Mozambique","SSA",2015,"PF",58
+"1170","Myanmar","Asia",2015,"NF",25
+"1171","Nagorno-Karabakh","Eurasia",2015,"PF",30
+"1172","Namibia","SSA",2015,"F",76
+"1173","Nauru","Asia",2015,"F",88
+"1174","Nepal","Asia",2015,"PF",51
+"1175","Netherlands","Europe",2015,"F",99
+"1176","New Zealand","Asia",2015,"F",97
+"1177","Nicaragua","Americas",2015,"PF",54
+"1178","Niger","SSA",2015,"PF",56
+"1179","Nigeria","SSA",2015,"PF",43
+"1180","North Korea","Asia",2015,"NF",3
+"1181","Northern Cyprus","Europe",2015,"F",79
+"1182","Norway","Europe",2015,"F",100
+"1183","Oman","MENA",2015,"NF",26
+"1184","Pakistan","Asia",2015,"PF",42
+"1185","Pakistani Kashmir","Asia",2015,"NF",29
+"1186","Palau","Asia",2015,"F",92
+"1187","Panama","Americas",2015,"F",82
+"1188","Papua New Guinea","Asia",2015,"PF",59
+"1189","Paraguay","Americas",2015,"PF",65
+"1190","Peru","Americas",2015,"F",71
+"1191","Philippines","Asia",2015,"PF",63
+"1192","Poland","Europe",2015,"F",93
+"1193","Portugal","Europe",2015,"F",97
+"1194","Puerto Rico","Americas",2015,"F",89
+"1195","Qatar","MENA",2015,"NF",28
+"1196","Romania","Europe",2015,"F",83
+"1197","Russia","Eurasia",2015,"NF",23
+"1198","Rwanda","SSA",2015,"NF",25
+"1199","Samoa","Asia",2015,"F",81
+"1200","San Marino","Europe",2015,"F",100
+"1201","Sao Tome and Principe","SSA",2015,"F",81
+"1202","Saudi Arabia","MENA",2015,"NF",10
+"1203","Senegal","SSA",2015,"F",78
+"1204","Serbia","Europe",2015,"F",80
+"1205","Seychelles","SSA",2015,"PF",67
+"1206","Sierra Leone","SSA",2015,"PF",65
+"1207","Singapore","Asia",2015,"PF",51
+"1208","Slovakia","Europe",2015,"F",90
+"1209","Slovenia","Europe",2015,"F",91
+"1210","Solomon Islands","Asia",2015,"PF",68
+"1211","Somalia","SSA",2015,"NF",2
+"1212","Somaliland","SSA",2015,"PF",46
+"1213","South Africa","SSA",2015,"F",81
+"1214","South Korea","Asia",2015,"F",84
+"1215","South Ossetia","Eurasia",2015,"NF",10
+"1216","South Sudan","SSA",2015,"NF",15
+"1217","Spain","Europe",2015,"F",96
+"1218","Sri Lanka","Asia",2015,"PF",41
+"1219","St. Kitts and Nevis","Americas",2015,"F",90
+"1220","St. Lucia","Americas",2015,"F",92
+"1221","St. Vincent and the Grenadines","Americas",2015,"F",90
+"1222","Sudan","SSA",2015,"NF",6
+"1223","Suriname","Americas",2015,"F",77
+"1224","Swaziland","SSA",2015,"NF",18
+"1225","Sweden","Europe",2015,"F",99
+"1226","Switzerland","Europe",2015,"F",96
+"1227","Syria","MENA",2015,"NF",-1
+"1228","Taiwan","Asia",2015,"F",88
+"1229","Tajikistan","Eurasia",2015,"NF",22
+"1230","Tanzania","SSA",2015,"PF",63
+"1231","Thailand","Asia",2015,"NF",33
+"1232","The Gambia","SSA",2015,"NF",20
+"1233","Tibet","Asia",2015,"NF",1
+"1234","Timor-Leste","Asia",2015,"PF",65
+"1235","Togo","SSA",2015,"PF",47
+"1236","Tonga","Asia",2015,"F",75
+"1237","Transnistria","Eurasia",2015,"NF",24
+"1238","Trinidad and Tobago","Americas",2015,"F",81
+"1239","Tunisia","MENA",2015,"F",79
+"1240","Turkey","Europe",2015,"PF",55
+"1241","Turkmenistan","Eurasia",2015,"NF",6
+"1242","Tuvalu","Asia",2015,"F",94
+"1243","Uganda","SSA",2015,"NF",36
+"1244","Ukraine","Eurasia",2015,"PF",62
+"1245","United Arab Emirates","MENA",2015,"NF",21
+"1246","United Kingdom","Europe",2015,"F",97
+"1247","United States","Americas",2015,"F",92
+"1248","Uruguay","Americas",2015,"F",98
+"1249","Uzbekistan","Eurasia",2015,"NF",4
+"1250","Vanuatu","Asia",2015,"F",79
+"1251","Venezuela","Americas",2015,"PF",35
+"1252","Vietnam","Asia",2015,"NF",20
+"1253","West Bank","MENA",2015,"NF",31
+"1254","Western Sahara","MENA",2015,"NF",5
+"1255","Yemen","MENA",2015,"NF",25
+"1256","Zambia","SSA",2015,"PF",60
+"1257","Zimbabwe","SSA",2015,"NF",28
+"1258","Abkhazia","Eurasia",2014,"PF",40
+"1259","Afghanistan","Asia",2014,"NF",26
+"1260","Albania","Europe",2014,"PF",67
+"1261","Algeria","MENA",2014,"NF",34
+"1262","Andorra","Europe",2014,"F",96
+"1263","Angola","SSA",2014,"NF",29
+"1264","Antigua and Barbuda","Americas",2014,"F",80
+"1265","Argentina","Americas",2014,"F",80
+"1266","Armenia","Eurasia",2014,"PF",43
+"1267","Australia","Asia",2014,"F",97
+"1268","Austria","Europe",2014,"F",96
+"1269","Azerbaijan","Eurasia",2014,"NF",22
+"1270","Bahamas","Americas",2014,"F",96
+"1271","Bahrain","MENA",2014,"NF",16
+"1272","Bangladesh","Asia",2014,"PF",53
+"1273","Barbados","Americas",2014,"F",99
+"1274","Belarus","Eurasia",2014,"NF",14
+"1275","Belgium","Europe",2014,"F",97
+"1276","Belize","Americas",2014,"F",87
+"1277","Benin","SSA",2014,"F",80
+"1278","Bhutan","Asia",2014,"PF",55
+"1279","Bolivia","Americas",2014,"PF",67
+"1280","Bosnia and Herzegovina","Europe",2014,"PF",61
+"1281","Botswana","SSA",2014,"F",74
+"1282","Brazil","Americas",2014,"F",81
+"1283","Brunei","Asia",2014,"NF",30
+"1284","Bulgaria","Europe",2014,"F",78
+"1285","Burkina Faso","SSA",2014,"PF",53
+"1286","Burundi","SSA",2014,"PF",34
+"1287","Cambodia","Asia",2014,"NF",30
+"1288","Cameroon","SSA",2014,"NF",24
+"1289","Canada","Americas",2014,"F",98
+"1290","Cape Verde","SSA",2014,"F",90
+"1291","Central African Republic","SSA",2014,"NF",6
+"1292","Chad","SSA",2014,"NF",21
+"1293","Chile","Americas",2014,"F",95
+"1294","China","Asia",2014,"NF",17
+"1295","Colombia","Americas",2014,"PF",62
+"1296","Comoros","SSA",2014,"PF",55
+"1297","Congo (Brazzaville)","SSA",2014,"NF",30
+"1298","Congo (Kinshasa)","SSA",2014,"NF",20
+"1299","Costa Rica","Americas",2014,"F",90
+"1300","Cote d'Ivoire","SSA",2014,"PF",45
+"1301","Croatia","Europe",2014,"F",86
+"1302","Cuba","Americas",2014,"NF",12
+"1303","Cyprus","Europe",2014,"F",92
+"1304","Czech Republic","Europe",2014,"F",94
+"1305","Denmark","Europe",2014,"F",98
+"1306","Djibouti","SSA",2014,"NF",29
+"1307","Dominica","Americas",2014,"F",95
+"1308","Dominican Republic","Americas",2014,"F",73
+"1309","Ecuador","Americas",2014,"PF",60
+"1310","Egypt","MENA",2014,"NF",31
+"1311","El Salvador","Americas",2014,"F",77
+"1312","Equatorial Guinea","SSA",2014,"NF",8
+"1313","Eritrea","SSA",2014,"NF",3
+"1314","Estonia","Europe",2014,"F",95
+"1315","Ethiopia","SSA",2014,"NF",18
+"1316","Fiji","Asia",2014,"PF",37
+"1317","Finland","Europe",2014,"F",100
+"1318","France","Europe",2014,"F",95
+"1319","Gabon","SSA",2014,"NF",34
+"1320","Gaza Strip","MENA",2014,"NF",15
+"1321","Georgia","Eurasia",2014,"PF",63
+"1322","Germany","Europe",2014,"F",96
+"1323","Ghana","SSA",2014,"F",84
+"1324","Greece","Europe",2014,"F",83
+"1325","Grenada","Americas",2014,"F",89
+"1326","Guatemala","Americas",2014,"PF",56
+"1327","Guinea","SSA",2014,"PF",41
+"1328","Guinea-Bissau","SSA",2014,"NF",32
+"1329","Guyana","Americas",2014,"F",72
+"1330","Haiti","Americas",2014,"PF",43
+"1331","Honduras","Americas",2014,"PF",51
+"1332","Hong Kong","Asia",2014,"PF",67
+"1333","Hungary","Europe",2014,"F",88
+"1334","Iceland","Europe",2014,"F",100
+"1335","India","Asia",2014,"F",77
+"1336","Indian Kashmir","Asia",2014,"PF",49
+"1337","Indonesia","Asia",2014,"PF",64
+"1338","Iran","MENA",2014,"NF",17
+"1339","Iraq","MENA",2014,"NF",25
+"1340","Ireland","Europe",2014,"F",97
+"1341","Israel","MENA",2014,"F",81
+"1342","Italy","Europe",2014,"F",90
+"1343","Jamaica","Americas",2014,"F",74
+"1344","Japan","Asia",2014,"F",90
+"1345","Jordan","MENA",2014,"NF",35
+"1346","Kazakhstan","Eurasia",2014,"NF",25
+"1347","Kenya","SSA",2014,"PF",53
+"1348","Kiribati","Asia",2014,"F",91
+"1349","Kosovo","Europe",2014,"PF",43
+"1350","Kuwait","MENA",2014,"PF",39
+"1351","Kyrgyzstan","Eurasia",2014,"PF",39
+"1352","Laos","Asia",2014,"NF",12
+"1353","Latvia","Europe",2014,"F",84
+"1354","Lebanon","MENA",2014,"PF",48
+"1355","Lesotho","SSA",2014,"F",72
+"1356","Liberia","SSA",2014,"PF",59
+"1357","Libya","MENA",2014,"PF",41
+"1358","Liechtenstein","Europe",2014,"F",98
+"1359","Lithuania","Europe",2014,"F",90
+"1360","Luxembourg","Europe",2014,"F",99
+"1361","Macedonia","Europe",2014,"PF",64
+"1362","Madagascar","SSA",2014,"PF",43
+"1363","Malawi","SSA",2014,"PF",60
+"1364","Malaysia","Asia",2014,"PF",47
+"1365","Maldives","Asia",2014,"PF",48
+"1366","Mali","SSA",2014,"PF",44
+"1367","Malta","Europe",2014,"F",97
+"1368","Marshall Islands","Asia",2014,"F",91
+"1369","Mauritania","SSA",2014,"NF",34
+"1370","Mauritius","SSA",2014,"F",90
+"1371","Mexico","Americas",2014,"PF",65
+"1372","Micronesia","Asia",2014,"F",93
+"1373","Moldova","Eurasia",2014,"PF",64
+"1374","Monaco","Europe",2014,"F",88
+"1375","Mongolia","Asia",2014,"F",86
+"1376","Montenegro","Europe",2014,"F",72
+"1377","Morocco","MENA",2014,"PF",42
+"1378","Mozambique","SSA",2014,"PF",58
+"1379","Myanmar","Asia",2014,"NF",26
+"1380","Nagorno-Karabakh","Eurasia",2014,"PF",31
+"1381","Namibia","SSA",2014,"F",76
+"1382","Nauru","Asia",2014,"F",92
+"1383","Nepal","Asia",2014,"PF",50
+"1384","Netherlands","Europe",2014,"F",99
+"1385","New Zealand","Asia",2014,"F",97
+"1386","Nicaragua","Americas",2014,"PF",54
+"1387","Niger","SSA",2014,"PF",56
+"1388","Nigeria","SSA",2014,"PF",46
+"1389","North Korea","Asia",2014,"NF",3
+"1390","Northern Cyprus","Europe",2014,"F",79
+"1391","Norway","Europe",2014,"F",100
+"1392","Oman","MENA",2014,"NF",26
+"1393","Pakistan","Asia",2014,"PF",42
+"1394","Pakistani Kashmir","Asia",2014,"NF",29
+"1395","Palau","Asia",2014,"F",92
+"1396","Panama","Americas",2014,"F",82
+"1397","Papua New Guinea","Asia",2014,"PF",60
+"1398","Paraguay","Americas",2014,"PF",61
+"1399","Peru","Americas",2014,"F",71
+"1400","Philippines","Asia",2014,"PF",63
+"1401","Poland","Europe",2014,"F",93
+"1402","Portugal","Europe",2014,"F",97
+"1403","Puerto Rico","Americas",2014,"F",89
+"1404","Qatar","MENA",2014,"NF",28
+"1405","Romania","Europe",2014,"F",84
+"1406","Russia","Eurasia",2014,"NF",26
+"1407","Rwanda","SSA",2014,"NF",26
+"1408","Samoa","Asia",2014,"F",81
+"1409","San Marino","Europe",2014,"F",100
+"1410","Sao Tome and Principe","SSA",2014,"F",81
+"1411","Saudi Arabia","MENA",2014,"NF",10
+"1412","Senegal","SSA",2014,"F",79
+"1413","Serbia","Europe",2014,"F",78
+"1414","Seychelles","SSA",2014,"PF",67
+"1415","Sierra Leone","SSA",2014,"PF",67
+"1416","Singapore","Asia",2014,"PF",51
+"1417","Slovakia","Europe",2014,"F",91
+"1418","Slovenia","Europe",2014,"F",91
+"1419","Solomon Islands","Asia",2014,"PF",65
+"1420","Somalia","SSA",2014,"NF",2
+"1421","Somaliland","SSA",2014,"PF",46
+"1422","South Africa","SSA",2014,"F",81
+"1423","South Korea","Asia",2014,"F",85
+"1424","South Ossetia","Eurasia",2014,"NF",5
+"1425","South Sudan","SSA",2014,"NF",24
+"1426","Spain","Europe",2014,"F",96
+"1427","Sri Lanka","Asia",2014,"PF",42
+"1428","St. Kitts and Nevis","Americas",2014,"F",90
+"1429","St. Lucia","Americas",2014,"F",92
+"1430","St. Vincent and the Grenadines","Americas",2014,"F",89
+"1431","Sudan","SSA",2014,"NF",7
+"1432","Suriname","Americas",2014,"F",77
+"1433","Swaziland","SSA",2014,"NF",20
+"1434","Sweden","Europe",2014,"F",99
+"1435","Switzerland","Europe",2014,"F",96
+"1436","Syria","MENA",2014,"NF",1
+"1437","Taiwan","Asia",2014,"F",88
+"1438","Tajikistan","Eurasia",2014,"NF",24
+"1439","Tanzania","SSA",2014,"PF",64
+"1440","Thailand","Asia",2014,"PF",54
+"1441","The Gambia","SSA",2014,"NF",21
+"1442","Tibet","Asia",2014,"NF",1
+"1443","Timor-Leste","Asia",2014,"PF",63
+"1444","Togo","SSA",2014,"PF",47
+"1445","Tonga","Asia",2014,"F",75
+"1446","Transnistria","Eurasia",2014,"NF",24
+"1447","Trinidad and Tobago","Americas",2014,"F",81
+"1448","Tunisia","MENA",2014,"PF",63
+"1449","Turkey","Europe",2014,"PF",60
+"1450","Turkmenistan","Eurasia",2014,"NF",7
+"1451","Tuvalu","Asia",2014,"F",94
+"1452","Uganda","SSA",2014,"PF",37
+"1453","Ukraine","Eurasia",2014,"PF",55
+"1454","United Arab Emirates","MENA",2014,"NF",21
+"1455","United Kingdom","Europe",2014,"F",97
+"1456","United States","Americas",2014,"F",92
+"1457","Uruguay","Americas",2014,"F",98
+"1458","Uzbekistan","Eurasia",2014,"NF",4
+"1459","Vanuatu","Asia",2014,"F",79
+"1460","Venezuela","Americas",2014,"PF",38
+"1461","Vietnam","Asia",2014,"NF",20
+"1462","West Bank","MENA",2014,"NF",31
+"1463","Western Sahara","MENA",2014,"NF",5
+"1464","Yemen","MENA",2014,"NF",26
+"1465","Zambia","SSA",2014,"PF",59
+"1466","Zimbabwe","SSA",2014,"NF",28
+"1467","Abkhazia","Eurasia",2013,"PF",40
+"1468","Afghanistan","Asia",2013,"NF",27
+"1469","Albania","Europe",2013,"PF",63
+"1470","Algeria","MENA",2013,"NF",35
+"1471","Andorra","Europe",2013,"F",96
+"1472","Angola","SSA",2013,"NF",30
+"1473","Antigua and Barbuda","Americas",2013,"F",80
+"1474","Argentina","Americas",2013,"F",80
+"1475","Armenia","Eurasia",2013,"PF",42
+"1476","Australia","Asia",2013,"F",97
+"1477","Austria","Europe",2013,"F",96
+"1478","Azerbaijan","Eurasia",2013,"NF",23
+"1479","Bahamas","Americas",2013,"F",96
+"1480","Bahrain","MENA",2013,"NF",18
+"1481","Bangladesh","Asia",2013,"PF",56
+"1482","Barbados","Americas",2013,"F",99
+"1483","Belarus","Eurasia",2013,"NF",14
+"1484","Belgium","Europe",2013,"F",97
+"1485","Belize","Americas",2013,"F",88
+"1486","Benin","SSA",2013,"F",82
+"1487","Bhutan","Asia",2013,"PF",46
+"1488","Bolivia","Americas",2013,"PF",69
+"1489","Bosnia and Herzegovina","Europe",2013,"PF",62
+"1490","Botswana","SSA",2013,"F",74
+"1491","Brazil","Americas",2013,"F",81
+"1492","Brunei","Asia",2013,"NF",30
+"1493","Bulgaria","Europe",2013,"F",81
+"1494","Burkina Faso","SSA",2013,"PF",53
+"1495","Burundi","SSA",2013,"PF",34
+"1496","Cambodia","Asia",2013,"NF",29
+"1497","Cameroon","SSA",2013,"NF",23
+"1498","Canada","Americas",2013,"F",98
+"1499","Cape Verde","SSA",2013,"F",90
+"1500","Central African Republic","SSA",2013,"PF",35
+"1501","Chad","SSA",2013,"NF",21
+"1502","Chile","Americas",2013,"F",96
+"1503","China","Asia",2013,"NF",17
+"1504","Colombia","Americas",2013,"PF",61
+"1505","Comoros","SSA",2013,"PF",55
+"1506","Congo (Brazzaville)","SSA",2013,"NF",29
+"1507","Congo (Kinshasa)","SSA",2013,"NF",20
+"1508","Costa Rica","Americas",2013,"F",91
+"1509","Cote d'Ivoire","SSA",2013,"PF",34
+"1510","Croatia","Europe",2013,"F",86
+"1511","Cuba","Americas",2013,"NF",11
+"1512","Cyprus","Europe",2013,"F",93
+"1513","Czech Republic","Europe",2013,"F",95
+"1514","Denmark","Europe",2013,"F",98
+"1515","Djibouti","SSA",2013,"NF",29
+"1516","Dominica","Americas",2013,"F",95
+"1517","Dominican Republic","Americas",2013,"F",75
+"1518","Ecuador","Americas",2013,"PF",60
+"1519","Egypt","MENA",2013,"PF",41
+"1520","El Salvador","Americas",2013,"F",77
+"1521","Equatorial Guinea","SSA",2013,"NF",8
+"1522","Eritrea","SSA",2013,"NF",3
+"1523","Estonia","Europe",2013,"F",95
+"1524","Ethiopia","SSA",2013,"NF",18
+"1525","Fiji","Asia",2013,"PF",37
+"1526","Finland","Europe",2013,"F",100
+"1527","France","Europe",2013,"F",95
+"1528","Gabon","SSA",2013,"NF",34
+"1529","Gaza Strip","MENA",2013,"NF",19
+"1530","Georgia","Eurasia",2013,"PF",60
+"1531","Germany","Europe",2013,"F",96
+"1532","Ghana","SSA",2013,"F",84
+"1533","Greece","Europe",2013,"F",83
+"1534","Grenada","Americas",2013,"F",89
+"1535","Guatemala","Americas",2013,"PF",57
+"1536","Guinea","SSA",2013,"PF",39
+"1537","Guinea-Bissau","SSA",2013,"NF",30
+"1538","Guyana","Americas",2013,"F",71
+"1539","Haiti","Americas",2013,"PF",43
+"1540","Honduras","Americas",2013,"PF",51
+"1541","Hong Kong","Asia",2013,"PF",67
+"1542","Hungary","Europe",2013,"F",88
+"1543","Iceland","Europe",2013,"F",100
+"1544","India","Asia",2013,"F",76
+"1545","Indian Kashmir","Asia",2013,"PF",49
+"1546","Indonesia","Asia",2013,"F",65
+"1547","Iran","MENA",2013,"NF",16
+"1548","Iraq","MENA",2013,"NF",24
+"1549","Ireland","Europe",2013,"F",97
+"1550","Israel","MENA",2013,"F",81
+"1551","Italy","Europe",2013,"F",88
+"1552","Jamaica","Americas",2013,"F",73
+"1553","Japan","Asia",2013,"F",88
+"1554","Jordan","MENA",2013,"NF",34
+"1555","Kazakhstan","Eurasia",2013,"NF",26
+"1556","Kenya","SSA",2013,"PF",55
+"1557","Kiribati","Asia",2013,"F",91
+"1558","Kosovo","Europe",2013,"PF",42
+"1559","Kuwait","MENA",2013,"PF",41
+"1560","Kyrgyzstan","Eurasia",2013,"PF",39
+"1561","Laos","Asia",2013,"NF",11
+"1562","Latvia","Europe",2013,"F",84
+"1563","Lebanon","MENA",2013,"PF",49
+"1564","Lesotho","SSA",2013,"F",72
+"1565","Liberia","SSA",2013,"PF",60
+"1566","Libya","MENA",2013,"PF",43
+"1567","Liechtenstein","Europe",2013,"F",98
+"1568","Lithuania","Europe",2013,"F",90
+"1569","Luxembourg","Europe",2013,"F",100
+"1570","Macedonia","Europe",2013,"PF",64
+"1571","Madagascar","SSA",2013,"PF",35
+"1572","Malawi","SSA",2013,"PF",60
+"1573","Malaysia","Asia",2013,"PF",48
+"1574","Maldives","Asia",2013,"PF",46
+"1575","Mali","SSA",2013,"NF",24
+"1576","Malta","Europe",2013,"F",97
+"1577","Marshall Islands","Asia",2013,"F",91
+"1578","Mauritania","SSA",2013,"NF",34
+"1579","Mauritius","SSA",2013,"F",90
+"1580","Mexico","Americas",2013,"PF",65
+"1581","Micronesia","Asia",2013,"F",93
+"1582","Moldova","Eurasia",2013,"PF",65
+"1583","Monaco","Europe",2013,"F",87
+"1584","Mongolia","Asia",2013,"F",86
+"1585","Montenegro","Europe",2013,"F",72
+"1586","Morocco","MENA",2013,"PF",43
+"1587","Mozambique","SSA",2013,"PF",59
+"1588","Myanmar","Asia",2013,"NF",26
+"1589","Nagorno-Karabakh","Eurasia",2013,"PF",31
+"1590","Namibia","SSA",2013,"F",76
+"1591","Nauru","Asia",2013,"F",93
+"1592","Nepal","Asia",2013,"PF",47
+"1593","Netherlands","Europe",2013,"F",99
+"1594","New Zealand","Asia",2013,"F",97
+"1595","Nicaragua","Americas",2013,"PF",51
+"1596","Niger","SSA",2013,"PF",56
+"1597","Nigeria","SSA",2013,"PF",46
+"1598","North Korea","Asia",2013,"NF",3
+"1599","Northern Cyprus","Europe",2013,"F",78
+"1600","Norway","Europe",2013,"F",100
+"1601","Oman","MENA",2013,"NF",26
+"1602","Pakistan","Asia",2013,"PF",42
+"1603","Pakistani Kashmir","Asia",2013,"NF",29
+"1604","Palau","Asia",2013,"F",92
+"1605","Panama","Americas",2013,"F",82
+"1606","Papua New Guinea","Asia",2013,"PF",59
+"1607","Paraguay","Americas",2013,"PF",62
+"1608","Peru","Americas",2013,"F",71
+"1609","Philippines","Asia",2013,"PF",63
+"1610","Poland","Europe",2013,"F",93
+"1611","Portugal","Europe",2013,"F",97
+"1612","Puerto Rico","Americas",2013,"F",89
+"1613","Qatar","MENA",2013,"NF",28
+"1614","Romania","Europe",2013,"F",81
+"1615","Russia","Eurasia",2013,"NF",27
+"1616","Rwanda","SSA",2013,"NF",24
+"1617","Samoa","Asia",2013,"F",81
+"1618","San Marino","Europe",2013,"F",100
+"1619","Sao Tome and Principe","SSA",2013,"F",81
+"1620","Saudi Arabia","MENA",2013,"NF",10
+"1621","Senegal","SSA",2013,"F",75
+"1622","Serbia","Europe",2013,"F",78
+"1623","Seychelles","SSA",2013,"PF",67
+"1624","Sierra Leone","SSA",2013,"F",70
+"1625","Singapore","Asia",2013,"PF",52
+"1626","Slovakia","Europe",2013,"F",92
+"1627","Slovenia","Europe",2013,"F",91
+"1628","Solomon Islands","Asia",2013,"PF",65
+"1629","Somalia","SSA",2013,"NF",2
+"1630","Somaliland","SSA",2013,"PF",46
+"1631","South Africa","SSA",2013,"F",81
+"1632","South Korea","Asia",2013,"F",86
+"1633","South Ossetia","Eurasia",2013,"NF",5
+"1634","South Sudan","SSA",2013,"NF",31
+"1635","Spain","Europe",2013,"F",96
+"1636","Sri Lanka","Asia",2013,"PF",43
+"1637","St. Kitts and Nevis","Americas",2013,"F",91
+"1638","St. Lucia","Americas",2013,"F",93
+"1639","St. Vincent and the Grenadines","Americas",2013,"F",89
+"1640","Sudan","SSA",2013,"NF",7
+"1641","Suriname","Americas",2013,"F",77
+"1642","Swaziland","SSA",2013,"NF",21
+"1643","Sweden","Europe",2013,"F",100
+"1644","Switzerland","Europe",2013,"F",96
+"1645","Syria","MENA",2013,"NF",5
+"1646","Taiwan","Asia",2013,"F",88
+"1647","Tajikistan","Eurasia",2013,"NF",24
+"1648","Tanzania","SSA",2013,"PF",66
+"1649","Thailand","Asia",2013,"PF",53
+"1650","The Gambia","SSA",2013,"NF",23
+"1651","Tibet","Asia",2013,"NF",1
+"1652","Timor-Leste","Asia",2013,"PF",63
+"1653","Togo","SSA",2013,"PF",43
+"1654","Tonga","Asia",2013,"F",73
+"1655","Transnistria","Eurasia",2013,"NF",25
+"1656","Trinidad and Tobago","Americas",2013,"F",81
+"1657","Tunisia","MENA",2013,"PF",59
+"1658","Turkey","Europe",2013,"PF",61
+"1659","Turkmenistan","Eurasia",2013,"NF",7
+"1660","Tuvalu","Asia",2013,"F",94
+"1661","Uganda","SSA",2013,"PF",40
+"1662","Ukraine","Eurasia",2013,"PF",57
+"1663","United Arab Emirates","MENA",2013,"NF",22
+"1664","United Kingdom","Europe",2013,"F",97
+"1665","United States","Americas",2013,"F",93
+"1666","Uruguay","Americas",2013,"F",97
+"1667","Uzbekistan","Eurasia",2013,"NF",4
+"1668","Vanuatu","Asia",2013,"F",79
+"1669","Venezuela","Americas",2013,"PF",39
+"1670","Vietnam","Asia",2013,"NF",19
+"1671","West Bank","MENA",2013,"NF",30
+"1672","Western Sahara","MENA",2013,"NF",5
+"1673","Yemen","MENA",2013,"NF",25
+"1674","Zambia","SSA",2013,"PF",62
+"1675","Zimbabwe","SSA",2013,"NF",25
+"1676","Abkhazia","Eurasia",2012,"PF",39
+"1677","Afghanistan","Asia",2012,"NF",23
+"1678","Albania","Europe",2012,"PF",63
+"1679","Algeria","MENA",2012,"NF",35
+"1680","Andorra","Europe",2012,"F",96
+"1681","Angola","SSA",2012,"NF",29
+"1682","Antigua and Barbuda","Americas",2012,"F",77
+"1683","Argentina","Americas",2012,"F",81
+"1684","Armenia","Eurasia",2012,"PF",40
+"1685","Australia","Asia",2012,"F",96
+"1686","Austria","Europe",2012,"F",97
+"1687","Azerbaijan","Eurasia",2012,"NF",23
+"1688","Bahamas","Americas",2012,"F",96
+"1689","Bahrain","MENA",2012,"NF",20
+"1690","Bangladesh","Asia",2012,"PF",58
+"1691","Barbados","Americas",2012,"F",99
+"1692","Belarus","Eurasia",2012,"NF",14
+"1693","Belgium","Europe",2012,"F",98
+"1694","Belize","Americas",2012,"F",88
+"1695","Benin","SSA",2012,"F",81
+"1696","Bhutan","Asia",2012,"PF",43
+"1697","Bolivia","Americas",2012,"PF",66
+"1698","Bosnia and Herzegovina","Europe",2012,"PF",60
+"1699","Botswana","SSA",2012,"F",75
+"1700","Brazil","Americas",2012,"F",80
+"1701","Brunei","Asia",2012,"NF",30
+"1702","Bulgaria","Europe",2012,"F",81
+"1703","Burkina Faso","SSA",2012,"PF",51
+"1704","Burundi","SSA",2012,"PF",35
+"1705","Cambodia","Asia",2012,"NF",30
+"1706","Cameroon","SSA",2012,"NF",23
+"1707","Canada","Americas",2012,"F",99
+"1708","Cape Verde","SSA",2012,"F",90
+"1709","Central African Republic","SSA",2012,"PF",39
+"1710","Chad","SSA",2012,"NF",21
+"1711","Chile","Americas",2012,"F",97
+"1712","China","Asia",2012,"NF",16
+"1713","Colombia","Americas",2012,"PF",61
+"1714","Comoros","SSA",2012,"PF",55
+"1715","Congo (Brazzaville)","SSA",2012,"NF",29
+"1716","Congo (Kinshasa)","SSA",2012,"NF",20
+"1717","Costa Rica","Americas",2012,"F",91
+"1718","Cote d'Ivoire","SSA",2012,"NF",24
+"1719","Croatia","Europe",2012,"F",86
+"1720","Cuba","Americas",2012,"NF",11
+"1721","Cyprus","Europe",2012,"F",93
+"1722","Czech Republic","Europe",2012,"F",95
+"1723","Denmark","Europe",2012,"F",98
+"1724","Djibouti","SSA",2012,"NF",29
+"1725","Dominica","Americas",2012,"F",96
+"1726","Dominican Republic","Americas",2012,"F",75
+"1727","Ecuador","Americas",2012,"PF",63
+"1728","Egypt","MENA",2012,"NF",35
+"1729","El Salvador","Americas",2012,"F",76
+"1730","Equatorial Guinea","SSA",2012,"NF",8
+"1731","Eritrea","SSA",2012,"NF",6
+"1732","Estonia","Europe",2012,"F",95
+"1733","Ethiopia","SSA",2012,"NF",19
+"1734","Fiji","Asia",2012,"PF",35
+"1735","Finland","Europe",2012,"F",100
+"1736","France","Europe",2012,"F",95
+"1737","Gabon","SSA",2012,"NF",34
+"1738","Gaza Strip","MENA",2012,"NF",19
+"1739","Georgia","Eurasia",2012,"PF",58
+"1740","Germany","Europe",2012,"F",96
+"1741","Ghana","SSA",2012,"F",84
+"1742","Greece","Europe",2012,"F",85
+"1743","Grenada","Americas",2012,"F",89
+"1744","Guatemala","Americas",2012,"PF",58
+"1745","Guinea","SSA",2012,"PF",34
+"1746","Guinea-Bissau","SSA",2012,"PF",45
+"1747","Guyana","Americas",2012,"F",72
+"1748","Haiti","Americas",2012,"PF",45
+"1749","Honduras","Americas",2012,"PF",52
+"1750","Hong Kong","Asia",2012,"PF",67
+"1751","Hungary","Europe",2012,"F",88
+"1752","Iceland","Europe",2012,"F",99
+"1753","India","Asia",2012,"F",77
+"1754","Indian Kashmir","Asia",2012,"PF",48
+"1755","Indonesia","Asia",2012,"F",65
+"1756","Iran","MENA",2012,"NF",16
+"1757","Iraq","MENA",2012,"NF",25
+"1758","Ireland","Europe",2012,"F",97
+"1759","Israel","MENA",2012,"F",81
+"1760","Italy","Europe",2012,"F",89
+"1761","Jamaica","Americas",2012,"F",73
+"1762","Japan","Asia",2012,"F",88
+"1763","Jordan","MENA",2012,"NF",35
+"1764","Kazakhstan","Eurasia",2012,"NF",27
+"1765","Kenya","SSA",2012,"PF",57
+"1766","Kiribati","Asia",2012,"F",91
+"1767","Kosovo","Europe",2012,"PF",41
+"1768","Kuwait","MENA",2012,"PF",44
+"1769","Kyrgyzstan","Eurasia",2012,"PF",41
+"1770","Laos","Asia",2012,"NF",12
+"1771","Latvia","Europe",2012,"F",84
+"1772","Lebanon","MENA",2012,"PF",51
+"1773","Lesotho","SSA",2012,"PF",69
+"1774","Liberia","SSA",2012,"PF",60
+"1775","Libya","MENA",2012,"NF",17
+"1776","Liechtenstein","Europe",2012,"F",98
+"1777","Lithuania","Europe",2012,"F",90
+"1778","Luxembourg","Europe",2012,"F",100
+"1779","Macedonia","Europe",2012,"PF",65
+"1780","Madagascar","SSA",2012,"PF",39
+"1781","Malawi","SSA",2012,"PF",57
+"1782","Malaysia","Asia",2012,"PF",49
+"1783","Maldives","Asia",2012,"PF",56
+"1784","Mali","SSA",2012,"F",72
+"1785","Malta","Europe",2012,"F",97
+"1786","Marshall Islands","Asia",2012,"F",91
+"1787","Mauritania","SSA",2012,"NF",33
+"1788","Mauritius","SSA",2012,"F",90
+"1789","Mexico","Americas",2012,"PF",66
+"1790","Micronesia","Asia",2012,"F",93
+"1791","Moldova","Eurasia",2012,"PF",65
+"1792","Monaco","Europe",2012,"F",87
+"1793","Mongolia","Asia",2012,"F",85
+"1794","Montenegro","Europe",2012,"F",72
+"1795","Morocco","MENA",2012,"PF",43
+"1796","Mozambique","SSA",2012,"PF",59
+"1797","Myanmar","Asia",2012,"NF",14
+"1798","Nagorno-Karabakh","Eurasia",2012,"NF",29
+"1799","Namibia","SSA",2012,"F",76
+"1800","Nauru","Asia",2012,"F",93
+"1801","Nepal","Asia",2012,"PF",48
+"1802","Netherlands","Europe",2012,"F",99
+"1803","New Zealand","Asia",2012,"F",97
+"1804","Nicaragua","Americas",2012,"PF",51
+"1805","Niger","SSA",2012,"PF",56
+"1806","Nigeria","SSA",2012,"PF",49
+"1807","North Korea","Asia",2012,"NF",2
+"1808","Northern Cyprus","Europe",2012,"F",81
+"1809","Norway","Europe",2012,"F",100
+"1810","Oman","MENA",2012,"NF",27
+"1811","Pakistan","Asia",2012,"PF",43
+"1812","Pakistani Kashmir","Asia",2012,"NF",29
+"1813","Palau","Asia",2012,"F",92
+"1814","Panama","Americas",2012,"F",83
+"1815","Papua New Guinea","Asia",2012,"PF",59
+"1816","Paraguay","Americas",2012,"PF",64
+"1817","Peru","Americas",2012,"F",71
+"1818","Philippines","Asia",2012,"PF",62
+"1819","Poland","Europe",2012,"F",93
+"1820","Portugal","Europe",2012,"F",97
+"1821","Puerto Rico","Americas",2012,"F",89
+"1822","Qatar","MENA",2012,"NF",28
+"1823","Romania","Europe",2012,"F",83
+"1824","Russia","Eurasia",2012,"NF",28
+"1825","Rwanda","SSA",2012,"NF",25
+"1826","Samoa","Asia",2012,"F",81
+"1827","San Marino","Europe",2012,"F",100
+"1828","Sao Tome and Principe","SSA",2012,"F",80
+"1829","Saudi Arabia","MENA",2012,"NF",10
+"1830","Senegal","SSA",2012,"PF",71
+"1831","Serbia","Europe",2012,"F",78
+"1832","Seychelles","SSA",2012,"PF",67
+"1833","Sierra Leone","SSA",2012,"PF",67
+"1834","Singapore","Asia",2012,"PF",52
+"1835","Slovakia","Europe",2012,"F",92
+"1836","Slovenia","Europe",2012,"F",91
+"1837","Solomon Islands","Asia",2012,"PF",64
+"1838","Somalia","SSA",2012,"NF",1
+"1839","Somaliland","SSA",2012,"PF",46
+"1840","South Africa","SSA",2012,"F",82
+"1841","South Korea","Asia",2012,"F",86
+"1842","South Ossetia","Eurasia",2012,"NF",5
+"1843","South Sudan","SSA",2012,"NF",33
+"1844","Spain","Europe",2012,"F",97
+"1845","Sri Lanka","Asia",2012,"PF",45
+"1846","St. Kitts and Nevis","Americas",2012,"F",92
+"1847","St. Lucia","Americas",2012,"F",92
+"1848","St. Vincent and the Grenadines","Americas",2012,"F",89
+"1849","Sudan","SSA",2012,"NF",6
+"1850","Suriname","Americas",2012,"F",78
+"1851","Swaziland","SSA",2012,"NF",21
+"1852","Sweden","Europe",2012,"F",100
+"1853","Switzerland","Europe",2012,"F",96
+"1854","Syria","MENA",2012,"NF",6
+"1855","Taiwan","Asia",2012,"F",88
+"1856","Tajikistan","Eurasia",2012,"NF",26
+"1857","Tanzania","SSA",2012,"PF",64
+"1858","Thailand","Asia",2012,"PF",52
+"1859","The Gambia","SSA",2012,"NF",24
+"1860","Tibet","Asia",2012,"NF",1
+"1861","Timor-Leste","Asia",2012,"PF",62
+"1862","Togo","SSA",2012,"PF",44
+"1863","Tonga","Asia",2012,"PF",71
+"1864","Transnistria","Eurasia",2012,"NF",24
+"1865","Trinidad and Tobago","Americas",2012,"F",81
+"1866","Tunisia","MENA",2012,"PF",58
+"1867","Turkey","Europe",2012,"PF",63
+"1868","Turkmenistan","Eurasia",2012,"NF",7
+"1869","Tuvalu","Asia",2012,"F",94
+"1870","Uganda","SSA",2012,"PF",42
+"1871","Ukraine","Eurasia",2012,"PF",60
+"1872","United Arab Emirates","MENA",2012,"NF",24
+"1873","United Kingdom","Europe",2012,"F",96
+"1874","United States","Americas",2012,"F",93
+"1875","Uruguay","Americas",2012,"F",97
+"1876","Uzbekistan","Eurasia",2012,"NF",4
+"1877","Vanuatu","Asia",2012,"F",80
+"1878","Venezuela","Americas",2012,"PF",41
+"1879","Vietnam","Asia",2012,"NF",19
+"1880","West Bank","MENA",2012,"NF",31
+"1881","Western Sahara","MENA",2012,"NF",5
+"1882","Yemen","MENA",2012,"NF",23
+"1883","Zambia","SSA",2012,"PF",63
+"1884","Zimbabwe","SSA",2012,"NF",20
+"1885","Abkhazia","Eurasia",2011,"PF",37
+"1886","Afghanistan","Asia",2011,"NF",25
+"1887","Albania","Europe",2011,"PF",66
+"1888","Algeria","MENA",2011,"NF",36
+"1889","Andorra","Europe",2011,"F",96
+"1890","Angola","SSA",2011,"NF",31
+"1891","Antigua and Barbuda","Americas",2011,"F",77
+"1892","Argentina","Americas",2011,"F",80
+"1893","Armenia","Eurasia",2011,"PF",39
+"1894","Australia","Asia",2011,"F",96
+"1895","Austria","Europe",2011,"F",97
+"1896","Azerbaijan","Eurasia",2011,"NF",28
+"1897","Bahamas","Americas",2011,"F",96
+"1898","Bahrain","MENA",2011,"NF",30
+"1899","Bangladesh","Asia",2011,"PF",60
+"1900","Barbados","Americas",2011,"F",99
+"1901","Belarus","Eurasia",2011,"NF",15
+"1902","Belgium","Europe",2011,"F",97
+"1903","Belize","Americas",2011,"F",88
+"1904","Benin","SSA",2011,"F",83
+"1905","Bhutan","Asia",2011,"PF",43
+"1906","Bolivia","Americas",2011,"PF",66
+"1907","Bosnia and Herzegovina","Europe",2011,"PF",60
+"1908","Botswana","SSA",2011,"F",75
+"1909","Brazil","Americas",2011,"F",78
+"1910","Brunei","Asia",2011,"NF",30
+"1911","Bulgaria","Europe",2011,"F",82
+"1912","Burkina Faso","SSA",2011,"PF",53
+"1913","Burundi","SSA",2011,"PF",35
+"1914","Cambodia","Asia",2011,"NF",29
+"1915","Cameroon","SSA",2011,"NF",23
+"1916","Canada","Americas",2011,"F",99
+"1917","Cape Verde","SSA",2011,"F",90
+"1918","Central African Republic","SSA",2011,"PF",37
+"1919","Chad","SSA",2011,"NF",21
+"1920","Chile","Americas",2011,"F",97
+"1921","China","Asia",2011,"NF",17
+"1922","Colombia","Americas",2011,"PF",61
+"1923","Comoros","SSA",2011,"PF",55
+"1924","Congo (Brazzaville)","SSA",2011,"NF",29
+"1925","Congo (Kinshasa)","SSA",2011,"NF",21
+"1926","Costa Rica","Americas",2011,"F",91
+"1927","Cote d'Ivoire","SSA",2011,"NF",20
+"1928","Croatia","Europe",2011,"F",86
+"1929","Cuba","Americas",2011,"NF",10
+"1930","Cyprus","Europe",2011,"F",94
+"1931","Czech Republic","Europe",2011,"F",95
+"1932","Denmark","Europe",2011,"F",97
+"1933","Djibouti","SSA",2011,"NF",33
+"1934","Dominica","Americas",2011,"F",96
+"1935","Dominican Republic","Americas",2011,"F",76
+"1936","Ecuador","Americas",2011,"PF",67
+"1937","Egypt","MENA",2011,"NF",25
+"1938","El Salvador","Americas",2011,"F",75
+"1939","Equatorial Guinea","SSA",2011,"NF",8
+"1940","Eritrea","SSA",2011,"NF",7
+"1941","Estonia","Europe",2011,"F",95
+"1942","Ethiopia","SSA",2011,"NF",21
+"1943","Fiji","Asia",2011,"PF",37
+"1944","Finland","Europe",2011,"F",100
+"1945","France","Europe",2011,"F",95
+"1946","Gabon","SSA",2011,"NF",34
+"1947","Gaza Strip","MENA",2011,"NF",18
+"1948","Georgia","Eurasia",2011,"PF",56
+"1949","Germany","Europe",2011,"F",96
+"1950","Ghana","SSA",2011,"F",84
+"1951","Greece","Europe",2011,"F",86
+"1952","Grenada","Americas",2011,"F",89
+"1953","Guatemala","Americas",2011,"PF",57
+"1954","Guinea","SSA",2011,"PF",36
+"1955","Guinea-Bissau","SSA",2011,"PF",45
+"1956","Guyana","Americas",2011,"F",72
+"1957","Haiti","Americas",2011,"PF",45
+"1958","Honduras","Americas",2011,"PF",52
+"1959","Hong Kong","Asia",2011,"PF",67
+"1960","Hungary","Europe",2011,"F",90
+"1961","Iceland","Europe",2011,"F",99
+"1962","India","Asia",2011,"F",76
+"1963","Indian Kashmir","Asia",2011,"PF",45
+"1964","Indonesia","Asia",2011,"F",65
+"1965","Iran","MENA",2011,"NF",17
+"1966","Iraq","MENA",2011,"NF",25
+"1967","Ireland","Europe",2011,"F",97
+"1968","Israel","MENA",2011,"F",83
+"1969","Italy","Europe",2011,"F",89
+"1970","Jamaica","Americas",2011,"F",73
+"1971","Japan","Asia",2011,"F",88
+"1972","Jordan","MENA",2011,"NF",34
+"1973","Kazakhstan","Eurasia",2011,"NF",28
+"1974","Kenya","SSA",2011,"PF",56
+"1975","Kiribati","Asia",2011,"F",91
+"1976","Kosovo","Europe",2011,"PF",41
+"1977","Kuwait","MENA",2011,"PF",44
+"1978","Kyrgyzstan","Eurasia",2011,"PF",37
+"1979","Laos","Asia",2011,"NF",12
+"1980","Latvia","Europe",2011,"F",85
+"1981","Lebanon","MENA",2011,"PF",52
+"1982","Lesotho","SSA",2011,"PF",70
+"1983","Liberia","SSA",2011,"PF",58
+"1984","Libya","MENA",2011,"NF",8
+"1985","Liechtenstein","Europe",2011,"F",100
+"1986","Lithuania","Europe",2011,"F",90
+"1987","Luxembourg","Europe",2011,"F",100
+"1988","Macedonia","Europe",2011,"PF",66
+"1989","Madagascar","SSA",2011,"PF",39
+"1990","Malawi","SSA",2011,"PF",60
+"1991","Malaysia","Asia",2011,"PF",49
+"1992","Maldives","Asia",2011,"PF",56
+"1993","Mali","SSA",2011,"F",72
+"1994","Malta","Europe",2011,"F",97
+"1995","Marshall Islands","Asia",2011,"F",91
+"1996","Mauritania","SSA",2011,"NF",34
+"1997","Mauritius","SSA",2011,"F",90
+"1998","Mexico","Americas",2011,"PF",66
+"1999","Micronesia","Asia",2011,"F",93
+"2000","Moldova","Eurasia",2011,"PF",63
+"2001","Monaco","Europe",2011,"F",87
+"2002","Mongolia","Asia",2011,"F",85
+"2003","Montenegro","Europe",2011,"F",72
+"2004","Morocco","MENA",2011,"PF",42
+"2005","Mozambique","SSA",2011,"PF",59
+"2006","Myanmar","Asia",2011,"NF",5
+"2007","Nagorno-Karabakh","Eurasia",2011,"NF",29
+"2008","Namibia","SSA",2011,"F",75
+"2009","Nauru","Asia",2011,"F",93
+"2010","Nepal","Asia",2011,"PF",48
+"2011","Netherlands","Europe",2011,"F",98
+"2012","New Zealand","Asia",2011,"F",97
+"2013","Nicaragua","Americas",2011,"PF",54
+"2014","Niger","SSA",2011,"PF",42
+"2015","Nigeria","SSA",2011,"PF",48
+"2016","North Korea","Asia",2011,"NF",1
+"2017","Northern Cyprus","Europe",2011,"F",81
+"2018","Norway","Europe",2011,"F",100
+"2019","Oman","MENA",2011,"NF",27
+"2020","Pakistan","Asia",2011,"PF",44
+"2021","Pakistani Kashmir","Asia",2011,"NF",29
+"2022","Palau","Asia",2011,"F",92
+"2023","Panama","Americas",2011,"F",83
+"2024","Papua New Guinea","Asia",2011,"PF",59
+"2025","Paraguay","Americas",2011,"PF",64
+"2026","Peru","Americas",2011,"F",72
+"2027","Philippines","Asia",2011,"PF",61
+"2028","Poland","Europe",2011,"F",93
+"2029","Portugal","Europe",2011,"F",97
+"2030","Puerto Rico","Americas",2011,"F",90
+"2031","Qatar","MENA",2011,"NF",28
+"2032","Romania","Europe",2011,"F",83
+"2033","Russia","Eurasia",2011,"NF",27
+"2034","Rwanda","SSA",2011,"NF",27
+"2035","Samoa","Asia",2011,"F",81
+"2036","San Marino","Europe",2011,"F",100
+"2037","Sao Tome and Principe","SSA",2011,"F",80
+"2038","Saudi Arabia","MENA",2011,"NF",12
+"2039","Senegal","SSA",2011,"PF",71
+"2040","Serbia","Europe",2011,"F",78
+"2041","Seychelles","SSA",2011,"PF",67
+"2042","Sierra Leone","SSA",2011,"PF",64
+"2043","Singapore","Asia",2011,"PF",48
+"2044","Slovakia","Europe",2011,"F",90
+"2045","Slovenia","Europe",2011,"F",91
+"2046","Solomon Islands","Asia",2011,"PF",64
+"2047","Somalia","SSA",2011,"NF",1
+"2048","Somaliland","SSA",2011,"PF",45
+"2049","South Africa","SSA",2011,"F",83
+"2050","South Korea","Asia",2011,"F",86
+"2051","South Ossetia","Eurasia",2011,"NF",7
+"2052","Spain","Europe",2011,"F",97
+"2053","Sri Lanka","Asia",2011,"PF",45
+"2054","St. Kitts and Nevis","Americas",2011,"F",92
+"2055","St. Lucia","Americas",2011,"F",92
+"2056","St. Vincent and the Grenadines","Americas",2011,"F",89
+"2057","Sudan","SSA",2011,"NF",11
+"2058","Suriname","Americas",2011,"F",78
+"2059","Swaziland","SSA",2011,"NF",23
+"2060","Sweden","Europe",2011,"F",100
+"2061","Switzerland","Europe",2011,"F",96
+"2062","Syria","MENA",2011,"NF",9
+"2063","Taiwan","Asia",2011,"F",87
+"2064","Tajikistan","Eurasia",2011,"NF",26
+"2065","Tanzania","SSA",2011,"PF",64
+"2066","Thailand","Asia",2011,"PF",42
+"2067","The Gambia","SSA",2011,"PF",38
+"2068","Tibet","Asia",2011,"NF",1
+"2069","Timor-Leste","Asia",2011,"PF",62
+"2070","Togo","SSA",2011,"PF",42
+"2071","Tonga","Asia",2011,"PF",71
+"2072","Transnistria","Eurasia",2011,"NF",22
+"2073","Trinidad and Tobago","Americas",2011,"F",82
+"2074","Tunisia","MENA",2011,"NF",23
+"2075","Turkey","Europe",2011,"PF",63
+"2076","Turkmenistan","Eurasia",2011,"NF",8
+"2077","Tuvalu","Asia",2011,"F",94
+"2078","Uganda","SSA",2011,"PF",45
+"2079","Ukraine","Eurasia",2011,"PF",67
+"2080","United Arab Emirates","MENA",2011,"NF",27
+"2081","United Kingdom","Europe",2011,"F",97
+"2082","United States","Americas",2011,"F",94
+"2083","Uruguay","Americas",2011,"F",97
+"2084","Uzbekistan","Eurasia",2011,"NF",4
+"2085","Vanuatu","Asia",2011,"F",80
+"2086","Venezuela","Americas",2011,"PF",42
+"2087","Vietnam","Asia",2011,"NF",20
+"2088","West Bank","MENA",2011,"NF",32
+"2089","Western Sahara","MENA",2011,"NF",8
+"2090","Yemen","MENA",2011,"NF",29
+"2091","Zambia","SSA",2011,"PF",58
+"2092","Zimbabwe","SSA",2011,"NF",21
+"2093","Abkhazia","Eurasia",2010,"PF",35
+"2094","Afghanistan","Asia",2010,"NF",27
+"2095","Albania","Europe",2010,"PF",65
+"2096","Algeria","MENA",2010,"NF",36
+"2097","Andorra","Europe",2010,"F",96
+"2098","Angola","SSA",2010,"NF",31
+"2099","Antigua and Barbuda","Americas",2010,"F",76
+"2100","Argentina","Americas",2010,"F",80
+"2101","Armenia","Eurasia",2010,"PF",39
+"2102","Australia","Asia",2010,"F",96
+"2103","Austria","Europe",2010,"F",97
+"2104","Azerbaijan","Eurasia",2010,"NF",29
+"2105","Bahamas","Americas",2010,"F",96
+"2106","Bahrain","MENA",2010,"NF",32
+"2107","Bangladesh","Asia",2010,"PF",59
+"2108","Barbados","Americas",2010,"F",99
+"2109","Belarus","Eurasia",2010,"NF",15
+"2110","Belgium","Europe",2010,"F",98
+"2111","Belize","Americas",2010,"F",88
+"2112","Benin","SSA",2010,"F",80
+"2113","Bhutan","Asia",2010,"PF",43
+"2114","Bolivia","Americas",2010,"PF",68
+"2115","Bosnia and Herzegovina","Europe",2010,"PF",61
+"2116","Botswana","SSA",2010,"F",75
+"2117","Brazil","Americas",2010,"F",77
+"2118","Brunei","Asia",2010,"NF",30
+"2119","Bulgaria","Europe",2010,"F",82
+"2120","Burkina Faso","SSA",2010,"PF",52
+"2121","Burundi","SSA",2010,"PF",45
+"2122","Cambodia","Asia",2010,"NF",32
+"2123","Cameroon","SSA",2010,"NF",24
+"2124","Canada","Americas",2010,"F",99
+"2125","Cape Verde","SSA",2010,"F",90
+"2126","Central African Republic","SSA",2010,"PF",39
+"2127","Chad","SSA",2010,"NF",20
+"2128","Chile","Americas",2010,"F",97
+"2129","China","Asia",2010,"NF",17
+"2130","Colombia","Americas",2010,"PF",59
+"2131","Comoros","SSA",2010,"PF",55
+"2132","Congo (Brazzaville)","SSA",2010,"NF",29
+"2133","Congo (Kinshasa)","SSA",2010,"NF",21
+"2134","Costa Rica","Americas",2010,"F",91
+"2135","Cote d'Ivoire","SSA",2010,"NF",26
+"2136","Croatia","Europe",2010,"F",86
+"2137","Cuba","Americas",2010,"NF",9
+"2138","Cyprus","Europe",2010,"F",94
+"2139","Czech Republic","Europe",2010,"F",95
+"2140","Denmark","Europe",2010,"F",96
+"2141","Djibouti","SSA",2010,"PF",35
+"2142","Dominica","Americas",2010,"F",96
+"2143","Dominican Republic","Americas",2010,"F",78
+"2144","Ecuador","Americas",2010,"PF",68
+"2145","Egypt","MENA",2010,"NF",27
+"2146","El Salvador","Americas",2010,"F",74
+"2147","Equatorial Guinea","SSA",2010,"NF",8
+"2148","Eritrea","SSA",2010,"NF",8
+"2149","Estonia","Europe",2010,"F",95
+"2150","Ethiopia","SSA",2010,"PF",31
+"2151","Fiji","Asia",2010,"PF",38
+"2152","Finland","Europe",2010,"F",100
+"2153","France","Europe",2010,"F",96
+"2154","Gabon","SSA",2010,"NF",34
+"2155","Georgia","Eurasia",2010,"PF",54
+"2156","Germany","Europe",2010,"F",96
+"2157","Ghana","SSA",2010,"F",84
+"2158","Greece","Europe",2010,"F",86
+"2159","Grenada","Americas",2010,"F",90
+"2160","Guatemala","Americas",2010,"PF",56
+"2161","Guinea","SSA",2010,"NF",15
+"2162","Guinea-Bissau","SSA",2010,"PF",48
+"2163","Guyana","Americas",2010,"F",72
+"2164","Haiti","Americas",2010,"PF",47
+"2165","Honduras","Americas",2010,"PF",51
+"2166","Hong Kong","Asia",2010,"PF",68
+"2167","Hungary","Europe",2010,"F",91
+"2168","Iceland","Europe",2010,"F",99
+"2169","India","Asia",2010,"F",76
+"2170","Indian Kashmir","Asia",2010,"PF",46
+"2171","Indonesia","Asia",2010,"F",65
+"2172","Iran","MENA",2010,"NF",20
+"2173","Iraq","MENA",2010,"NF",26
+"2174","Ireland","Europe",2010,"F",97
+"2175","Israel","MENA",2010,"F",82
+"2176","Israeli Occupied Territories","MENA",2010,"NF",21
+"2177","Italy","Europe",2010,"F",89
+"2178","Jamaica","Americas",2010,"F",75
+"2179","Japan","Asia",2010,"F",88
+"2180","Jordan","MENA",2010,"NF",34
+"2181","Kazakhstan","Eurasia",2010,"NF",28
+"2182","Kenya","SSA",2010,"PF",52
+"2183","Kiribati","Asia",2010,"F",91
+"2184","Kosovo","Europe",2010,"PF",40
+"2185","Kuwait","MENA",2010,"PF",46
+"2186","Kyrgyzstan","Eurasia",2010,"NF",36
+"2187","Laos","Asia",2010,"NF",13
+"2188","Latvia","Europe",2010,"F",86
+"2189","Lebanon","MENA",2010,"PF",52
+"2190","Lesotho","SSA",2010,"PF",70
+"2191","Liberia","SSA",2010,"PF",58
+"2192","Libya","MENA",2010,"NF",8
+"2193","Liechtenstein","Europe",2010,"F",100
+"2194","Lithuania","Europe",2010,"F",90
+"2195","Luxembourg","Europe",2010,"F",100
+"2196","Macedonia","Europe",2010,"PF",63
+"2197","Madagascar","SSA",2010,"PF",41
+"2198","Malawi","SSA",2010,"PF",60
+"2199","Malaysia","Asia",2010,"PF",49
+"2200","Maldives","Asia",2010,"PF",57
+"2201","Mali","SSA",2010,"F",71
+"2202","Malta","Europe",2010,"F",97
+"2203","Marshall Islands","Asia",2010,"F",91
+"2204","Mauritania","SSA",2010,"NF",34
+"2205","Mauritius","SSA",2010,"F",90
+"2206","Mexico","Americas",2010,"F",69
+"2207","Micronesia","Asia",2010,"F",93
+"2208","Moldova","Eurasia",2010,"PF",58
+"2209","Monaco","Europe",2010,"F",87
+"2210","Mongolia","Asia",2010,"F",85
+"2211","Montenegro","Europe",2010,"F",69
+"2212","Morocco","MENA",2010,"PF",42
+"2213","Mozambique","SSA",2010,"PF",59
+"2214","Myanmar","Asia",2010,"NF",2
+"2215","Nagorno-Karabakh","Eurasia",2010,"PF",32
+"2216","Namibia","SSA",2010,"F",76
+"2217","Nauru","Asia",2010,"F",93
+"2218","Nepal","Asia",2010,"PF",50
+"2219","Netherlands","Europe",2010,"F",99
+"2220","New Zealand","Asia",2010,"F",97
+"2221","Nicaragua","Americas",2010,"PF",54
+"2222","Niger","SSA",2010,"PF",42
+"2223","Nigeria","SSA",2010,"PF",45
+"2224","North Korea","Asia",2010,"NF",1
+"2225","Northern Cyprus","Europe",2010,"F",81
+"2226","Norway","Europe",2010,"F",100
+"2227","Oman","MENA",2010,"NF",27
+"2228","Pakistan","Asia",2010,"PF",43
+"2229","Pakistani Kashmir","Asia",2010,"NF",29
+"2230","Palau","Asia",2010,"F",92
+"2231","Palestinian Authority Administered Territories","MENA",2010,"NF",25
+"2232","Panama","Americas",2010,"F",83
+"2233","Papua New Guinea","Asia",2010,"PF",59
+"2234","Paraguay","Americas",2010,"PF",64
+"2235","Peru","Americas",2010,"F",72
+"2236","Philippines","Asia",2010,"PF",57
+"2237","Poland","Europe",2010,"F",93
+"2238","Portugal","Europe",2010,"F",97
+"2239","Puerto Rico","Americas",2010,"F",92
+"2240","Qatar","MENA",2010,"NF",28
+"2241","Romania","Europe",2010,"F",83
+"2242","Russia","Eurasia",2010,"NF",27
+"2243","Rwanda","SSA",2010,"NF",34
+"2244","Samoa","Asia",2010,"F",81
+"2245","San Marino","Europe",2010,"F",100
+"2246","Sao Tome and Principe","SSA",2010,"F",80
+"2247","Saudi Arabia","MENA",2010,"NF",12
+"2248","Senegal","SSA",2010,"PF",72
+"2249","Serbia","Europe",2010,"F",78
+"2250","Seychelles","SSA",2010,"PF",67
+"2251","Sierra Leone","SSA",2010,"PF",64
+"2252","Singapore","Asia",2010,"PF",48
+"2253","Slovakia","Europe",2010,"F",90
+"2254","Slovenia","Europe",2010,"F",91
+"2255","Solomon Islands","Asia",2010,"PF",64
+"2256","Somalia","SSA",2010,"NF",1
+"2257","Somaliland","SSA",2010,"PF",40
+"2258","South Africa","SSA",2010,"F",84
+"2259","South Korea","Asia",2010,"F",86
+"2260","South Ossetia","Eurasia",2010,"NF",5
+"2261","Spain","Europe",2010,"F",97
+"2262","Sri Lanka","Asia",2010,"PF",52
+"2263","St. Kitts and Nevis","Americas",2010,"F",92
+"2264","St. Lucia","Americas",2010,"F",92
+"2265","St. Vincent and the Grenadines","Americas",2010,"F",88
+"2266","Sudan","SSA",2010,"NF",9
+"2267","Suriname","Americas",2010,"F",78
+"2268","Swaziland","SSA",2010,"NF",24
+"2269","Sweden","Europe",2010,"F",100
+"2270","Switzerland","Europe",2010,"F",96
+"2271","Syria","MENA",2010,"NF",9
+"2272","Taiwan","Asia",2010,"F",88
+"2273","Tajikistan","Eurasia",2010,"NF",27
+"2274","Tanzania","SSA",2010,"PF",57
+"2275","Thailand","Asia",2010,"PF",44
+"2276","The Gambia","SSA",2010,"PF",39
+"2277","Tibet","Asia",2010,"NF",1
+"2278","Timor-Leste","Asia",2010,"PF",62
+"2279","Togo","SSA",2010,"PF",43
+"2280","Tonga","Asia",2010,"PF",55
+"2281","Transnistria","Eurasia",2010,"NF",22
+"2282","Trinidad and Tobago","Americas",2010,"F",81
+"2283","Tunisia","MENA",2010,"NF",23
+"2284","Turkey","Europe",2010,"PF",63
+"2285","Turkmenistan","Eurasia",2010,"NF",8
+"2286","Tuvalu","Asia",2010,"F",94
+"2287","Uganda","SSA",2010,"PF",45
+"2288","Ukraine","Eurasia",2010,"F",73
+"2289","United Arab Emirates","MENA",2010,"NF",27
+"2290","United Kingdom","Europe",2010,"F",96
+"2291","United States","Americas",2010,"F",94
+"2292","Uruguay","Americas",2010,"F",97
+"2293","Uzbekistan","Eurasia",2010,"NF",4
+"2294","Vanuatu","Asia",2010,"F",80
+"2295","Venezuela","Americas",2010,"PF",43
+"2296","Vietnam","Asia",2010,"NF",21
+"2297","Western Sahara","MENA",2010,"NF",8
+"2298","Yemen","MENA",2010,"NF",29
+"2299","Zambia","SSA",2010,"PF",60
+"2300","Zimbabwe","SSA",2010,"NF",17
+"2301","Abkhazia","Eurasia",2009,"PF",35
+"2302","Afghanistan","Asia",2009,"NF",32
+"2303","Albania","Europe",2009,"PF",66
+"2304","Algeria","MENA",2009,"NF",36
+"2305","Andorra","Europe",2009,"F",96
+"2306","Angola","SSA",2009,"NF",32
+"2307","Antigua and Barbuda","Americas",2009,"F",77
+"2308","Argentina","Americas",2009,"F",80
+"2309","Armenia","Eurasia",2009,"PF",38
+"2310","Australia","Asia",2009,"F",96
+"2311","Austria","Europe",2009,"F",97
+"2312","Azerbaijan","Eurasia",2009,"NF",29
+"2313","Bahamas","Americas",2009,"F",96
+"2314","Bahrain","MENA",2009,"PF",34
+"2315","Bangladesh","Asia",2009,"PF",52
+"2316","Barbados","Americas",2009,"F",99
+"2317","Belarus","Eurasia",2009,"NF",15
+"2318","Belgium","Europe",2009,"F",97
+"2319","Belize","Americas",2009,"F",87
+"2320","Benin","SSA",2009,"F",80
+"2321","Bhutan","Asia",2009,"PF",43
+"2322","Bolivia","Americas",2009,"PF",68
+"2323","Bosnia and Herzegovina","Europe",2009,"PF",61
+"2324","Botswana","SSA",2009,"F",78
+"2325","Brazil","Americas",2009,"F",77
+"2326","Brunei","Asia",2009,"NF",30
+"2327","Bulgaria","Europe",2009,"F",82
+"2328","Burkina Faso","SSA",2009,"PF",52
+"2329","Burundi","SSA",2009,"PF",43
+"2330","Cambodia","Asia",2009,"NF",34
+"2331","Cameroon","SSA",2009,"NF",23
+"2332","Canada","Americas",2009,"F",97
+"2333","Cape Verde","SSA",2009,"F",90
+"2334","Central African Republic","SSA",2009,"PF",40
+"2335","Chad","SSA",2009,"NF",20
+"2336","Chechnya","Eurasia",2009,"NF",7
+"2337","Chile","Americas",2009,"F",97
+"2338","China","Asia",2009,"NF",16
+"2339","Colombia","Americas",2009,"PF",60
+"2340","Comoros","SSA",2009,"PF",55
+"2341","Congo (Brazzaville)","SSA",2009,"NF",33
+"2342","Congo (Kinshasa)","SSA",2009,"NF",22
+"2343","Costa Rica","Americas",2009,"F",91
+"2344","Cote d'Ivoire","SSA",2009,"NF",25
+"2345","Croatia","Europe",2009,"F",84
+"2346","Cuba","Americas",2009,"NF",9
+"2347","Cyprus","Europe",2009,"F",95
+"2348","Czech Republic","Europe",2009,"F",95
+"2349","Denmark","Europe",2009,"F",97
+"2350","Djibouti","SSA",2009,"PF",34
+"2351","Dominica","Americas",2009,"F",97
+"2352","Dominican Republic","Americas",2009,"F",81
+"2353","Ecuador","Americas",2009,"PF",69
+"2354","Egypt","MENA",2009,"NF",25
+"2355","El Salvador","Americas",2009,"F",73
+"2356","Equatorial Guinea","SSA",2009,"NF",8
+"2357","Eritrea","SSA",2009,"NF",13
+"2358","Estonia","Europe",2009,"F",95
+"2359","Ethiopia","SSA",2009,"PF",33
+"2360","Fiji","Asia",2009,"PF",38
+"2361","Finland","Europe",2009,"F",100
+"2362","France","Europe",2009,"F",96
+"2363","Gabon","SSA",2009,"PF",36
+"2364","Georgia","Eurasia",2009,"PF",51
+"2365","Germany","Europe",2009,"F",96
+"2366","Ghana","SSA",2009,"F",84
+"2367","Greece","Europe",2009,"F",88
+"2368","Grenada","Americas",2009,"F",90
+"2369","Guatemala","Americas",2009,"PF",57
+"2370","Guinea","SSA",2009,"NF",28
+"2371","Guinea-Bissau","SSA",2009,"PF",50
+"2372","Guyana","Americas",2009,"F",73
+"2373","Haiti","Americas",2009,"PF",47
+"2374","Honduras","Americas",2009,"PF",60
+"2375","Hong Kong","Asia",2009,"PF",68
+"2376","Hungary","Europe",2009,"F",92
+"2377","Iceland","Europe",2009,"F",100
+"2378","India","Asia",2009,"F",76
+"2379","Indian Kashmir","Asia",2009,"PF",43
+"2380","Indonesia","Asia",2009,"F",66
+"2381","Iran","MENA",2009,"NF",22
+"2382","Iraq","MENA",2009,"NF",24
+"2383","Ireland","Europe",2009,"F",97
+"2384","Israel","MENA",2009,"F",84
+"2385","Israeli Occupied Territories","MENA",2009,"NF",21
+"2386","Italy","Europe",2009,"F",90
+"2387","Jamaica","Americas",2009,"F",75
+"2388","Japan","Asia",2009,"F",88
+"2389","Jordan","MENA",2009,"PF",38
+"2390","Kazakhstan","Eurasia",2009,"NF",30
+"2391","Kenya","SSA",2009,"PF",54
+"2392","Kiribati","Asia",2009,"F",91
+"2393","Kosovo","Europe",2009,"NF",35
+"2394","Kuwait","MENA",2009,"PF",46
+"2395","Kyrgyzstan","Eurasia",2009,"PF",39
+"2396","Laos","Asia",2009,"NF",13
+"2397","Latvia","Europe",2009,"F",87
+"2398","Lebanon","MENA",2009,"PF",51
+"2399","Lesotho","SSA",2009,"F",71
+"2400","Liberia","SSA",2009,"PF",59
+"2401","Libya","MENA",2009,"NF",8
+"2402","Liechtenstein","Europe",2009,"F",100
+"2403","Lithuania","Europe",2009,"F",91
+"2404","Luxembourg","Europe",2009,"F",100
+"2405","Macedonia","Europe",2009,"PF",60
+"2406","Madagascar","SSA",2009,"PF",58
+"2407","Malawi","SSA",2009,"PF",57
+"2408","Malaysia","Asia",2009,"PF",49
+"2409","Maldives","Asia",2009,"PF",48
+"2410","Mali","SSA",2009,"F",70
+"2411","Malta","Europe",2009,"F",98
+"2412","Marshall Islands","Asia",2009,"F",91
+"2413","Mauritania","SSA",2009,"NF",32
+"2414","Mauritius","SSA",2009,"F",90
+"2415","Mexico","Americas",2009,"F",70
+"2416","Micronesia","Asia",2009,"F",93
+"2417","Moldova","Eurasia",2009,"PF",55
+"2418","Monaco","Europe",2009,"F",87
+"2419","Mongolia","Asia",2009,"F",82
+"2420","Montenegro","Europe",2009,"PF",66
+"2421","Morocco","MENA",2009,"PF",44
+"2422","Mozambique","SSA",2009,"PF",61
+"2423","Myanmar","Asia",2009,"NF",2
+"2424","Nagorno-Karabakh","Eurasia",2009,"PF",34
+"2425","Namibia","SSA",2009,"F",75
+"2426","Nauru","Asia",2009,"F",93
+"2427","Nepal","Asia",2009,"PF",50
+"2428","Netherlands","Europe",2009,"F",99
+"2429","New Zealand","Asia",2009,"F",96
+"2430","Nicaragua","Americas",2009,"PF",57
+"2431","Niger","SSA",2009,"PF",58
+"2432","Nigeria","SSA",2009,"PF",47
+"2433","North Korea","Asia",2009,"NF",2
+"2434","Northern Cyprus","Europe",2009,"F",81
+"2435","Norway","Europe",2009,"F",100
+"2436","Oman","MENA",2009,"NF",28
+"2437","Pakistan","Asia",2009,"PF",40
+"2438","Pakistani Kashmir","Asia",2009,"NF",27
+"2439","Palau","Asia",2009,"F",92
+"2440","Palestinian Authority Administered Territories","MENA",2009,"NF",25
+"2441","Panama","Americas",2009,"F",83
+"2442","Papua New Guinea","Asia",2009,"PF",59
+"2443","Paraguay","Americas",2009,"PF",64
+"2444","Peru","Americas",2009,"F",73
+"2445","Philippines","Asia",2009,"PF",60
+"2446","Poland","Europe",2009,"F",93
+"2447","Portugal","Europe",2009,"F",97
+"2448","Puerto Rico","Americas",2009,"F",92
+"2449","Qatar","MENA",2009,"NF",28
+"2450","Romania","Europe",2009,"F",83
+"2451","Russia","Eurasia",2009,"NF",31
+"2452","Rwanda","SSA",2009,"NF",34
+"2453","Samoa","Asia",2009,"F",81
+"2454","San Marino","Europe",2009,"F",100
+"2455","Sao Tome and Principe","SSA",2009,"F",80
+"2456","Saudi Arabia","MENA",2009,"NF",12
+"2457","Senegal","SSA",2009,"PF",72
+"2458","Serbia","Europe",2009,"F",76
+"2459","Seychelles","SSA",2009,"PF",67
+"2460","Sierra Leone","SSA",2009,"PF",64
+"2461","Singapore","Asia",2009,"PF",48
+"2462","Slovakia","Europe",2009,"F",91
+"2463","Slovenia","Europe",2009,"F",91
+"2464","Solomon Islands","Asia",2009,"PF",64
+"2465","Somalia","SSA",2009,"NF",2
+"2466","Somaliland","SSA",2009,"PF",44
+"2467","South Africa","SSA",2009,"F",85
+"2468","South Korea","Asia",2009,"F",86
+"2469","South Ossetia","Eurasia",2009,"NF",9
+"2470","Spain","Europe",2009,"F",97
+"2471","Sri Lanka","Asia",2009,"PF",52
+"2472","St. Kitts and Nevis","Americas",2009,"F",92
+"2473","St. Lucia","Americas",2009,"F",92
+"2474","St. Vincent and the Grenadines","Americas",2009,"F",88
+"2475","Sudan","SSA",2009,"NF",10
+"2476","Suriname","Americas",2009,"F",78
+"2477","Swaziland","SSA",2009,"NF",23
+"2478","Sweden","Europe",2009,"F",100
+"2479","Switzerland","Europe",2009,"F",97
+"2480","Syria","MENA",2009,"NF",9
+"2481","Taiwan","Asia",2009,"F",89
+"2482","Tajikistan","Eurasia",2009,"NF",27
+"2483","Tanzania","SSA",2009,"PF",58
+"2484","Thailand","Asia",2009,"PF",44
+"2485","The Gambia","SSA",2009,"PF",43
+"2486","Tibet","Asia",2009,"NF",1
+"2487","Timor-Leste","Asia",2009,"PF",62
+"2488","Togo","SSA",2009,"PF",39
+"2489","Tonga","Asia",2009,"PF",55
+"2490","Transnistria","Eurasia",2009,"NF",22
+"2491","Trinidad and Tobago","Americas",2009,"F",81
+"2492","Tunisia","MENA",2009,"NF",23
+"2493","Turkey","Europe",2009,"PF",65
+"2494","Turkmenistan","Eurasia",2009,"NF",6
+"2495","Tuvalu","Asia",2009,"F",94
+"2496","Uganda","SSA",2009,"PF",45
+"2497","Ukraine","Eurasia",2009,"F",73
+"2498","United Arab Emirates","MENA",2009,"NF",28
+"2499","United Kingdom","Europe",2009,"F",97
+"2500","United States","Americas",2009,"F",94
+"2501","Uruguay","Americas",2009,"F",97
+"2502","Uzbekistan","Eurasia",2009,"NF",3
+"2503","Vanuatu","Asia",2009,"F",80
+"2504","Venezuela","Americas",2009,"PF",46
+"2505","Vietnam","Asia",2009,"NF",22
+"2506","Western Sahara","MENA",2009,"NF",9
+"2507","Yemen","MENA",2009,"PF",35
+"2508","Zambia","SSA",2009,"PF",61
+"2509","Zimbabwe","SSA",2009,"NF",12
+"2510","Abkhazia","Eurasia",2008,"PF",36
+"2511","Afghanistan","Asia",2008,"PF",34
+"2512","Albania","Europe",2008,"PF",65
+"2513","Algeria","MENA",2008,"NF",36
+"2514","Andorra","Europe",2008,"F",96
+"2515","Angola","SSA",2008,"NF",29
+"2516","Antigua and Barbuda","Americas",2008,"F",77
+"2517","Argentina","Americas",2008,"F",80
+"2518","Armenia","Eurasia",2008,"PF",42
+"2519","Australia","Asia",2008,"F",96
+"2520","Austria","Europe",2008,"F",98
+"2521","Azerbaijan","Eurasia",2008,"NF",31
+"2522","Bahamas","Americas",2008,"F",96
+"2523","Bahrain","MENA",2008,"PF",37
+"2524","Bangladesh","Asia",2008,"PF",40
+"2525","Barbados","Americas",2008,"F",99
+"2526","Belarus","Eurasia",2008,"NF",13
+"2527","Belgium","Europe",2008,"F",97
+"2528","Belize","Americas",2008,"F",87
+"2529","Benin","SSA",2008,"F",82
+"2530","Bhutan","Asia",2008,"NF",34
+"2531","Bolivia","Americas",2008,"PF",70
+"2532","Bosnia and Herzegovina","Europe",2008,"PF",62
+"2533","Botswana","SSA",2008,"F",79
+"2534","Brazil","Americas",2008,"F",76
+"2535","Brunei","Asia",2008,"NF",30
+"2536","Bulgaria","Europe",2008,"F",85
+"2537","Burkina Faso","SSA",2008,"PF",53
+"2538","Burundi","SSA",2008,"PF",45
+"2539","Cambodia","Asia",2008,"NF",35
+"2540","Cameroon","SSA",2008,"NF",25
+"2541","Canada","Americas",2008,"F",99
+"2542","Cape Verde","SSA",2008,"F",90
+"2543","Central African Republic","SSA",2008,"PF",40
+"2544","Chad","SSA",2008,"NF",20
+"2545","Chechnya","Eurasia",2008,"NF",7
+"2546","Chile","Americas",2008,"F",97
+"2547","China","Asia",2008,"NF",18
+"2548","Colombia","Americas",2008,"PF",61
+"2549","Comoros","SSA",2008,"PF",53
+"2550","Congo (Brazzaville)","SSA",2008,"NF",32
+"2551","Congo (Kinshasa)","SSA",2008,"NF",25
+"2552","Costa Rica","Americas",2008,"F",91
+"2553","Cote d'Ivoire","SSA",2008,"NF",24
+"2554","Croatia","Europe",2008,"F",85
+"2555","Cuba","Americas",2008,"NF",7
+"2556","Cyprus","Europe",2008,"F",95
+"2557","Czech Republic","Europe",2008,"F",95
+"2558","Denmark","Europe",2008,"F",98
+"2559","Djibouti","SSA",2008,"PF",34
+"2560","Dominica","Americas",2008,"F",97
+"2561","Dominican Republic","Americas",2008,"F",80
+"2562","Ecuador","Americas",2008,"PF",69
+"2563","Egypt","MENA",2008,"NF",25
+"2564","El Salvador","Americas",2008,"F",73
+"2565","Equatorial Guinea","SSA",2008,"NF",10
+"2566","Eritrea","SSA",2008,"NF",13
+"2567","Estonia","Europe",2008,"F",94
+"2568","Ethiopia","SSA",2008,"PF",33
+"2569","Fiji","Asia",2008,"PF",39
+"2570","Finland","Europe",2008,"F",100
+"2571","France","Europe",2008,"F",93
+"2572","Gabon","SSA",2008,"PF",37
+"2573","Georgia","Eurasia",2008,"PF",54
+"2574","Germany","Europe",2008,"F",96
+"2575","Ghana","SSA",2008,"F",84
+"2576","Greece","Europe",2008,"F",89
+"2577","Grenada","Americas",2008,"F",88
+"2578","Guatemala","Americas",2008,"PF",57
+"2579","Guinea","SSA",2008,"NF",33
+"2580","Guinea-Bissau","SSA",2008,"PF",51
+"2581","Guyana","Americas",2008,"F",73
+"2582","Haiti","Americas",2008,"PF",47
+"2583","Honduras","Americas",2008,"PF",61
+"2584","Hong Kong","Asia",2008,"PF",67
+"2585","Hungary","Europe",2008,"F",92
+"2586","Iceland","Europe",2008,"F",100
+"2587","India","Asia",2008,"F",76
+"2588","Indian Kashmir","Asia",2008,"PF",41
+"2589","Indonesia","Asia",2008,"F",67
+"2590","Iran","MENA",2008,"NF",24
+"2591","Iraq","MENA",2008,"NF",23
+"2592","Ireland","Europe",2008,"F",97
+"2593","Israel","MENA",2008,"F",84
+"2594","Israeli Occupied Territories","MENA",2008,"NF",23
+"2595","Italy","Europe",2008,"F",92
+"2596","Jamaica","Americas",2008,"F",77
+"2597","Japan","Asia",2008,"F",88
+"2598","Jordan","MENA",2008,"PF",41
+"2599","Kazakhstan","Eurasia",2008,"NF",30
+"2600","Kenya","SSA",2008,"PF",58
+"2601","Kiribati","Asia",2008,"F",91
+"2602","Kosovo","Europe",2008,"NF",34
+"2603","Kuwait","MENA",2008,"PF",46
+"2604","Kyrgyzstan","Eurasia",2008,"PF",45
+"2605","Laos","Asia",2008,"NF",13
+"2606","Latvia","Europe",2008,"F",88
+"2607","Lebanon","MENA",2008,"PF",49
+"2608","Lesotho","SSA",2008,"F",71
+"2609","Liberia","SSA",2008,"PF",59
+"2610","Libya","MENA",2008,"NF",8
+"2611","Liechtenstein","Europe",2008,"F",100
+"2612","Lithuania","Europe",2008,"F",90
+"2613","Luxembourg","Europe",2008,"F",100
+"2614","Macedonia","Europe",2008,"PF",60
+"2615","Madagascar","SSA",2008,"PF",58
+"2616","Malawi","SSA",2008,"PF",57
+"2617","Malaysia","Asia",2008,"PF",46
+"2618","Maldives","Asia",2008,"NF",36
+"2619","Mali","SSA",2008,"F",72
+"2620","Malta","Europe",2008,"F",97
+"2621","Marshall Islands","Asia",2008,"F",92
+"2622","Mauritania","SSA",2008,"PF",52
+"2623","Mauritius","SSA",2008,"F",90
+"2624","Mexico","Americas",2008,"F",73
+"2625","Micronesia","Asia",2008,"F",93
+"2626","Moldova","Eurasia",2008,"PF",57
+"2627","Monaco","Europe",2008,"F",87
+"2628","Mongolia","Asia",2008,"F",82
+"2629","Montenegro","Europe",2008,"PF",65
+"2630","Morocco","MENA",2008,"PF",44
+"2631","Mozambique","SSA",2008,"PF",60
+"2632","Myanmar","Asia",2008,"NF",3
+"2633","Nagorno-Karabakh","Eurasia",2008,"PF",34
+"2634","Namibia","SSA",2008,"F",77
+"2635","Nauru","Asia",2008,"F",93
+"2636","Nepal","Asia",2008,"PF",46
+"2637","Netherlands","Europe",2008,"F",99
+"2638","New Zealand","Asia",2008,"F",96
+"2639","Nicaragua","Americas",2008,"PF",64
+"2640","Niger","SSA",2008,"PF",60
+"2641","Nigeria","SSA",2008,"PF",49
+"2642","North Korea","Asia",2008,"NF",2
+"2643","Northern Cyprus","Europe",2008,"F",80
+"2644","Norway","Europe",2008,"F",100
+"2645","Oman","MENA",2008,"NF",28
+"2646","Pakistan","Asia",2008,"NF",26
+"2647","Pakistani Kashmir","Asia",2008,"NF",23
+"2648","Palau","Asia",2008,"F",92
+"2649","Palestinian Authority Administered Territories","MENA",2008,"NF",27
+"2650","Panama","Americas",2008,"F",83
+"2651","Papua New Guinea","Asia",2008,"PF",60
+"2652","Paraguay","Americas",2008,"PF",62
+"2653","Peru","Americas",2008,"F",73
+"2654","Philippines","Asia",2008,"PF",61
+"2655","Poland","Europe",2008,"F",93
+"2656","Portugal","Europe",2008,"F",98
+"2657","Puerto Rico","Americas",2008,"F",92
+"2658","Qatar","MENA",2008,"NF",28
+"2659","Romania","Europe",2008,"F",81
+"2660","Russia","Eurasia",2008,"NF",32
+"2661","Rwanda","SSA",2008,"NF",34
+"2662","Samoa","Asia",2008,"F",81
+"2663","San Marino","Europe",2008,"F",100
+"2664","Sao Tome and Principe","SSA",2008,"F",80
+"2665","Saudi Arabia","MENA",2008,"NF",13
+"2666","Senegal","SSA",2008,"F",73
+"2667","Serbia","Europe",2008,"F",76
+"2668","Seychelles","SSA",2008,"PF",65
+"2669","Sierra Leone","SSA",2008,"PF",63
+"2670","Singapore","Asia",2008,"PF",49
+"2671","Slovakia","Europe",2008,"F",91
+"2672","Slovenia","Europe",2008,"F",91
+"2673","Solomon Islands","Asia",2008,"PF",63
+"2674","Somalia","SSA",2008,"NF",3
+"2675","South Africa","SSA",2008,"F",86
+"2676","South Korea","Asia",2008,"F",86
+"2677","Spain","Europe",2008,"F",96
+"2678","Sri Lanka","Asia",2008,"PF",52
+"2679","St. Kitts and Nevis","Americas",2008,"F",92
+"2680","St. Lucia","Americas",2008,"F",92
+"2681","St. Vincent and the Grenadines","Americas",2008,"F",88
+"2682","Sudan","SSA",2008,"NF",10
+"2683","Suriname","Americas",2008,"F",78
+"2684","Swaziland","SSA",2008,"NF",23
+"2685","Sweden","Europe",2008,"F",100
+"2686","Switzerland","Europe",2008,"F",97
+"2687","Syria","MENA",2008,"NF",9
+"2688","Taiwan","Asia",2008,"F",89
+"2689","Tajikistan","Eurasia",2008,"NF",28
+"2690","Tanzania","SSA",2008,"PF",58
+"2691","Thailand","Asia",2008,"PF",39
+"2692","The Gambia","SSA",2008,"PF",48
+"2693","Tibet","Asia",2008,"NF",2
+"2694","Timor-Leste","Asia",2008,"PF",62
+"2695","Togo","SSA",2008,"PF",38
+"2696","Tonga","Asia",2008,"PF",55
+"2697","Transnistria","Eurasia",2008,"NF",22
+"2698","Trinidad and Tobago","Americas",2008,"F",81
+"2699","Tunisia","MENA",2008,"NF",23
+"2700","Turkey","Europe",2008,"PF",66
+"2701","Turkmenistan","Eurasia",2008,"NF",5
+"2702","Tuvalu","Asia",2008,"F",94
+"2703","Uganda","SSA",2008,"PF",45
+"2704","Ukraine","Eurasia",2008,"F",73
+"2705","United Arab Emirates","MENA",2008,"NF",26
+"2706","United Kingdom","Europe",2008,"F",97
+"2707","United States","Americas",2008,"F",94
+"2708","Uruguay","Americas",2008,"F",97
+"2709","Uzbekistan","Eurasia",2008,"NF",3
+"2710","Vanuatu","Asia",2008,"F",80
+"2711","Venezuela","Americas",2008,"PF",47
+"2712","Vietnam","Asia",2008,"NF",21
+"2713","Western Sahara","MENA",2008,"NF",9
+"2714","Yemen","MENA",2008,"PF",34
+"2715","Zambia","SSA",2008,"PF",60
+"2716","Zimbabwe","SSA",2008,"NF",14
+"2717","Abkhazia","Eurasia",2007,"PF",34
+"2718","Afghanistan","Asia",2007,"PF",35
+"2719","Albania","Europe",2007,"PF",64
+"2720","Algeria","MENA",2007,"NF",36
+"2721","Andorra","Europe",2007,"F",96
+"2722","Angola","SSA",2007,"NF",29
+"2723","Antigua and Barbuda","Americas",2007,"F",77
+"2724","Argentina","Americas",2007,"F",81
+"2725","Armenia","Eurasia",2007,"PF",41
+"2726","Australia","Asia",2007,"F",96
+"2727","Austria","Europe",2007,"F",98
+"2728","Azerbaijan","Eurasia",2007,"NF",32
+"2729","Bahamas","Americas",2007,"F",96
+"2730","Bahrain","MENA",2007,"PF",36
+"2731","Bangladesh","Asia",2007,"PF",53
+"2732","Barbados","Americas",2007,"F",99
+"2733","Belarus","Eurasia",2007,"NF",14
+"2734","Belgium","Europe",2007,"F",98
+"2735","Belize","Americas",2007,"F",87
+"2736","Benin","SSA",2007,"F",82
+"2737","Bhutan","Asia",2007,"NF",31
+"2738","Bolivia","Americas",2007,"PF",71
+"2739","Bosnia and Herzegovina","Europe",2007,"PF",64
+"2740","Botswana","SSA",2007,"F",78
+"2741","Brazil","Americas",2007,"F",76
+"2742","Brunei","Asia",2007,"NF",30
+"2743","Bulgaria","Europe",2007,"F",85
+"2744","Burkina Faso","SSA",2007,"PF",54
+"2745","Burundi","SSA",2007,"PF",45
+"2746","Cambodia","Asia",2007,"NF",35
+"2747","Cameroon","SSA",2007,"NF",27
+"2748","Canada","Americas",2007,"F",99
+"2749","Cape Verde","SSA",2007,"F",90
+"2750","Central African Republic","SSA",2007,"PF",43
+"2751","Chad","SSA",2007,"NF",22
+"2752","Chechnya","Eurasia",2007,"NF",6
+"2753","Chile","Americas",2007,"F",97
+"2754","China","Asia",2007,"NF",17
+"2755","Colombia","Americas",2007,"PF",62
+"2756","Comoros","SSA",2007,"PF",54
+"2757","Congo (Brazzaville)","SSA",2007,"NF",35
+"2758","Congo (Kinshasa)","SSA",2007,"NF",26
+"2759","Costa Rica","Americas",2007,"F",91
+"2760","Cote d'Ivoire","SSA",2007,"NF",21
+"2761","Croatia","Europe",2007,"F",85
+"2762","Cuba","Americas",2007,"NF",7
+"2763","Cyprus","Europe",2007,"F",95
+"2764","Czech Republic","Europe",2007,"F",95
+"2765","Denmark","Europe",2007,"F",98
+"2766","Djibouti","SSA",2007,"PF",35
+"2767","Dominica","Americas",2007,"F",92
+"2768","Dominican Republic","Americas",2007,"F",80
+"2769","Ecuador","Americas",2007,"PF",69
+"2770","Egypt","MENA",2007,"NF",27
+"2771","El Salvador","Americas",2007,"F",74
+"2772","Equatorial Guinea","SSA",2007,"NF",10
+"2773","Eritrea","SSA",2007,"NF",13
+"2774","Estonia","Europe",2007,"F",95
+"2775","Ethiopia","SSA",2007,"PF",34
+"2776","Fiji","Asia",2007,"PF",38
+"2777","Finland","Europe",2007,"F",100
+"2778","France","Europe",2007,"F",94
+"2779","Gabon","SSA",2007,"PF",37
+"2780","Georgia","Eurasia",2007,"PF",62
+"2781","Germany","Europe",2007,"F",96
+"2782","Ghana","SSA",2007,"F",84
+"2783","Greece","Europe",2007,"F",89
+"2784","Grenada","Americas",2007,"F",86
+"2785","Guatemala","Americas",2007,"PF",57
+"2786","Guinea","SSA",2007,"NF",32
+"2787","Guinea-Bissau","SSA",2007,"PF",55
+"2788","Guyana","Americas",2007,"F",73
+"2789","Haiti","Americas",2007,"PF",42
+"2790","Honduras","Americas",2007,"PF",62
+"2791","Hong Kong","Asia",2007,"PF",67
+"2792","Hungary","Europe",2007,"F",92
+"2793","Iceland","Europe",2007,"F",100
+"2794","India","Asia",2007,"F",76
+"2795","Indian Kashmir","Asia",2007,"PF",40
+"2796","Indonesia","Asia",2007,"F",65
+"2797","Iran","MENA",2007,"NF",23
+"2798","Iraq","MENA",2007,"NF",22
+"2799","Ireland","Europe",2007,"F",97
+"2800","Israel","MENA",2007,"F",84
+"2801","Israeli Occupied Territories","MENA",2007,"NF",25
+"2802","Italy","Europe",2007,"F",92
+"2803","Jamaica","Americas",2007,"F",74
+"2804","Japan","Asia",2007,"F",88
+"2805","Jordan","MENA",2007,"PF",42
+"2806","Kazakhstan","Eurasia",2007,"NF",32
+"2807","Kenya","SSA",2007,"PF",64
+"2808","Kiribati","Asia",2007,"F",91
+"2809","Kosovo","Eurasia",2007,"PF",29
+"2810","Kuwait","MENA",2007,"PF",46
+"2811","Kyrgyzstan","Eurasia",2007,"PF",46
+"2812","Laos","Asia",2007,"NF",13
+"2813","Latvia","Europe",2007,"F",89
+"2814","Lebanon","MENA",2007,"PF",51
+"2815","Lesotho","SSA",2007,"F",73
+"2816","Liberia","SSA",2007,"PF",57
+"2817","Libya","MENA",2007,"NF",8
+"2818","Liechtenstein","Europe",2007,"F",100
+"2819","Lithuania","Europe",2007,"F",90
+"2820","Luxembourg","Europe",2007,"F",100
+"2821","Macedonia","Europe",2007,"PF",60
+"2822","Madagascar","SSA",2007,"PF",59
+"2823","Malawi","SSA",2007,"PF",58
+"2824","Malaysia","Asia",2007,"PF",48
+"2825","Maldives","Asia",2007,"NF",34
+"2826","Mali","SSA",2007,"F",74
+"2827","Malta","Europe",2007,"F",98
+"2828","Marshall Islands","Asia",2007,"F",92
+"2829","Mauritania","SSA",2007,"PF",46
+"2830","Mauritius","SSA",2007,"F",89
+"2831","Mexico","Americas",2007,"F",76
+"2832","Micronesia","Asia",2007,"F",93
+"2833","Moldova","Eurasia",2007,"PF",57
+"2834","Monaco","Europe",2007,"F",87
+"2835","Mongolia","Asia",2007,"F",82
+"2836","Montenegro","Europe",2007,"PF",65
+"2837","Morocco","MENA",2007,"PF",45
+"2838","Mozambique","SSA",2007,"PF",58
+"2839","Myanmar","Asia",2007,"NF",4
+"2840","Nagorno-Karabakh","Eurasia",2007,"PF",35
+"2841","Namibia","SSA",2007,"F",77
+"2842","Nauru","Asia",2007,"F",93
+"2843","Nepal","Asia",2007,"PF",45
+"2844","Netherlands","Europe",2007,"F",99
+"2845","New Zealand","Asia",2007,"F",96
+"2846","Nicaragua","Americas",2007,"PF",67
+"2847","Niger","SSA",2007,"PF",64
+"2848","Nigeria","SSA",2007,"PF",51
+"2849","North Korea","Asia",2007,"NF",1
+"2850","Northern Cyprus","Europe",2007,"F",80
+"2851","Norway","Europe",2007,"F",100
+"2852","Oman","MENA",2007,"NF",28
+"2853","Pakistan","Asia",2007,"NF",35
+"2854","Pakistani Kashmir","Asia",2007,"NF",25
+"2855","Palau","Asia",2007,"F",92
+"2856","Palestinian Authority Administered Territories","MENA",2007,"PF",34
+"2857","Panama","Americas",2007,"F",83
+"2858","Papua New Guinea","Asia",2007,"PF",62
+"2859","Paraguay","Americas",2007,"PF",63
+"2860","Peru","Americas",2007,"F",73
+"2861","Philippines","Asia",2007,"PF",69
+"2862","Poland","Europe",2007,"F",91
+"2863","Portugal","Europe",2007,"F",97
+"2864","Puerto Rico","Americas",2007,"F",92
+"2865","Qatar","MENA",2007,"NF",27
+"2866","Romania","Europe",2007,"F",81
+"2867","Russia","Eurasia",2007,"NF",34
+"2868","Rwanda","SSA",2007,"NF",33
+"2869","Samoa","Asia",2007,"F",81
+"2870","San Marino","Europe",2007,"F",100
+"2871","Sao Tome and Principe","SSA",2007,"F",80
+"2872","Saudi Arabia","MENA",2007,"NF",13
+"2873","Senegal","SSA",2007,"F",76
+"2874","Serbia","Europe",2007,"F",76
+"2875","Seychelles","SSA",2007,"PF",66
+"2876","Sierra Leone","SSA",2007,"PF",60
+"2877","Singapore","Asia",2007,"PF",49
+"2878","Slovakia","Europe",2007,"F",91
+"2879","Slovenia","Europe",2007,"F",91
+"2880","Solomon Islands","Asia",2007,"PF",65
+"2881","Somalia","SSA",2007,"NF",4
+"2882","South Africa","SSA",2007,"F",86
+"2883","South Korea","Asia",2007,"F",87
+"2884","Spain","Europe",2007,"F",96
+"2885","Sri Lanka","Asia",2007,"PF",56
+"2886","St. Kitts and Nevis","Americas",2007,"F",91
+"2887","St. Lucia","Americas",2007,"F",91
+"2888","St. Vincent and the Grenadines","Americas",2007,"F",87
+"2889","Sudan","SSA",2007,"NF",10
+"2890","Suriname","Americas",2007,"F",77
+"2891","Swaziland","SSA",2007,"NF",23
+"2892","Sweden","Europe",2007,"F",100
+"2893","Switzerland","Europe",2007,"F",99
+"2894","Syria","MENA",2007,"NF",9
+"2895","Taiwan","Asia",2007,"F",89
+"2896","Tajikistan","Eurasia",2007,"NF",28
+"2897","Tanzania","SSA",2007,"PF",58
+"2898","Thailand","Asia",2007,"NF",36
+"2899","The Gambia","SSA",2007,"PF",48
+"2900","Tibet","Asia",2007,"NF",3
+"2901","Timor-Leste","Asia",2007,"PF",59
+"2902","Togo","SSA",2007,"NF",29
+"2903","Tonga","Asia",2007,"PF",55
+"2904","Transnistria","Eurasia",2007,"NF",22
+"2905","Trinidad and Tobago","Americas",2007,"F",80
+"2906","Tunisia","MENA",2007,"NF",24
+"2907","Turkey","Europe",2007,"PF",65
+"2908","Turkmenistan","Eurasia",2007,"NF",1
+"2909","Tuvalu","Asia",2007,"F",94
+"2910","Uganda","SSA",2007,"PF",46
+"2911","Ukraine","Eurasia",2007,"F",73
+"2912","United Arab Emirates","MENA",2007,"NF",25
+"2913","United Kingdom","Europe",2007,"F",98
+"2914","United States","Americas",2007,"F",93
+"2915","Uruguay","Americas",2007,"F",97
+"2916","Uzbekistan","Eurasia",2007,"NF",3
+"2917","Vanuatu","Asia",2007,"F",80
+"2918","Venezuela","Americas",2007,"PF",51
+"2919","Vietnam","Asia",2007,"NF",21
+"2920","Western Sahara","MENA",2007,"NF",8
+"2921","Yemen","MENA",2007,"PF",33
+"2922","Zambia","SSA",2007,"PF",59
+"2923","Zimbabwe","SSA",2007,"NF",13
+"2924","Abkhazia","Eurasia",2006,"PF",34
+"2925","Afghanistan","Asia",2006,"PF",35
+"2926","Albania","Europe",2006,"PF",63
+"2927","Algeria","MENA",2006,"NF",36
+"2928","Andorra","Europe",2006,"F",96
+"2929","Angola","SSA",2006,"NF",29
+"2930","Antigua and Barbuda","Americas",2006,"F",77
+"2931","Argentina","Americas",2006,"F",84
+"2932","Armenia","Eurasia",2006,"PF",41
+"2933","Australia","Asia",2006,"F",96
+"2934","Austria","Europe",2006,"F",98
+"2935","Azerbaijan","Eurasia",2006,"NF",33
+"2936","Bahamas","Americas",2006,"F",96
+"2937","Bahrain","MENA",2006,"PF",36
+"2938","Bangladesh","Asia",2006,"PF",53
+"2939","Barbados","Americas",2006,"F",99
+"2940","Belarus","Eurasia",2006,"NF",15
+"2941","Belgium","Europe",2006,"F",97
+"2942","Belize","Americas",2006,"F",88
+"2943","Benin","SSA",2006,"F",78
+"2944","Bhutan","Asia",2006,"NF",29
+"2945","Bolivia","Americas",2006,"PF",71
+"2946","Bosnia and Herzegovina","Europe",2006,"PF",62
+"2947","Botswana","SSA",2006,"F",78
+"2948","Brazil","Americas",2006,"F",77
+"2949","Brunei","Asia",2006,"NF",29
+"2950","Bulgaria","Europe",2006,"F",87
+"2951","Burkina Faso","SSA",2006,"PF",53
+"2952","Burundi","SSA",2006,"PF",49
+"2953","Cambodia","Asia",2006,"NF",35
+"2954","Cameroon","SSA",2006,"NF",27
+"2955","Canada","Americas",2006,"F",98
+"2956","Cape Verde","SSA",2006,"F",90
+"2957","Central African Republic","SSA",2006,"PF",44
+"2958","Chad","SSA",2006,"NF",26
+"2959","Chechnya","Eurasia",2006,"NF",5
+"2960","Chile","Americas",2006,"F",96
+"2961","China","Asia",2006,"NF",17
+"2962","Colombia","Americas",2006,"PF",60
+"2963","Comoros","SSA",2006,"PF",48
+"2964","Congo (Brazzaville)","SSA",2006,"PF",37
+"2965","Congo (Kinshasa)","SSA",2006,"NF",20
+"2966","Costa Rica","Americas",2006,"F",92
+"2967","Cote d'Ivoire","SSA",2006,"NF",21
+"2968","Croatia","Europe",2006,"F",84
+"2969","Cuba","Americas",2006,"NF",8
+"2970","Cyprus","Europe",2006,"F",95
+"2971","Czech Republic","Europe",2006,"F",92
+"2972","Denmark","Europe",2006,"F",98
+"2973","Djibouti","SSA",2006,"PF",35
+"2974","Dominica","Americas",2006,"F",92
+"2975","Dominican Republic","Americas",2006,"F",78
+"2976","Ecuador","Americas",2006,"PF",68
+"2977","Egypt","MENA",2006,"NF",30
+"2978","El Salvador","Americas",2006,"F",75
+"2979","Equatorial Guinea","SSA",2006,"NF",10
+"2980","Eritrea","SSA",2006,"NF",14
+"2981","Estonia","Europe",2006,"F",95
+"2982","Ethiopia","SSA",2006,"PF",36
+"2983","Fiji","Asia",2006,"PF",62
+"2984","Finland","Europe",2006,"F",100
+"2985","France","Europe",2006,"F",93
+"2986","Gabon","SSA",2006,"PF",40
+"2987","Georgia","Eurasia",2006,"PF",61
+"2988","Germany","Europe",2006,"F",97
+"2989","Ghana","SSA",2006,"F",84
+"2990","Greece","Europe",2006,"F",88
+"2991","Grenada","Americas",2006,"F",87
+"2992","Guatemala","Americas",2006,"PF",55
+"2993","Guinea","SSA",2006,"NF",32
+"2994","Guinea-Bissau","SSA",2006,"PF",59
+"2995","Guyana","Americas",2006,"PF",70
+"2996","Haiti","Americas",2006,"NF",21
+"2997","Honduras","Americas",2006,"PF",66
+"2998","Hong Kong","Asia",2006,"PF",67
+"2999","Hungary","Europe",2006,"F",93
+"3000","Iceland","Europe",2006,"F",100
+"3001","India","Asia",2006,"F",76
+"3002","Indian Kashmir","Asia",2006,"PF",40
+"3003","Indonesia","Asia",2006,"F",65
+"3004","Iran","MENA",2006,"NF",24
+"3005","Iraq","MENA",2006,"NF",28
+"3006","Ireland","Europe",2006,"F",98
+"3007","Israel","MENA",2006,"F",83
+"3008","Israeli Occupied Territories","MENA",2006,"NF",24
+"3009","Italy","Europe",2006,"F",92
+"3010","Jamaica","Americas",2006,"F",74
+"3011","Japan","Asia",2006,"F",88
+"3012","Jordan","MENA",2006,"PF",42
+"3013","Kazakhstan","Eurasia",2006,"NF",32
+"3014","Kenya","SSA",2006,"PF",66
+"3015","Kiribati","Asia",2006,"F",93
+"3016","Kosovo","Eurasia",2006,"PF",29
+"3017","Kuwait","MENA",2006,"PF",43
+"3018","Kyrgyzstan","Eurasia",2006,"PF",47
+"3019","Laos","Asia",2006,"NF",13
+"3020","Latvia","Europe",2006,"F",89
+"3021","Lebanon","MENA",2006,"PF",46
+"3022","Lesotho","SSA",2006,"F",74
+"3023","Liberia","SSA",2006,"PF",56
+"3024","Libya","MENA",2006,"NF",7
+"3025","Liechtenstein","Europe",2006,"F",99
+"3026","Lithuania","Europe",2006,"F",90
+"3027","Luxembourg","Europe",2006,"F",100
+"3028","Macedonia","Europe",2006,"PF",61
+"3029","Madagascar","SSA",2006,"PF",60
+"3030","Malawi","SSA",2006,"PF",57
+"3031","Malaysia","Asia",2006,"PF",50
+"3032","Maldives","Asia",2006,"NF",31
+"3033","Mali","SSA",2006,"F",74
+"3034","Malta","Europe",2006,"F",98
+"3035","Marshall Islands","Asia",2006,"F",92
+"3036","Mauritania","SSA",2006,"PF",38
+"3037","Mauritius","SSA",2006,"F",91
+"3038","Mexico","Americas",2006,"F",80
+"3039","Micronesia","Asia",2006,"F",93
+"3040","Moldova","Eurasia",2006,"PF",57
+"3041","Monaco","Europe",2006,"F",87
+"3042","Mongolia","Asia",2006,"F",83
+"3043","Morocco","MENA",2006,"PF",43
+"3044","Mozambique","SSA",2006,"PF",56
+"3045","Myanmar","Asia",2006,"NF",5
+"3046","Nagorno-Karabakh","Eurasia",2006,"PF",35
+"3047","Namibia","SSA",2006,"F",77
+"3048","Nauru","Asia",2006,"F",93
+"3049","Nepal","Asia",2006,"NF",28
+"3050","Netherlands","Europe",2006,"F",99
+"3051","New Zealand","Asia",2006,"F",96
+"3052","Nicaragua","Americas",2006,"PF",63
+"3053","Niger","SSA",2006,"PF",62
+"3054","Nigeria","SSA",2006,"PF",48
+"3055","North Korea","Asia",2006,"NF",0
+"3056","Northern Cyprus","Europe",2006,"F",80
+"3057","Norway","Europe",2006,"F",100
+"3058","Oman","MENA",2006,"NF",28
+"3059","Pakistan","Asia",2006,"NF",35
+"3060","Pakistani Kashmir","Asia",2006,"NF",25
+"3061","Palau","Asia",2006,"F",92
+"3062","Palestinian Authority Administered Territories","MENA",2006,"PF",33
+"3063","Panama","Americas",2006,"F",83
+"3064","Papua New Guinea","Asia",2006,"PF",64
+"3065","Paraguay","Americas",2006,"PF",63
+"3066","Peru","Americas",2006,"F",74
+"3067","Philippines","Asia",2006,"PF",72
+"3068","Poland","Europe",2006,"F",92
+"3069","Portugal","Europe",2006,"F",97
+"3070","Puerto Rico","Americas",2006,"F",92
+"3071","Qatar","MENA",2006,"NF",27
+"3072","Romania","Europe",2006,"F",75
+"3073","Russia","Eurasia",2006,"NF",35
+"3074","Rwanda","SSA",2006,"NF",32
+"3075","Samoa","Asia",2006,"F",81
+"3076","San Marino","Europe",2006,"F",100
+"3077","Sao Tome and Principe","SSA",2006,"F",80
+"3078","Saudi Arabia","MENA",2006,"NF",12
+"3079","Senegal","SSA",2006,"F",76
+"3080","Serbia and Montenegro","Europe",2006,"F",76
+"3081","Seychelles","SSA",2006,"PF",68
+"3082","Sierra Leone","SSA",2006,"PF",60
+"3083","Singapore","Asia",2006,"PF",50
+"3084","Slovakia","Europe",2006,"F",91
+"3085","Slovenia","Europe",2006,"F",92
+"3086","Solomon Islands","Asia",2006,"PF",66
+"3087","Somalia","SSA",2006,"NF",15
+"3088","South Africa","SSA",2006,"F",88
+"3089","South Korea","Asia",2006,"F",85
+"3090","Spain","Europe",2006,"F",95
+"3091","Sri Lanka","Asia",2006,"PF",59
+"3092","St. Kitts and Nevis","Americas",2006,"F",91
+"3093","St. Lucia","Americas",2006,"F",91
+"3094","St. Vincent and the Grenadines","Americas",2006,"F",85
+"3095","Sudan","SSA",2006,"NF",7
+"3096","Suriname","Americas",2006,"F",78
+"3097","Swaziland","SSA",2006,"NF",21
+"3098","Sweden","Europe",2006,"F",100
+"3099","Switzerland","Europe",2006,"F",99
+"3100","Syria","MENA",2006,"NF",8
+"3101","Taiwan","Asia",2006,"F",91
+"3102","Tajikistan","Eurasia",2006,"NF",30
+"3103","Tanzania","SSA",2006,"PF",58
+"3104","Thailand","Asia",2006,"PF",67
+"3105","The Gambia","SSA",2006,"PF",49
+"3106","Tibet","Asia",2006,"NF",3
+"3107","Timor-Leste","Asia",2006,"PF",67
+"3108","Togo","SSA",2006,"NF",25
+"3109","Tonga","Asia",2006,"PF",57
+"3110","Transnistria","Eurasia",2006,"NF",21
+"3111","Trinidad and Tobago","Americas",2006,"F",74
+"3112","Tunisia","MENA",2006,"NF",24
+"3113","Turkey","Europe",2006,"PF",65
+"3114","Turkmenistan","Eurasia",2006,"NF",1
+"3115","Tuvalu","Asia",2006,"F",94
+"3116","Uganda","SSA",2006,"PF",45
+"3117","Ukraine","Eurasia",2006,"F",72
+"3118","United Arab Emirates","MENA",2006,"NF",22
+"3119","United Kingdom","Europe",2006,"F",96
+"3120","United States","Americas",2006,"F",93
+"3121","Uruguay","Americas",2006,"F",97
+"3122","Uzbekistan","Eurasia",2006,"NF",3
+"3123","Vanuatu","Asia",2006,"F",80
+"3124","Venezuela","Americas",2006,"PF",54
+"3125","Vietnam","Asia",2006,"NF",19
+"3126","Western Sahara","MENA",2006,"NF",8
+"3127","Yemen","MENA",2006,"PF",31
+"3128","Zambia","SSA",2006,"PF",56
+"3129","Zimbabwe","SSA",2006,"NF",15
